@@ -4,14 +4,16 @@
     import Menu from './icons/Menu.vue';
     import Croix from './icons/Croix.vue';
     
+    import { ref } from 'vue';
     import { RouterLink } from 'vue-router';
     import { useRoute } from 'vue-router';
     const route = useRoute();
+    const activeMenu = ref(false)
 </script>
 <template>
-    <header class="flex">
+    <header class="flex w-screen justify-between">
         <Logo/>
-        <nav>
+        <nav class="hidden" :class="{'!block':activeMenu}">
             <button>
                 <p>Règles</p>
             </button>
@@ -25,7 +27,7 @@
                 <p>Contact</p>
             </button>
         </nav>
-        <Menu/>
-        <Croix/>
+        <Menu class="block" @click="activeMenu =! activeMenu" :class="{'!hidden':activeMenu}"/>
+        <Croix class="hidden" @click="activeMenu =! activeMenu" :class="{'!block':activeMenu}"/>
     </header>
 </template>
