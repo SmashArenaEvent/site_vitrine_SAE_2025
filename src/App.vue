@@ -1,17 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router/auto'
 import LoginOut from './components/LoginOut.vue';
+import Header from '@/components/Header.vue';
 </script>
-
 <template>
-  <nav>
-    <RouterLink to="/">Lien  </RouterLink>
-    <RouterLink to="/test">Test moi ça petit gras</RouterLink>
-  </nav>
-  <div  class="bg-slate-100">
-  <h1 class="text-indigo-700">Template principale (Menu/Footer...)</h1>
-  <LoginOut/>
-  </div>
+  <Header/>
   <main>
     <RouterView v-slot="{ Component }">
       <Suspense>
