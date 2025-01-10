@@ -16,8 +16,8 @@
             <textarea class="bg-Gris" rows="5" name="message" v-model="form.message" placeholder="Message"/>
         </div>
         <div>
-            <button><input type="submit" value="Envoyer"/></button>
-            <button><input type="reset" value="Annuler"/></button>
+            <button class="bg-Tonic"><input class="text-Noir" type="submit" value="Envoyer"/></button>
+            <button class="bg-Tonic"><input class="text-Noir" type="reset" value="Annuler"/></button>
         </div>
     </form>
 </template>
