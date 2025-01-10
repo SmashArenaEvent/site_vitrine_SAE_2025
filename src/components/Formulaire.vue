@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <form @submit.prevent="submitForm">
-        <div class="flex">
+        <div class="lg:flex">
             <div>
                 <input class="text-black" type="text" name="firstName" v-model="form.firstName" placeholder="Prénom"/>
             </div>

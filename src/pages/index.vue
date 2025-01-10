@@ -16,7 +16,7 @@
     </section>
     <section>
         <h2>
-            <span>Smash Arena Event</span>Première édition
+            <span>Smash Arena Event</span> Première édition
         </h2>
         <!--Carousel-->
     </section>
@@ -32,7 +32,7 @@
         </RouterLink>
     </section>
     <section>
-        <h2><span>Le coin</span>chill</h2>
+        <h2><span>Le coin</span> chill</h2>
         <!--Image-->
         <div>
             <p>Le Coin Chill, c’est un espace détente, pour se reposer entre 2 match du tournois et les amis juste venus s’amuser.<br/><br/>De nombreux jeux y sont disponible en libre service :</p>
@@ -53,7 +53,7 @@
         </div>
     </section>
     <section>
-        <h2><span>Le coin</span>buvette</h2>
+        <h2><span>Le coin</span> buvette</h2>
         <!--Image-->
         <div>
             <p>La Buvette, nécessaire pour se restaurer durant un après-midi à s’amuser ! Mais attention, à consommer dans l’espace buvette, interdiction de manger à l’espace du Tournoi ou au coin Chill.</p>
@@ -64,13 +64,13 @@
         <!--Section choix participation-->
     </section>
     <section>
-        <h2><span>Nos</span>Sponsors</h2>
+        <h2><span>Nos</span> Sponsors</h2>
         <div>
             <!--Ajout des sponsors-->
         </div>
     </section>
     <section>
-        <h2><span>Nous</span>contacter</h2>
+        <h2><span>Nous</span> contacter</h2>
         <Formulaire/>
     </section>
 </template>
