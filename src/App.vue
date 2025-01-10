@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router/auto'
-import LoginOut from './components/LoginOut.vue';
 import Header from '@/components/Header.vue';
+import Footer from './components/Footer.vue';
 </script>
 <template>
   <Header class="bg-slate-950 text-white" />
@@ -13,5 +13,4 @@ import Header from '@/components/Header.vue';
     </RouterView>
     <Footer class="bg-slate-950 text-white"/>
   </main>
-
 </template>
