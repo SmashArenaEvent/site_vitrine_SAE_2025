@@ -11,29 +11,29 @@
     const activeMenu = ref(false)
 </script>
 <template>
-    <header class="flex w-full justify-between">
+    <header class="flex w-full justify-between font-fugaz-one text-xs">
         <RouterLink to="/">
             <Logo/>
         </RouterLink>
         <nav class="hidden lg:flex gap-5" :class="{'!flex':activeMenu}">
             <RouterLink to="/regles">
                 <button>
-                    <p>Règles</p>
+                    <p class="uppercase">Règles</p>
                 </button>
             </RouterLink>
             <RouterLink to="/faq">
                 <button>
-                    <p>FAQ</p>
+                    <p class="uppercase">FAQ</p>
                 </button>
             </RouterLink>
             <RouterLink to="/aPropos">
                 <button>
-                    <p>à propos</p>
+                    <p class="uppercase">à propos</p>
                 </button>
             </RouterLink>
             <RouterLink to="/contact">
                 <button>
-                    <p>Contact</p>
+                    <p class="uppercase">Contact</p>
                 </button>
             </RouterLink>
         </nav>

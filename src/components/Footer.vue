@@ -11,11 +11,11 @@ import { useRoute } from 'vue-router';
 const route = useRoute();
 </script>
 <template>
-    <header>
-    <div class="flex  w-full justify-between">
+    <header class="font-gothic-a1 text-xs">
+    <div class="flex w-full justify-between">
         <Logo/>
         <nav class="flex flex-col">
-            <RouterLink to="/aPropos">à propos</RouterLink>
+            <RouterLink to="/aPropos">À propos</RouterLink>
             <RouterLink to="/contact">Contact</RouterLink>
             <RouterLink to="/regles">Règles</RouterLink>
             <RouterLink to="/faq">FAQ</RouterLink>
@@ -27,10 +27,10 @@ const route = useRoute();
             <a href="#"><Youtube/></a>
         </nav>
     </div>
-    <nav class="flex  w-full justify-around">
+    <nav class="flex w-full justify-around text-Gris_clair">
         <RouterLink to="/mentionsLégales"><p>Mentions légales</p></RouterLink>
         <RouterLink to="/politiqueDeConfidentialité"><p>Politique de Confidentialité</p></RouterLink>
     </nav>
-    <p class="text-center">@Smash Arena Event 2025</p>
+    <p class="text-center text-Tonic">@Smash Arena Event 2025</p>
     </header>
 </template>
