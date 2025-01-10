@@ -12,22 +12,32 @@
 </script>
 <template>
     <header class="flex w-full justify-between">
-        <Logo/>
-        <nav class="hidden" :class="{'!block':activeMenu}">
-            <button>
-                <p>Règles</p>
-            </button>
-            <button>
-                <p>FAQ</p>
-            </button>
-            <button>
-                <p>à propos</p>
-            </button>
-            <button>
-                <p>Contact</p>
-            </button>
+        <RouterLink to="/">
+            <Logo/>
+        </RouterLink>
+        <nav class="hidden lg:flex gap-5" :class="{'!flex':activeMenu}">
+            <RouterLink to="/regles">
+                <button>
+                    <p>Règles</p>
+                </button>
+            </RouterLink>
+            <RouterLink to="/faq">
+                <button>
+                    <p>FAQ</p>
+                </button>
+            </RouterLink>
+            <RouterLink to="/aPropos">
+                <button>
+                    <p>à propos</p>
+                </button>
+            </RouterLink>
+            <RouterLink to="/contact">
+                <button>
+                    <p>Contact</p>
+                </button>
+            </RouterLink>
         </nav>
-        <Menu class="block" @click="activeMenu =! activeMenu" :class="{'!hidden':activeMenu}"/>
-        <Croix class="hidden" @click="activeMenu =! activeMenu" :class="{'!block':activeMenu}"/>
+        <Menu class="block lg:hidden" @click="activeMenu =! activeMenu" :class="{'!hidden':activeMenu}"/>
+        <Croix class="hidden" @click="activeMenu =! activeMenu" :class="{'!block':activeMenu, '!lg:hidden':activeMenu}"/>
     </header>
 </template>
