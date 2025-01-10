@@ -11,7 +11,7 @@
     const activeMenu = ref(false)
 </script>
 <template>
-    <header class="flex w-screen justify-between">
+    <header class="flex w-full justify-between">
         <Logo/>
         <nav class="hidden" :class="{'!block':activeMenu}">
             <button>
