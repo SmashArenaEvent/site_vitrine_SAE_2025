@@ -3,5 +3,5 @@
     
 </script>
 <template>
-    <h1>Smash arena event</h1>
+    <h1>Nous contacter ?</h1>
 </template>

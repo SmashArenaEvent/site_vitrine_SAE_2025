@@ -3,5 +3,5 @@
     
 </script>
 <template>
-    <h1>Smash arena event</h1>
+    <h1>Mentions légales</h1>
 </template>
