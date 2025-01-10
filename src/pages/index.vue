@@ -1,6 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
     import { RouterLink } from 'vue-router';
+    import Formulaire from '@/components/Formulaire.vue';
 </script>
 <template>
     <section>
