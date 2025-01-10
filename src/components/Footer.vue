@@ -15,21 +15,21 @@ const route = useRoute();
     <div class="flex  w-full justify-between">
         <Logo/>
         <nav class="flex flex-col">
-            <RouterLink to="/">à propos</RouterLink>
-            <RouterLink to="/">Contact</RouterLink>
-            <RouterLink to="/">Règles</RouterLink>
-            <RouterLink to="/">FAQ</RouterLink>
+            <RouterLink to="/aPropos">à propos</RouterLink>
+            <RouterLink to="/contact">Contact</RouterLink>
+            <RouterLink to="/regles">Règles</RouterLink>
+            <RouterLink to="/faq">FAQ</RouterLink>
         </nav>
         <nav class="grid grid-cols-2">
-            <Insta/>
-            <X/>
-            <Discord/>
-            <Youtube/>
+            <a href="https://www.instagram.com/smash_arena_event/"><Insta/></a>
+            <a href="https://twitter.com/SmashArenaEvent"><X/></a>
+            <a href="https://discord.gg/6zFJf9WXy2"><Discord/></a>
+            <a href="#"><Youtube/></a>
         </nav>
     </div>
     <nav class="flex  w-full justify-around">
-        <RouterLink to="/"><p>Mentions légales</p></RouterLink>
-        <RouterLink to="/"><p>Politique de Confidentialité</p></RouterLink>
+        <RouterLink to="/mentionsLégales"><p>Mentions légales</p></RouterLink>
+        <RouterLink to="/politiqueDeConfidentialité"><p>Politique de Confidentialité</p></RouterLink>
     </nav>
     <p class="text-center">@Smash Arena Event 2025</p>
     </header>
