@@ -1,10 +1,17 @@
 <template>
-    <div class="border border-Tonic_Sombre rounded-2xl">
+    <div class="rounded-2xl text-Blanc" :class="{'border border-Tonic_Sombre':Style == '0', 'bg-Tonic_Sombre':Style == '1'}">
         <div class="flex">
-            <iconEpee/>
-            <h3>Format du tournois</h3>
+            <iconEpee v-if="Icone == '1'"/>
+            <iconEtoile v-if="Icone == '2'"/>
+            <iconFleche v-if="Icone == '3'"/>
+            <iconPoing v-if="Icone == '4'"/>
+            <iconPacman v-if="Icone == '5'"/>
+            <iconFeuille v-if="Icone == '6'"/>
+            <iconOeuf v-if="Icone == '7'"/>
+            <iconBall v-if="Icone == '8'"/>
+            <h3>{{ Title }}</h3>
         </div>
-        <p>Le tournoi sera en format double élimination (winner-looser bracket) avec un gagnant et un perdant dans chaque match suite à un duel en 3 manches le premier à 2 victoires gagne.</p>
+        <p>{{ Text }}</p>
     </div>
 </template>
 <script setup lang="ts">
@@ -16,4 +23,12 @@
     import iconFeuille from './icons/iconFeuille.vue';
     import iconOeuf from './icons/iconOeuf .vue';
     import iconBall from './icons/iconBall.vue';
+
+    import { defineProps } from 'vue';
+    const props = defineProps<{
+        Icone: string
+        Title: string
+        Text: string
+        Style: string
+    }>()
 </script>
