@@ -6,7 +6,8 @@ import Formulaire from '@/components/Formulaire.vue';
 </script>
 <template>
     <article>
-        <h1>à propos</h1>
+        <h1 class="font-fugaz-one uppercase text-4xl text-center"><span class="text-Tonic">à</span> propos</h1>
+        <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Notre</span> histoire</h2>
         <p>Lancé pour la première fois le 10 février 2024,<br/>Smash Arena Event est bien plus qu'un simple tournoi :<br/>c’est une initiative ambitieuse portée par des étudiants motivés de l’IUT de Montbéliard.</p>
         <p>Ce rassemblement convivial autour de Super Smash Bros Ultimate a réuni 30 participants en compétition dans un tournoi double élimination, marqué par la victoire de Mathis Regazzoni.</p>
         <p>Au total, ce sont près de 70 visiteurs qui ont répondu présents pour la première édition, curieux de découvrir une expérience mêlant jeu, détente et passion.</p>
