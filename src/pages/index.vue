@@ -2,6 +2,7 @@
 <script setup lang="ts">
     import { RouterLink } from 'vue-router';
     import Formulaire from '@/components/Formulaire.vue';
+    import CardRegles from '@/components/CardRegles.vue';
 </script>
 <template>
     <section>
@@ -24,7 +25,7 @@
         <h2 class="font-fugaz-one uppercase text-3xl">
             <span class="text-Tonic">Les règles</span> principales
         </h2>
-        <!--Cards-->
+        <CardRegles/>
         <RouterLink to="/regles">
             <button class="bg-Blanc">
                 <p class="text-Noir font-fugaz-one uppercase text-xs">Découvrir les autres règles</p>
