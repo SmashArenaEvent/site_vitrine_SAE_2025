@@ -3,17 +3,17 @@
     <form class="text-Gris_clair" @submit.prevent="submitForm">
         <div class="lg:flex">
             <div>
-                <input class="bg-Gris" type="text" name="firstName" v-model="form.firstName" placeholder="Prénom"/>
+                <input class="bg-Gris border-b border-Gris_clair" type="text" name="firstName" v-model="form.firstName" placeholder="Prénom"/>
             </div>
             <div>
-                <input class="bg-Gris" type="text" name="name" v-model="form.name" placeholder="Nom"/>
+                <input class="bg-Gris border-b border-Gris_clair" type="text" name="name" v-model="form.name" placeholder="Nom"/>
             </div>
         </div>
         <div>
-            <input class="bg-Gris" type="email" name="email" v-model="form.email" placeholder="Email"/>
+            <input class="bg-Gris border-b border-Gris_clair" type="email" name="email" v-model="form.email" placeholder="Email"/>
         </div>
         <div>
-            <textarea class="bg-Gris" rows="5" name="message" v-model="form.message" placeholder="Message"/>
+            <textarea class="bg-Gris border-l border-b border-Gris_clair" rows="5" name="message" v-model="form.message" placeholder="Message"/>
         </div>
         <div>
             <button class="bg-Tonic"><input class="text-Noir" type="submit" value="Envoyer"/></button>
