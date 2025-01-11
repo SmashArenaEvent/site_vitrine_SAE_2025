@@ -28,8 +28,8 @@ const route = useRoute();
         </nav>
     </div>
     <nav class="flex w-full justify-around text-Gris_clair">
-        <RouterLink to="/mentionsLégales"><p>Mentions légales</p></RouterLink>
-        <RouterLink to="/politiqueDeConfidentialité"><p>Politique de Confidentialité</p></RouterLink>
+        <RouterLink to="/mentionsLegales"><p>Mentions légales</p></RouterLink>
+        <RouterLink to="/politiqueDeConfidentialite"><p>Politique de Confidentialité</p></RouterLink>
     </nav>
     <p class="text-center text-Tonic">@Smash Arena Event 2025</p>
     </header>
