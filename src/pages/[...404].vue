@@ -3,12 +3,12 @@
     
 </script>
 <template>
-    <h1>Erreur 404</h1>
-    <p>Même Donkey Kong n’a su retrouver la page.<br/>Celle-ci doit être actuellement introuvable.</p>
+    <h1 class="font-fugaz-one uppercase text-4xl text-center"><span class="text-Tonic">E</span>rreur <span class="text-Tonic">404</span></h1>
+    <p class="text-center">Même Donkey Kong n’a su retrouver la page.<br/>Celle-ci doit être actuellement introuvable.</p>
     <!--Image-->
     <RouterLink to="/">
-        <button>
-            <p>Retourner à l'accueil</p>
+        <button class="bg-Tonic">
+            <p class="font-fugaz-one uppercase text-Noir">Retourner à l'accueil</p>
         </button>
     </RouterLink>
 </template>
