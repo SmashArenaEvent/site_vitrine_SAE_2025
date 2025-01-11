@@ -3,34 +3,34 @@
     
 </script>
 <template>
-    <h1>Régles</h1>
+    <h1 class="font-fugaz-one uppercase text-4xl"><span class="text-Tonic">R</span>égles</h1>
     <nav class="flex gap-5 flex-wrap">
-        <a href="#rGenerales">
+        <a class="bg-Blanc" href="#rGenerales">
             <button>
-                <p>Les régles générales</p>
+                <p class="text-Noir font-fugaz-one uppercase text-xs">Les régles générales</p>
             </button>
         </a>
-        <a href="#rTournois">
+        <a class="bg-Blanc" href="#rTournois">
             <button>
-                <p>Règles autour du tournoi</p>
+                <p class="text-Noir font-fugaz-one uppercase text-xs">Règles autour du tournoi</p>
             </button>
         </a>
-        <a href="#rAutres">
+        <a class="bg-Blanc" href="#rAutres">
             <button>
-                <p>Autres règles</p>
+                <p class="text-Noir font-fugaz-one uppercase text-xs">Autres règles</p>
             </button>
         </a>
     </nav>
     <article id="rGenerales">
-        <h2>Les règles générales</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Les règles</span> générales</h2>
         <!--Cards-->
     </article>
     <article id="rTournois">
-        <h2>Les règles autour du tournois</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Les règles</span> autour du tournois</h2>
         <!--Cards-->
     </article>
     <article id="rAutres">
-        <h2>Autres Régles</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Autres</span> Régles</h2>
         <!--Cards-->
     </article>
 </template>

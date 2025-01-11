@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <form style="text-Gris_clair" @submit.prevent="submitForm">
+    <form class="text-Gris_clair" @submit.prevent="submitForm">
         <div class="lg:flex">
             <div>
                 <input class="bg-Gris" type="text" name="firstName" v-model="form.firstName" placeholder="Prénom"/>
