@@ -39,28 +39,28 @@
     </section>
     <section>
         <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Le coin</span> chill</h2>
-        <!--Image-->
+        <img src="/src/components/img/CoinChill.png">
         <div class="bg-Gris">
             <p>Le Coin Chill, c’est un espace détente, pour se reposer entre 2 match du tournois et les amis juste venus s’amuser.<br/><br/>De nombreux jeux y sont disponible en libre service :</p>
         </div>
         <div>
             <div>
-                <!--image-->
+                <img src="/src/components/img/MarioKart.png">
                 <p>Mario kart 8</p>
             </div>
             <div>
-                <!--image-->
+                <img src="/src/components/img/YoGiOh.png">
                 <p>Yu-Gi-Oh!</p>
             </div>
             <div>
-                <!--image-->
+                <img src="/src/components/img/Splatoon.png">
                 <p>Splatoon</p>
             </div>
         </div>
     </section>
     <section>
         <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Le coin</span> buvette</h2>
-        <!--Image-->
+        <img src="/src/components/img/CoinBuvette.png">
         <div class="bg-Gris">
             <p>La Buvette, nécessaire pour se restaurer durant un après-midi à s’amuser ! Mais attention, à consommer dans l’espace buvette, interdiction de manger à l’espace du Tournoi ou au coin Chill.</p>
         </div>
