@@ -1,14 +1,14 @@
 <template>
     <div class="rounded-2xl text-Blanc" :class="{'border border-Tonic_Sombre':Style == '0', 'bg-Tonic_Sombre':Style == '1'}">
         <div class="flex">
-            <iconEpee v-if="Icone == '1'"/>
-            <iconEtoile v-if="Icone == '2'"/>
-            <iconFleche v-if="Icone == '3'"/>
-            <iconPoing v-if="Icone == '4'"/>
-            <iconPacman v-if="Icone == '5'"/>
-            <iconFeuille v-if="Icone == '6'"/>
-            <iconOeuf v-if="Icone == '7'"/>
-            <iconBall v-if="Icone == '8'"/>
+            <iconEpee v-if="Icone == '1'" alt="Icones d'épée"/>
+            <iconEtoile v-if="Icone == '2'" alt="Icones d'étoile"/>
+            <iconFleche v-if="Icone == '3'" alt="Icone de fléche"/>
+            <iconPoing v-if="Icone == '4'" alt="Icone de coup de point"/>
+            <iconPacman v-if="Icone == '5'" alt="Icone de pacman"/>
+            <iconFeuille v-if="Icone == '6'" alt="Icone de feuille"/>
+            <iconOeuf v-if="Icone == '7'" alt="Icone d'oeuf"/>
+            <iconBall v-if="Icone == '8'" alt="Icone de pokeball"/>
             <h3>{{ Title }}</h3>
         </div>
         <p>{{ Text }}</p>

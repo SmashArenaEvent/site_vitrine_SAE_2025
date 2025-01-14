@@ -13,7 +13,7 @@ const route = useRoute();
 <template>
     <header class="font-gothic-a1 text-xs">
     <div class="flex w-full justify-between">
-        <Logo/>
+        <Logo alt="Logo Smash Arena Event"/>
         <nav class="flex flex-col">
             <RouterLink to="/aPropos">À propos</RouterLink>
             <RouterLink to="/contact">Contact</RouterLink>
@@ -21,10 +21,10 @@ const route = useRoute();
             <RouterLink to="/faq">FAQ</RouterLink>
         </nav>
         <nav class="grid grid-cols-2">
-            <a href="https://www.instagram.com/smash_arena_event/"><Insta/></a>
-            <a href="https://twitter.com/SmashArenaEvent"><X/></a>
-            <a href="https://discord.gg/6zFJf9WXy2"><Discord/></a>
-            <a href="#"><Youtube/></a>
+            <a href="https://www.instagram.com/smash_arena_event/"><Insta alt="Instagram"/></a>
+            <a href="https://twitter.com/SmashArenaEvent"><X alt="X"/></a>
+            <a href="https://discord.gg/6zFJf9WXy2"><Discord alt="Discord"/></a>
+            <a href="#"><Youtube alt="Youtube"/></a>
         </nav>
     </div>
     <nav class="flex w-full justify-around text-Gris_clair">
