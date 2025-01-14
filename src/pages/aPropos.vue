@@ -1,5 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
+import CardMembres from '@/components/CardMembres.vue';
 import Formulaire from '@/components/Formulaire.vue';
 
     
@@ -25,11 +26,18 @@ import Formulaire from '@/components/Formulaire.vue';
         <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Notre</span> équipe</h2>
         <section>
             <h3 class="font-fugaz-one uppercase text-xl"><span class="text-Tonic">Première</span> édition</h3>
-            <!--Card Porfil-->
+            <CardMembres Organisateur="VaSa" Prenom="Valentin" Nom="Saraiva" Trait="L'idéaliste" Role="Président & Développer Web"/>
+            <CardMembres Organisateur="AuRu" Prenom="Aurélie" Nom="Runser" Trait="La réaliste" Role="Développeuse Web"/>
+            <CardMembres Organisateur="ElPe" Prenom="élora" Nom="Perrin" Trait="L'enthousiaste" Role="Communicante"/>
+            <CardMembres Organisateur="ElFe" Prenom="Eliot" Nom="Feuvrier" Trait="Le sportif" Role="Graphiste"/>
+            <CardMembres Organisateur="BaRo" Prenom="Baptiste" Nom="Rognon" Trait="Le croyant" Role="Graphiste"/>
         </section>
         <section>
-            <h3 class="font-fugaz-one uppercase text-xl"><span class="text-Tonic">Seconde</span> édition</h3>
-            <!--Card Porfil-->
+            <h3 class="font-fugaz-one uppercase text-xl"><span class="text-Tonic">Seconde</span> édition</h3>          
+            <CardMembres Organisateur="VaSa" Prenom="Valentin" Nom="Saraiva" Trait="L'idéaliste" Role="Président"/>
+            <CardMembres Organisateur="RoGr" Prenom="Romain" Nom="Grosjean" Trait="Le perfectionniste" Role="Graphiste"/>
+            <CardMembres Organisateur="LuBa" Prenom="Lucas" Nom="Bardey" Trait="Le curieux" Role="Développer Web"/>
+            <CardMembres Organisateur="MaPo" Prenom="Marco" Nom="Poilbois" Trait="Le pragmatique" Role="Graphiste"/>
         </section>
     </article>
     <section>

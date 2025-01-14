@@ -8,7 +8,8 @@ export default {
       "Tonic_Sombre": "#1A9468",
       "Blanc": "#f5f5f5",
       "Gris": "#2c3632",
-      "Gris_clair": "#a0b1aa"
+      "Gris_clair": "#a0b1aa",
+      "transparent": "transparent",
     },
     "fontFamily": {
       "fugaz-one": "Fugaz One",
