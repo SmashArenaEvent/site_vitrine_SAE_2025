@@ -67,7 +67,15 @@
     </section>
     <section>
         <h2 class="font-fugaz-one uppercase text-3xl"><span  class="text-Tonic">Tu veux participer ?</span>Inscris-toi !</h2>
-        <!--Section choix participation-->
+        <nav>
+            <div class="bg-center bg-cover bg-[url('/src/components/img/WallPaperJoueur.png')]">
+                <div class="h-40 w-60 bg-Noir_Vert opacity-70">
+                    <h3>Comme joueur</h3>
+                    <p>et participe au tournoi !</p>
+                    <RouterLink to="#"><button><p>Je m’inscris</p></button></RouterLink>
+                </div>
+            </div>
+        </nav>
     </section>
     <section>
         <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Nos</span> Sponsors</h2>
