@@ -69,10 +69,17 @@
         <h2 class="font-fugaz-one uppercase text-3xl"><span  class="text-Tonic">Tu veux participer ?</span>Inscris-toi !</h2>
         <nav>
             <div class="bg-center bg-cover bg-[url('/src/components/img/WallPaperJoueur.png')]">
-                <div class="h-40 w-60 bg-Noir_Vert opacity-70">
-                    <h3>Comme joueur</h3>
+                <div class="h-40 w-60 bg-Noir_Vert hover:bg-transparent">
+                    <h3 class="font-fugaz-one uppercase text-xl text-Tonic">Comme joueur</h3>
                     <p>et participe au tournoi !</p>
-                    <RouterLink to="#"><button><p>Je m’inscris</p></button></RouterLink>
+                    <RouterLink to="#"><button class="bg-Tonic"><p class="text-Noir font-fugaz-one uppercase text-xs">Je m’inscris</p></button></RouterLink>
+                </div>
+            </div>
+            <div class="bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.png')]">
+                <div class="h-40 w-60 bg-Noir_Vert hover:bg-transparent">
+                    <h3 class="font-fugaz-one uppercase text-xl text-Tonic">Comme Bénévole</h3>
+                    <p>et viens nous aider à gérer l’évènement !</p>
+                    <RouterLink to="#"><button class="bg-Tonic"><p class="text-Noir font-fugaz-one uppercase text-xs">Je m’inscris</p></button></RouterLink>
                 </div>
             </div>
         </nav>
