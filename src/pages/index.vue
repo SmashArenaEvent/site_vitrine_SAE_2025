@@ -86,7 +86,7 @@
     </section>
     <section>
         <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Nos</span> Sponsors</h2>
-        <div>
+        <div class="min-h-10 border-t border-b border-Tonic">
             <!--Ajout des sponsors-->
         </div>
     </section>
