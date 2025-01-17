@@ -40,7 +40,7 @@ export default defineComponent({
       class="slide contrast-150"
       :class="{ active: index === currentIndex }"
     >
-      <img :src="image" alt="Slideshow image" />
+      <img :src="image" alt="Image de la première édition" />
     </div>
   </div>
   </div>
