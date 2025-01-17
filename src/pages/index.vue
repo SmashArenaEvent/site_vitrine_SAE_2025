@@ -6,7 +6,7 @@
 </script>
 <template>
     <section>
-        <h1 class="font-fugaz-one uppercase text-4xl text-center"><span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena <span class="text-Tonic">e</span>vent<br/><span class="text-Tonic">2ème édition</span></h1>
+        <h1 class="font-fugaz-one uppercase text-4xl text-center"><span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena <span class="text-Tonic">e</span>vent<br/><span class="text-Tonic">2<span class="text-xl">ème édition</span></span></h1>
         <p class="text-center">Bienvenue au Smash Arena Event ! Nous sommes une association étudiante organisant des <span>tournois gratuits</span> entre membre du Nord Franche-Comté sur le jeu <span>Super Smash Bros Ultimate</span> et bien plus !</p>
         <a href="#">
             <button class="bg-Tonic">
