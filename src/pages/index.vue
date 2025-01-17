@@ -9,8 +9,8 @@
         <h1 class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left"><span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena <span class="text-Tonic">e</span>vent<br/><span class="text-Tonic">2<span class="text-xl lg:text-3xl">ème édition</span></span></h1>
         <p class="text-center lg:text-left lg:text-xl">Bienvenue au Smash Arena Event ! Nous sommes une association étudiante organisant des <span>tournois gratuits</span> entre membre du Nord Franche-Comté sur le jeu <span>Super Smash Bros Ultimate</span> et bien plus !</p>
         <a href="#">
-            <button class="bg-Tonic">
-                <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl">Je m'inscris</p>
+            <button class="bg-Tonic h-12 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 skew-x-[25deg]">Je m'inscris</p>
             </button>
         </a>
         <!--Imagesperso aléatoires-->
@@ -32,8 +32,8 @@
         <CardRegles Style="1" Icone="5" Title="Stocks" Text="Les matchs se joueront en mode &#34;Stocks&#34;. Chaque joueur commencera avec 3 vies." />
         <CardRegles Style="0" Icone="6" Title="Retard" Text="Les joueurs doivent être présents et prêts à jouer leur match à l'heure prévue. Un délai de 5 minutes peut être toléré, mais les retards excessifs peuvent entraîner la disqualification." />
         <RouterLink to="/regles">
-            <button class="bg-Blanc">
-                <p class="text-Noir font-fugaz-one uppercase text-xs">Découvrir les autres règles</p>
+            <button class="bg-Blanc h-12 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Découvrir les autres règles</p>
             </button>
         </RouterLink>
     </section>
@@ -72,14 +72,14 @@
                 <div class="h-40 w-60 bg-Noir_Vert hover:bg-transparent">
                     <h3 class="font-fugaz-one uppercase text-xl text-Tonic">Comme joueur</h3>
                     <p>et participe au tournoi !</p>
-                    <RouterLink to="#"><button class="bg-Tonic"><p class="text-Noir font-fugaz-one uppercase text-xs">Je m’inscris</p></button></RouterLink>
+                    <RouterLink to="#"><button class="bg-Tonic h-12 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
                 </div>
             </div>
             <div class="bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.png')]">
                 <div class="h-40 w-60 bg-Noir_Vert hover:bg-transparent">
                     <h3 class="font-fugaz-one uppercase text-xl text-Tonic">Comme Bénévole</h3>
                     <p>et viens nous aider à gérer l’évènement !</p>
-                    <RouterLink to="#"><button class="bg-Tonic"><p class="text-Noir font-fugaz-one uppercase text-xs">Je m’inscris</p></button></RouterLink>
+                    <RouterLink to="#"><button class="bg-Tonic h-12 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
                 </div>
             </div>
         </nav>
