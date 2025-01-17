@@ -32,12 +32,12 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="bg-Tonic_Sombre contrast-150">
+  <div class="bg-Tonic_Sombre contrast-150 hover:contrast-100">
   <div class="slideshow-container grayscale hover:grayscale-0 opacity-40 hover:opacity-100">
     <div
       v-for="(image, index) in images"
       :key="index"
-      class="slide contrast-150"
+      class="slide contrast-150 hover:contrast-100"
       :class="{ active: index === currentIndex }"
     >
       <img :src="image" alt="Images de la première édition" />

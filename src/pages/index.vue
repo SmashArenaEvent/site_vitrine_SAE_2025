@@ -32,66 +32,66 @@
         <CardRegles Style="1" Icone="5" Title="Stocks" Text="Les matchs se joueront en mode &#34;Stocks&#34;. Chaque joueur commencera avec 3 vies." />
         <CardRegles Style="0" Icone="6" Title="Retard" Text="Les joueurs doivent être présents et prêts à jouer leur match à l'heure prévue. Un délai de 5 minutes peut être toléré, mais les retards excessifs peuvent entraîner la disqualification." />
         <RouterLink to="/regles">
-            <button class="bg-Blanc h-12 -skew-x-[25deg]">
-                <p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Découvrir les autres règles</p>
+            <button class="bg-Blanc h-12 lg:h-24 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]">Découvrir les autres règles</p>
             </button>
         </RouterLink>
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Le coin</span> chill</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Le coin</span> chill</h2>
         <img src="/src/components/img/CoinChill.png">
-        <div class="bg-Gris">
+        <div class="bg-Gris lg:text-xl">
             <p>Le Coin Chill, c’est un espace détente, pour se reposer entre 2 match du tournois et les amis juste venus s’amuser.<br/><br/>De nombreux jeux y sont disponible en libre service :</p>
         </div>
         <div>
             <div>
                 <img src="/src/components/img/MarioKart.png">
-                <p>Mario kart 8</p>
+                <p class="lg:text-xl">Mario kart 8</p>
             </div>
             <div>
                 <img src="/src/components/img/YoGiOh.png">
-                <p>Yu-Gi-Oh!</p>
+                <p class="lg:text-xl">Yu-Gi-Oh!</p>
             </div>
             <div>
                 <img src="/src/components/img/Splatoon.png">
-                <p>Splatoon</p>
+                <p class="lg:text-xl">Splatoon</p>
             </div>
         </div>
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Le coin</span> buvette</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Le coin</span> buvette</h2>
         <img src="/src/components/img/CoinBuvette.png">
-        <div class="bg-Gris">
+        <div class="bg-Gris lg:text-xl">
             <p>La Buvette, nécessaire pour se restaurer durant un après-midi à s’amuser ! Mais attention, à consommer dans l’espace buvette, interdiction de manger à l’espace du Tournoi ou au coin Chill.</p>
         </div>
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl"><span  class="text-Tonic">Tu veux participer ?</span>Inscris-toi !</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span  class="text-Tonic">Tu veux participer ?</span>Inscris-toi !</h2>
         <nav>
             <div class="bg-center bg-cover bg-[url('/src/components/img/WallPaperJoueur.png')]">
                 <div class="h-40 w-60 bg-Noir_Vert hover:bg-transparent">
-                    <h3 class="font-fugaz-one uppercase text-xl text-Tonic">Comme joueur</h3>
-                    <p>et participe au tournoi !</p>
-                    <RouterLink to="#"><button class="bg-Tonic h-12 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
+                    <h3 class="font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic">Comme joueur</h3>
+                    <p class="lg:text-xl">et participe au tournoi !</p>
+                    <RouterLink to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
                 </div>
             </div>
             <div class="bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.png')]">
                 <div class="h-40 w-60 bg-Noir_Vert hover:bg-transparent">
-                    <h3 class="font-fugaz-one uppercase text-xl text-Tonic">Comme Bénévole</h3>
-                    <p>et viens nous aider à gérer l’évènement !</p>
-                    <RouterLink to="#"><button class="bg-Tonic h-12 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
+                    <h3 class="font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic">Comme Bénévole</h3>
+                    <p class="lg:text-xl">et viens nous aider à gérer l’évènement !</p>
+                    <RouterLink to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
                 </div>
             </div>
         </nav>
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Nos</span> Sponsors</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Nos</span> Sponsors</h2>
         <div class="min-h-10 border-t border-b border-Tonic">
             <!--Ajout des sponsors-->
         </div>
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl"><span class="text-Tonic">Nous</span> contacter</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Nous</span> contacter</h2>
         <Formulaire/>
     </section>
 </template>
