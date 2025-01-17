@@ -7,8 +7,8 @@
     <p class="text-center">Même Donkey Kong n’a su retrouver la page.<br/>Celle-ci doit être actuellement introuvable.</p>
     <img src="/src/components/img/DonkeyKong404.png" alt="Image de donkey kong">
     <RouterLink to="/">
-        <button class="bg-Tonic">
-            <p class="font-fugaz-one uppercase text-Noir">Retourner à l'accueil</p>
+        <button class="bg-Tonic h-12 -skew-x-[25deg]">
+            <p class="font-fugaz-one uppercase text-Noir px-6 skew-x-[25deg]">Retourner à l'accueil</p>
         </button>
     </RouterLink>
 </template>

@@ -5,24 +5,24 @@ import CardFAQ from '@/components/CardFAQ.vue';
 <template>
     <h1 class="font-fugaz-one uppercase text-4xl"><span class="text-Tonic">F</span>oire <span class="text-Tonic">a</span>ux <span class="text-Tonic">q</span>uestions</h1>
     <nav class="flex flex-wrap gap-5">
-        <a class="bg-Blanc" href="#event">
-            <button>
-                <p class="text-Noir font-fugaz-one uppercase text-xs">L'événement</p>
+        <a href="#event">
+            <button class="bg-Blanc h-12 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">L'événement</p>
             </button>
         </a>
-        <a class="bg-Blanc" href="#tournoi">
-            <button>
-                <p class="text-Noir font-fugaz-one uppercase text-xs">Le tournoi</p>
+        <a href="#tournoi">
+            <button class="bg-Blanc h-12 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Le tournoi</p>
             </button>
         </a>
-        <a class="bg-Blanc" href="#accessible">
-            <button>
-                <p class="text-Noir font-fugaz-one uppercase text-xs">L'accessibilité</p>
+        <a href="#accessible">
+            <button class="bg-Blanc h-12 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">L'accessibilité</p>
             </button>
         </a>
-        <a class="bg-Blanc" href="#benevole">
-            <button>
-                <p class="text-Noir font-fugaz-one uppercase text-xs">Le bénévolat</p>
+        <a href="#benevole">
+            <button class="bg-Blanc h-12 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Le bénévolat</p>
             </button>
         </a>
     </nav>

@@ -5,19 +5,19 @@
 <template>
     <h1 class="font-fugaz-one uppercase text-4xl"><span class="text-Tonic">R</span>égles</h1>
     <nav class="flex gap-5 flex-wrap">
-        <a class="bg-Blanc" href="#rGenerales">
-            <button>
-                <p class="text-Noir font-fugaz-one uppercase text-xs">Les régles générales</p>
+        <a href="#rGenerales">
+            <button class="bg-Blanc h-12 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Les régles générales</p>
             </button>
         </a>
-        <a class="bg-Blanc" href="#rTournois">
-            <button>
-                <p class="text-Noir font-fugaz-one uppercase text-xs">Règles autour du tournoi</p>
+        <a href="#rTournois">
+            <button class="bg-Blanc h-12 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Règles autour du tournoi</p>
             </button>
         </a>
-        <a class="bg-Blanc" href="#rAutres">
-            <button>
-                <p class="text-Noir font-fugaz-one uppercase text-xs">Autres règles</p>
+        <a href="#rAutres">
+            <button class="bg-Blanc h-12 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs px-6 skew-x-[25deg]">Autres règles</p>
             </button>
         </a>
     </nav>
