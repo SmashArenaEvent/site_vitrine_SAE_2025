@@ -3,6 +3,10 @@
     import Logo from './icons/Logo.vue';
     import Menu from './icons/Menu.vue';
     import Croix from './icons/Croix.vue';
+    import LogoInstagram from './icons/LogoInstagram.vue';
+    import LogoX from './icons/LogoX.vue';
+    import LogoDiscord from './icons/LogoDiscord.vue';
+    import LogoYoutube from './icons/LogoYoutube.vue';
     
     import { ref } from 'vue';
     import { RouterLink } from 'vue-router';
@@ -13,9 +17,9 @@
 <template>
     <header class="flex w-full justify-between font-fugaz-one text-xs">
         <RouterLink to="/">
-            <Logo alt="Logo Smash Arena Event"/>
+            <Logo class="h-10 lg:h-20" alt="Logo Smash Arena Event"/>
         </RouterLink>
-        <nav class="hidden lg:flex gap-5" :class="{'!flex':activeMenu}">
+        <nav class="hidden lg:flex gap-5 lg:text-2xl" :class="{'!flex':activeMenu}">
             <RouterLink to="/regles">
                 <button>
                     <p class="uppercase">Règles</p>
@@ -36,6 +40,20 @@
                     <p class="uppercase">Contact</p>
                 </button>
             </RouterLink>
+        </nav>
+        <nav class="flex gap-5">
+            <a href="https://www.instagram.com/smash_arena_event/">
+                <LogoInstagram/>
+            </a>
+            <a href="https://twitter.com/SmashArenaEvent">
+                <LogoX/>
+            </a>
+            <a href="https://discord.gg/6zFJf9WXy2">
+                <LogoDiscord/>
+            </a>
+            <a href="#">
+                <LogoYoutube/>
+            </a>
         </nav>
         <Menu alt="Ouvrir le menu du header" class="block lg:hidden" @click="activeMenu =! activeMenu" :class="{'!hidden':activeMenu}"/>
         <Croix alt="Fermer le menu du header" class="hidden" @click="activeMenu =! activeMenu" :class="{'!block':activeMenu, '!lg:hidden':activeMenu}"/>

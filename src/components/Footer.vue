@@ -13,7 +13,7 @@ const route = useRoute();
 <template>
     <header class="font-gothic-a1 text-xs">
     <div class="flex w-full justify-between">
-        <Logo alt="Logo Smash Arena Event"/>
+        <Logo class="h-10 lg:h-20" alt="Logo Smash Arena Event"/>
         <nav class="flex flex-col">
             <RouterLink to="/aPropos">À propos</RouterLink>
             <RouterLink to="/contact">Contact</RouterLink>
