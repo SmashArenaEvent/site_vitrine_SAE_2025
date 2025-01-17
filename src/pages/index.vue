@@ -9,20 +9,20 @@
         <h1 class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left"><span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena <span class="text-Tonic">e</span>vent<br/><span class="text-Tonic">2<span class="text-xl lg:text-3xl">ème édition</span></span></h1>
         <p class="text-center lg:text-left lg:text-xl">Bienvenue au Smash Arena Event ! Nous sommes une association étudiante organisant des <span>tournois gratuits</span> entre membre du Nord Franche-Comté sur le jeu <span>Super Smash Bros Ultimate</span> et bien plus !</p>
         <a href="#">
-            <button class="bg-Tonic h-12 -skew-x-[25deg]">
-                <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 skew-x-[25deg]">Je m'inscris</p>
+            <button class="bg-Tonic h-12 lg:h-24 -skew-x-[25deg]">
+                <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]">Je m'inscris</p>
             </button>
         </a>
         <!--Imagesperso aléatoires-->
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl">
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center">
             <span class="text-Tonic">Smash Arena Event</span> Première édition
         </h2>
         <!--Carousel-->
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl">
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center">
             <span class="text-Tonic">Les règles</span> principales
         </h2>
         <CardRegles Style="1" Icone="1" Title="Format du tournoi" Text="Le tournoi sera en format double élimination (winner-looser bracket) avec un gagnant et un perdant dans chaque match suite à un duel en 3 manches le premier à 2 victoires gagne." />
