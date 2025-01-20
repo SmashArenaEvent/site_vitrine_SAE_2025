@@ -41,7 +41,7 @@
                 </button>
             </RouterLink>
         </nav>
-        <nav class="flex gap-5">
+        <nav class="hidden gap-5 lg:flex">
             <a href="https://www.instagram.com/smash_arena_event/">
                 <LogoInstagram/>
             </a>
