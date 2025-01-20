@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <form class="text-Gris_clair" @submit.prevent="submitForm">
+    <form class="text-Gris_clair lg:text-xl	" @submit.prevent="submitForm">
         <div class="lg:flex">
             <div>
                 <input class="bg-Gris border-b border-Gris_clair" type="text" name="firstName" v-model="form.firstName" placeholder="Prénom"/>
@@ -16,8 +16,8 @@
             <textarea class="bg-Gris border-l border-b border-Gris_clair" rows="5" name="message" v-model="form.message" placeholder="Message"/>
         </div>
         <div>
-            <button class="bg-Tonic h-12 -skew-x-[25deg]"><input class="font-fugaz-one uppercase text-Noir px-6 skew-x-[25deg]" type="submit" value="Envoyer"/></button>
-            <button class="bg-Blanc h-12 -skew-x-[25deg]"><input class="font-fugaz-one uppercase text-Noir px-6 skew-x-[25deg]" type="reset" value="Annuler"/></button>
+            <button class="bg-Tonic h-12 lg:h-24 -skew-x-[25deg]"><input class="font-fugaz-one uppercase text-Noir px-6 lg:px-12 skew-x-[25deg]" type="submit" value="Envoyer"/></button>
+            <button class="bg-Blanc h-12 lg:h-24 -skew-x-[25deg]"><input class="font-fugaz-one uppercase text-Noir px-6 lg:px-12 skew-x-[25deg]" type="reset" value="Annuler"/></button>
         </div>
     </form>
 </template>
