@@ -4,12 +4,12 @@
 
 @layer components  {
     .grille {
-      @apply grid lg:grid-cols-principal grid-cols-telprincipal justify-center gap-x-2.5 lg:gap-x-5 lg:px-12 grid-rows-none;
+      @apply grid lg:grid-cols-principal grid-cols-telprincipal justify-center gap-x-2.5 lg:gap-x-5 px-5 lg:px-12;
     }
   
     /*j'ai tenté ça pour être sur de pouvoir toujours garder la même grid de base*/
     .col1 {
-      @apply grid lg:grid-cols-1 grid-cols-tel1 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0 grid-rows-none;
+      @apply grid lg:grid-cols-1 grid-cols-tel1 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
     }
   
     .col2 {
