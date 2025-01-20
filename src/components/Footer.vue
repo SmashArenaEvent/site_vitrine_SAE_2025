@@ -21,10 +21,10 @@ const route = useRoute();
             <RouterLink to="/faq">FAQ</RouterLink>
         </nav>
         <nav class="grid grid-cols-2">
-            <a href="https://www.instagram.com/smash_arena_event/"><Insta alt="Instagram"/></a>
-            <a href="https://twitter.com/SmashArenaEvent"><X alt="X"/></a>
-            <a href="https://discord.gg/6zFJf9WXy2"><Discord alt="Discord"/></a>
-            <a href="#"><Youtube alt="Youtube"/></a>
+            <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://www.instagram.com/smash_arena_event/"><Insta alt="Instagram"/></a>
+            <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://twitter.com/SmashArenaEvent"><X alt="X"/></a>
+            <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://discord.gg/6zFJf9WXy2"><Discord alt="Discord"/></a>
+            <a class="w-9 lg:w-10 h-9 lg:h-10" href="#"><Youtube alt="Youtube"/></a>
         </nav>
     </div>
     <nav class="flex w-full justify-around text-Gris_clair">
