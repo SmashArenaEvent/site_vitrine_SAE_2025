@@ -21,21 +21,21 @@
         </RouterLink>
         <nav class="hidden lg:flex gap-5 lg:gap-10 lg:text-3xl justify-center lg:justify-between lg:col-span-7 items-center" :class="{'!flex flex-col lg:flex-row absolute lg:static left-0 bg-Noir w-screen lg:w-auto h-screen lg:h-auto z-40':activeMenu}">
             <RouterLink to="/regles" class="relative">
-                <button class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
+                <button @click="activeMenu = false" class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
                     <p class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-3xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0">Règles</p>
                 </button>
             </RouterLink>
             <RouterLink to="/faq">
-                <button class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
+                <button @click="activeMenu = false" class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
                     <p class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-3xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0">FAQ</p>
                 </button>
             </RouterLink>
-            <RouterLink to="/aPropos">
+            <RouterLink @click="activeMenu = false" to="/aPropos">
                 <button class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
                     <p class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-3xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0">à propos</p>
                 </button>
             </RouterLink>
-            <RouterLink to="/contact">
+            <RouterLink @click="activeMenu = false" to="/contact">
                 <button class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
                     <p class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-3xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0">Contact</p>
                 </button>
