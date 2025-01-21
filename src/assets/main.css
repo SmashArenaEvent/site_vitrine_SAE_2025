@@ -9,7 +9,7 @@
   
     /*j'ai tenté ça pour être sur de pouvoir toujours garder la même grid de base*/
     .col1 {
-      @apply grid lg:grid-cols-1 grid-cols-tel1 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
+      @apply grid lg:grid-cols-1 grid-cols-tel1 justify-center gap-x-2.5 gap-x lg:gap-x-5 lg:px-0;
     }
   
     .col2 {

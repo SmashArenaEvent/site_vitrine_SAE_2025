@@ -16,7 +16,7 @@
 </script>
 <template>
     <header class="grille h-20 lg:h-52 w-full justify-between font-fugaz-one text-xs">
-        <RouterLink to="/" class="col-span-6 lg:col-span-2 my-auto">
+        <RouterLink to="/" class="col-span-3 lg:col-span-2 my-auto">
             <Logo class="h-10 lg:h-20" alt="Logo Smash Arena Event"/>
         </RouterLink>
         <nav class="hidden lg:flex gap-5 lg:text-3xl justify-between lg:col-span-7 items-center" :class="{'!flex':activeMenu}">
@@ -55,7 +55,7 @@
                 <LogoYoutube/>
             </a>
         </nav>
-        <button class="col-span-6 lg:hidden">
+        <button class="col-span-6 col-start-7 lg:hidden">
             <Menu alt="Ouvrir le menu du header" class="block lg:hidden ml-auto" @click="activeMenu =! activeMenu" :class="{'!hidden':activeMenu}"/>
             <Croix alt="Fermer le menu du header" class="hidden ml-auto" @click="activeMenu =! activeMenu" :class="{'!block':activeMenu, '!lg:hidden':activeMenu}"/>
         </button>
