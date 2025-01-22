@@ -5,27 +5,27 @@
     import CardRegles from '@/components/CardRegles.vue';
 </script>
 <template>
-    <section class="User-View">
-        <h1 class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left"><span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena <span class="text-Tonic">e</span>vent<br/><span class="text-Tonic">2<span class="text-xl lg:text-3xl">ème édition</span></span></h1>
-        <p class="text-center lg:text-left lg:text-xl">Bienvenue au Smash Arena Event ! Nous sommes une association étudiante organisant des <span>tournois gratuits</span> entre membre du Nord Franche-Comté sur le jeu <span>Super Smash Bros Ultimate</span> et bien plus !</p>
-        <div class="flex justify-center">
+    <section class="User-View grille">
+        <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left mt-5"><span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena <span class="text-Tonic">e</span>vent<br/><span class="text-Tonic">2<span class="text-xl lg:text-3xl">ème édition</span></span></h1>
+        <p class="col-start-3 col-span-8 text-center lg:text-left lg:text-xl mt-7">Bienvenue au Smash Arena Event ! Nous sommes une association étudiante organisant des <span>tournois gratuits</span> entre membre du Nord Franche-Comté sur le jeu <span>Super Smash Bros Ultimate</span> et bien plus !</p>
+        <div class="col-span-12 flex justify-center mt-5">
             <a href="#">
                 <button class="bg-Tonic h-12 lg:h-24 -skew-x-[25deg]">
                     <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]">Je m'inscris</p>
                 </button>
             </a>
         </div>
-        <img src="../components/img/ImagesDecorativePersonnage/KirbyXDadidou.png">
+        <img class="col-span-12 mt-7" src="../components/img/ImagesDecorativePersonnage/KirbyXDadidou.png">
         <!--Imagesperso aléatoires-->
     </section>
-    <section>
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center">
+    <section class="grille mt-5">
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12">
             <span class="text-Tonic">Smash Arena Event</span> Première édition
         </h2>
         <!--Carousel-->
     </section>
-    <section>
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center">
+    <section class="col-span-12 grille">
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12">
             <span class="text-Tonic">Les règles</span> principales
         </h2>
         <CardRegles Style="1" Icone="1" Title="Format du tournoi" Text="Le tournoi sera en format double élimination (winner-looser bracket) avec un gagnant et un perdant dans chaque match suite à un duel en 3 manches le premier à 2 victoires gagne." />

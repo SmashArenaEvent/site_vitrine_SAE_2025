@@ -1,5 +1,5 @@
 <template>
-    <div class="rounded-2xl text-Blanc" :class="{'border border-Tonic_Sombre':Style == '0', 'bg-Tonic_Sombre':Style == '1'}">
+    <div class="rounded-2xl text-Blanc col-span-12" :class="{'border border-Tonic_Sombre':Style == '0', 'bg-Tonic_Sombre':Style == '1'}">
         <div class="flex">
             <iconEpee v-if="Icone == '1'" class="lg:w-14 lg:h-14" alt="Icones d'épée"/>
             <iconEtoile v-if="Icone == '2'" class="lg:w-14 lg:h-14" alt="Icones d'étoile"/>
