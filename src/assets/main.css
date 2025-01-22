@@ -55,4 +55,10 @@
     .col12 {
       @apply grid lg:grid-cols-12 grid-cols-tel12 justify-center gap-x-2.5 lg:gap-x-5 px-0;
     }
+
+    /*hateur espace visible de la page une fois header soustrait*/
+    @media screen and (min-width: 1024px) {
+      .User-View { height: calc(100vh - 13rem);}}
+    @media screen and (max-width: 1024px) {
+      .User-View { height: calc(100vh - 5rem);}}
 }
