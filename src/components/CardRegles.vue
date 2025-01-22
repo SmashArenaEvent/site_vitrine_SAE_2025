@@ -1,6 +1,6 @@
 <template>
-    <div class="rounded-2xl text-Blanc col-span-12" :class="{'border border-Tonic_Sombre':Style == '0', 'bg-Tonic_Sombre':Style == '1'}">
-        <div class="flex">
+    <div class="rounded-2xl text-Blanc col-span-12 col12 py-5 mt-6" :class="{'border border-Tonic_Sombre':Style == '0', 'bg-Tonic_Sombre':Style == '1'}">
+        <div class="flex col-start-2 col-span-10">
             <iconEpee v-if="Icone == '1'" class="lg:w-14 lg:h-14" alt="Icones d'épée"/>
             <iconEtoile v-if="Icone == '2'" class="lg:w-14 lg:h-14" alt="Icones d'étoile"/>
             <iconFleche v-if="Icone == '3'" class="lg:w-14 lg:h-14" alt="Icone de fléche"/>
@@ -11,7 +11,7 @@
             <iconBall v-if="Icone == '8'" class="lg:w-14 lg:h-14" alt="Icone de pokeball"/>
             <h3 class="font-fugaz-one uppercase text-xl lg:text-3xl">{{ Title }}</h3>
         </div>
-        <p class="lg:text-xl">{{ Text }}</p>
+        <p class="lg:text-xl col-start-2 col-span-10">{{ Text }}</p>
     </div>
 </template>
 <script setup lang="ts">
