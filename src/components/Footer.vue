@@ -11,26 +11,30 @@ import { useRoute } from 'vue-router';
 const route = useRoute();
 </script>
 <template>
-    <header class="font-gothic-a1 text-xs">
-    <div class="flex w-full justify-between">
-        <Logo class="h-10 lg:h-20" alt="Logo Smash Arena Event"/>
-        <nav class="flex flex-col">
-            <RouterLink to="/aPropos">À propos</RouterLink>
-            <RouterLink to="/contact">Contact</RouterLink>
-            <RouterLink to="/regles">Règles</RouterLink>
-            <RouterLink to="/faq">FAQ</RouterLink>
+    <footer class="font-gothic-a1 text-xs grille pt-7 lg:pt-5 pb-5 lg:pb-4">
+        <div class="w-full col-span-12 col12">
+            <Logo class="h-10 lg:h-20 col-start-1 col-span-3 lg:col-span-2 lg:mt-8" alt="Logo Smash Arena Event"/>
+            <nav class="flex flex-col lg:h-36 lg:justify-center col-span-2 h- mt-3 lg:mt-0 gap-2 lg:gap-3">
+                <RouterLink to="/aPropos">À propos</RouterLink>
+                <RouterLink to="/contact">Contact</RouterLink>
+                <RouterLink to="/regles">Règles</RouterLink>
+                <RouterLink to="/faq">FAQ</RouterLink>
+            </nav>
+            <nav class="flex flex-col lg:flex-row grid-cols-2 gap-8 col-start-9 col-span-4 lg:h-36 items-center ml-auto">
+                <div class="flex gap-8">
+                    <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://www.instagram.com/smash_arena_event/"><Insta alt="Instagram"/></a>
+                    <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://twitter.com/SmashArenaEvent"><X alt="X"/></a>
+                </div>
+                <div class="flex  gap-8">
+                    <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://discord.gg/6zFJf9WXy2"><Discord alt="Discord"/></a>
+                    <a class="w-9 lg:w-10 h-9 lg:h-10" href="#"><Youtube alt="Youtube"/></a>
+                </div>
+            </nav>
+        </div>
+        <nav class="flex w-full justify-center gap-6 lg:gap-12 text-Gris_clair col-span-12 mt-12 lg:mt-0">
+            <RouterLink to="/mentionsLegales"><p>Mentions légales</p></RouterLink>
+            <RouterLink to="/politiqueDeConfidentialite"><p>Politique de Confidentialité</p></RouterLink>
         </nav>
-        <nav class="grid grid-cols-2">
-            <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://www.instagram.com/smash_arena_event/"><Insta alt="Instagram"/></a>
-            <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://twitter.com/SmashArenaEvent"><X alt="X"/></a>
-            <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://discord.gg/6zFJf9WXy2"><Discord alt="Discord"/></a>
-            <a class="w-9 lg:w-10 h-9 lg:h-10" href="#"><Youtube alt="Youtube"/></a>
-        </nav>
-    </div>
-    <nav class="flex w-full justify-around text-Gris_clair">
-        <RouterLink to="/mentionsLegales"><p>Mentions légales</p></RouterLink>
-        <RouterLink to="/politiqueDeConfidentialite"><p>Politique de Confidentialité</p></RouterLink>
-    </nav>
-    <p class="text-center text-Tonic">@Smash Arena Event 2025</p>
-    </header>
+        <p class="text-center text-Tonic col-span-12 mt-6 lg:mt-8">@Smash Arena Event 2025</p>
+    </footer>
 </template>
