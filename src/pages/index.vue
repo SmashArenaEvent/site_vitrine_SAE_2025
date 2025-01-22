@@ -41,9 +41,9 @@
         </RouterLink>
     </section>
     <section class="grille mt-12">
-        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Le coin</span> chill</h2>
-        <img class="col-span-12 mt-5" src="/src/components/img/CoinChill.png">
-        <div class="bg-Gris mt-1 px-5 py-2.5 lg:text-xl col-start-3 col-span-10">
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center"><span class="text-Tonic">Le coin</span> chill</h2>
+        <img class="col-span-12 mt-7" src="/src/components/img/CoinChill.png">
+        <div class="bg-Gris mt-1 px-5 py-2.5 text-[10px] leading-4 lg:text-xl col-start-3 col-span-10">
             <p>Le Coin Chill, c’est un espace détente, pour se reposer entre 2 match du tournois et les amis juste venus s’amuser.<br/><br/>De nombreux jeux y sont disponible en libre service :</p>
         </div>
         <div class="col-span-12 col12 mt-5">
@@ -61,28 +61,28 @@
             </div>
         </div>
     </section>
-    <section>
-        <h2 class="font-fugaz-one uppercase mt-12 text-3xl lg:text-5xl"><span class="text-Tonic">Le coin</span> buvette</h2>
-        <img src="/src/components/img/CoinBuvette.png">
-        <div class="bg-Gris lg:text-xl">
+    <section class="grille">
+        <h2 class="font-fugaz-one uppercase mt-12 col-span-12 text-3xl lg:text-5xl text-center"><span class="text-Tonic">Le coin</span> buvette</h2>
+        <img class="col-span-12 mt-7" src="/src/components/img/CoinBuvette.png">
+        <div class="bg-Gris mt-1 px-5 py-2.5 text-[10px] leading-4 lg:text-xl col-start-3 col-span-10">
             <p>La Buvette, nécessaire pour se restaurer durant un après-midi à s’amuser ! Mais attention, à consommer dans l’espace buvette, interdiction de manger à l’espace du Tournoi ou au coin Chill.</p>
         </div>
     </section>
-    <section>
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span  class="text-Tonic">Tu veux participer ?</span>Inscris-toi !</h2>
-        <nav>
+    <section class="grille">
+        <h2 class="col-span-12 mt-12 text-center font-fugaz-one uppercase text-3xl lg:text-5xl"><span  class="text-Tonic">Tu veux participer ?</span>Inscris-toi !</h2>
+        <nav class="col-span-12 flex flex-col mt-6">
             <div class="bg-center bg-cover bg-[url('/src/components/img/WallPaperJoueur.png')]">
-                <div class="h-40 w-60 bg-Noir_Vert hover:bg-transparent">
-                    <h3 class="font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic">Comme joueur</h3>
-                    <p class="lg:text-xl">et participe au tournoi !</p>
-                    <RouterLink to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
+                <div class="h-52 w-full bg-Noir_Vert hover:bg-transparent col12 content-center">
+                    <h3 class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7">Comme joueur</h3>
+                    <p class="col-start-2 col-span-10 lg:text-xl mt-1">et participe au tournoi !</p>
+                    <RouterLink class="col-start-2 col-span-10 mt-6" to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
                 </div>
             </div>
             <div class="bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.png')]">
-                <div class="h-40 w-60 bg-Noir_Vert hover:bg-transparent">
-                    <h3 class="font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic">Comme Bénévole</h3>
-                    <p class="lg:text-xl">et viens nous aider à gérer l’évènement !</p>
-                    <RouterLink to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
+                <div class="h-52 w-full bg-Noir_Vert hover:bg-transparent col12 content-center">
+                    <h3 class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7">Comme Bénévole</h3>
+                    <p class="col-start-2 col-span-10 lg:text-xl mt-1">et viens nous aider à gérer l’évènement !</p>
+                    <RouterLink class="col-start-2 col-span-10 mt-6" to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
                 </div>
             </div>
         </nav>
