@@ -88,13 +88,13 @@
         </nav>
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Nos</span> Sponsors</h2>
-        <div class="min-h-10 border-t border-b border-Tonic">
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mt-12"><span class="text-Tonic">Nos</span> Sponsors</h2>
+        <div class="min-h-10 border-t border-b border-Tonic mt-6">
             <!--Ajout des sponsors-->
         </div>
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Nous</span> contacter</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mt-12"><span class="text-Tonic">Nous</span> contacter</h2>
         <Formulaire/>
     </section>
 </template>
