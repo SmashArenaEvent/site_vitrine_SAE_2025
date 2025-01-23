@@ -1,21 +1,21 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <form class="col-span-12 col12 text-Gris_clair lg:text-xl	mt-6 mb-12" @submit.prevent="submitForm">
-        <div class="lg:flex col-span-12">
-            <div>
-                <input class="w-full px-2.5 text-[10px] bg-Gris border-b border-Gris_clair" type="text" name="firstName" v-model="form.firstName" placeholder="Prénom"/>
+        <div class="lg:flex lg:col-start-2 col-span-12 lg:col-span-10 lg:col10">
+            <div class="lg:col-span-5 lg:w-full">
+                <input class="w-full px-2.5 text-[10px] lg:text-xl lg:h-10 bg-Gris border-b border-Gris_clair" type="text" name="firstName" v-model="form.firstName" placeholder="Prénom"/>
             </div>
-            <div class="mt-5">
-                <input class="w-full px-2.5 text-[10px] bg-Gris border-b border-Gris_clair" type="text" name="name" v-model="form.name" placeholder="Nom"/>
+            <div class="mt-5 lg:mt-0 lg:col-span-6 lg:w-full">
+                <input class="w-full px-2.5 text-[10px] lg:text-xl lg:h-10 bg-Gris border-b border-Gris_clair" type="text" name="name" v-model="form.name" placeholder="Nom"/>
             </div>
         </div>
-        <div class="mt-5 col-span-12">
-            <input class="w-full px-2.5 text-[10px] bg-Gris border-b border-Gris_clair" type="email" name="email" v-model="form.email" placeholder="Email"/>
+        <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10 lg:w-full">
+            <input class="w-full px-2.5 text-[10px] lg:text-xl lg:h-10 bg-Gris border-b border-Gris_clair" type="email" name="email" v-model="form.email" placeholder="Email"/>
         </div>
-        <div class="mt-5 col-span-12">
-            <textarea class="w-full px-2.5 text-[10px] bg-Gris border-l border-b border-Gris_clair" rows="5" name="message" v-model="form.message" placeholder="Message"/>
+        <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10">
+            <textarea class="w-full px-2.5 text-[10px] lg:text-xl bg-Gris border-l border-b border-Gris_clair" rows="5" name="message" v-model="form.message" placeholder="Message"/>
         </div>
-        <div class="mt-5 col-span-12">
+        <div class="mt-5 lg:mt-24 lg:col-start-2 col-span-12 lg:col-span-10">
             <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg] ml-[13px]"><input class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]" type="submit" value="Envoyer"/></button>
             <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] ml-[30px]"><input class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]" type="reset" value="Annuler"/></button>
         </div>
