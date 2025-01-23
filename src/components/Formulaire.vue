@@ -1,23 +1,23 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <form class="text-Gris_clair lg:text-xl	" @submit.prevent="submitForm">
-        <div class="lg:flex">
+    <form class="col-span-12 col12 text-Gris_clair lg:text-xl	mt-6 mb-12" @submit.prevent="submitForm">
+        <div class="lg:flex col-span-12">
             <div>
-                <input class="bg-Gris border-b border-Gris_clair" type="text" name="firstName" v-model="form.firstName" placeholder="Prénom"/>
+                <input class="w-full px-2.5 text-[10px] bg-Gris border-b border-Gris_clair" type="text" name="firstName" v-model="form.firstName" placeholder="Prénom"/>
             </div>
-            <div>
-                <input class="bg-Gris border-b border-Gris_clair" type="text" name="name" v-model="form.name" placeholder="Nom"/>
+            <div class="mt-5">
+                <input class="w-full px-2.5 text-[10px] bg-Gris border-b border-Gris_clair" type="text" name="name" v-model="form.name" placeholder="Nom"/>
             </div>
         </div>
-        <div>
-            <input class="bg-Gris border-b border-Gris_clair" type="email" name="email" v-model="form.email" placeholder="Email"/>
+        <div class="mt-5 col-span-12">
+            <input class="w-full px-2.5 text-[10px] bg-Gris border-b border-Gris_clair" type="email" name="email" v-model="form.email" placeholder="Email"/>
         </div>
-        <div>
-            <textarea class="bg-Gris border-l border-b border-Gris_clair" rows="5" name="message" v-model="form.message" placeholder="Message"/>
+        <div class="mt-5 col-span-12">
+            <textarea class="w-full px-2.5 text-[10px] bg-Gris border-l border-b border-Gris_clair" rows="5" name="message" v-model="form.message" placeholder="Message"/>
         </div>
-        <div>
-            <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><input class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]" type="submit" value="Envoyer"/></button>
-            <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]"><input class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]" type="reset" value="Annuler"/></button>
+        <div class="mt-5 col-span-12">
+            <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg] ml-[13px]"><input class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]" type="submit" value="Envoyer"/></button>
+            <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] ml-[30px]"><input class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]" type="reset" value="Annuler"/></button>
         </div>
     </form>
 </template>

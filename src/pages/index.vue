@@ -6,17 +6,21 @@
 </script>
 <template>
     <section class="User-View grille">
-        <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left mt-5"><span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena <span class="text-Tonic">e</span>vent<br/><span class="text-Tonic">2<span class="text-xl lg:text-3xl">ème édition</span></span></h1>
-        <p class="col-start-3 col-span-8 text-center lg:text-left lg:text-xl mt-7">Bienvenue au Smash Arena Event ! Nous sommes une association étudiante organisant des <span>tournois gratuits</span> entre membre du Nord Franche-Comté sur le jeu <span>Super Smash Bros Ultimate</span> et bien plus !</p>
-        <div class="col-span-12 flex justify-center mt-5">
-            <a href="#">
-                <button class="bg-Tonic h-12 lg:h-24 -skew-x-[25deg]">
-                    <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]">Je m'inscris</p>
-                </button>
-            </a>
-        </div>
-        <img class="col-span-12 mt-7" src="../components/img/ImagesDecorativePersonnage/KirbyXDadidou.png">
-        <!--Imagesperso aléatoires-->
+        <article class="col-span-12 lg:col-span-6 flex flex-col lg:items-start lg:justify-center">
+            <h1 class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left mt-5 lg:leading-[4.5rem]"><span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena <span class="text-Tonic">e</span>vent<br/><span class="text-Tonic">2<span class="text-xl lg:text-3xl">ème édition</span></span></h1>
+            <p class="col-start-3 col-span-8 text-center lg:text-left lg:text-xl mt-7 lg:mt-9">Bienvenue au Smash Arena Event ! Nous sommes une association étudiante organisant des <span class="font-bold">tournois gratuits</span> entre membre du Nord Franche-Comté sur le jeu <span class="font-bold">Super Smash Bros Ultimate</span> et bien plus !</p>
+            <div class="col-span-12 flex justify-center mt-5 lg:mt-9">
+                <a href="#">
+                    <button class="bg-Tonic h-12 lg:h-24 -skew-x-[25deg]">
+                        <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]">Je m'inscris</p>
+                    </button>
+                </a>
+            </div>
+        </article>
+        <article class="col-span-12 lg:col-start-8 lg:col-span-5 h-min justify-center lg:User-View flex flex-col">
+            <img class="col-span-12 mt-7 lg:mt-0" src="../components/img/ImagesDecorativePersonnage/KirbyXDadidou.png">
+            <!--Imagesperso aléatoires-->
+        </article>
     </section>
     <section class="grille mt-5">
         <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12">
@@ -25,15 +29,15 @@
         <!--Carousel-->
     </section>
     <section class="col-span-12 grille mt-12">
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12">
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12 lg:mt-24 lg:mb-12">
             <span class="text-Tonic">Les règles</span> principales
         </h2>
         <CardRegles Style="1" Icone="1" Title="Format du tournoi" Text="Le tournoi sera en format double élimination (winner-looser bracket) avec un gagnant et un perdant dans chaque match suite à un duel en 3 manches le premier à 2 victoires gagne." />
         <CardRegles Style="0" Icone="2" Title="Temps de match" Text="Les matchs auront une durée fixe de 7 minutes maximum par manches." />
         <CardRegles Style="1" Icone="3" Title="Comportement" Text="Tout comportement antisportif ou de triche sera sévèrement sanctionné, y compris le non-respect des règles ou le harcèlement envers d'autres joueurs." />
-        <CardRegles class="hidden lg:block" Style="0" Icone="4" Title="Manettes" Text="Les joueurs peuvent utiliser leur propre manette GameCube ou une manette Pro pour Nintendo Switch. Les manettes filaires sont recommandées pour éviter des problèmes de connectivité. Si un joueur n’a pas sa propre manette, des joicons lui seront fournis." />
-        <CardRegles class="hidden lg:block" Style="1" Icone="5" Title="Stocks" Text="Les matchs se joueront en mode &#34;Stocks&#34;. Chaque joueur commencera avec 3 vies." />
-        <CardRegles class="hidden lg:block" Style="0" Icone="6" Title="Retard" Text="Les joueurs doivent être présents et prêts à jouer leur match à l'heure prévue. Un délai de 5 minutes peut être toléré, mais les retards excessifs peuvent entraîner la disqualification." />
+        <CardRegles class="hidden lg:col12" Style="0" Icone="4" Title="Manettes" Text="Les joueurs peuvent utiliser leur propre manette GameCube ou une manette Pro pour Nintendo Switch. Les manettes filaires sont recommandées pour éviter des problèmes de connectivité. Si un joueur n’a pas sa propre manette, des joicons lui seront fournis." />
+        <CardRegles class="hidden lg:col12" Style="1" Icone="5" Title="Stocks" Text="Les matchs se joueront en mode &#34;Stocks&#34;. Chaque joueur commencera avec 3 vies." />
+        <CardRegles class="hidden lg:col12" Style="0" Icone="6" Title="Retard" Text="Les joueurs doivent être présents et prêts à jouer leur match à l'heure prévue. Un délai de 5 minutes peut être toléré, mais les retards excessifs peuvent entraîner la disqualification." />
         <RouterLink class="col-span-12 mt-12 flex justify-center" to="/regles">
             <button class="bg-Blanc h-12 lg:h-24 -skew-x-[25deg]">
                 <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]">Découvrir les autres règles</p>
@@ -75,26 +79,26 @@
                 <div class="h-52 w-full bg-Noir_Vert hover:bg-transparent col12 content-center">
                     <h3 class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7">Comme joueur</h3>
                     <p class="col-start-2 col-span-10 lg:text-xl mt-1">et participe au tournoi !</p>
-                    <RouterLink class="col-start-2 col-span-10 mt-6" to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
+                    <RouterLink class="col-start-2 col-span-10 mt-6 ml-[13px]" to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
                 </div>
             </div>
             <div class="bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.png')]">
                 <div class="h-52 w-full bg-Noir_Vert hover:bg-transparent col12 content-center">
                     <h3 class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7">Comme Bénévole</h3>
                     <p class="col-start-2 col-span-10 lg:text-xl mt-1">et viens nous aider à gérer l’évènement !</p>
-                    <RouterLink class="col-start-2 col-span-10 mt-6" to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
+                    <RouterLink class="col-start-2 col-span-10 mt-6 ml-[13px]" to="#"><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]"><p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p></button></RouterLink>
                 </div>
             </div>
         </nav>
     </section>
     <section>
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mt-12"><span class="text-Tonic">Nos</span> Sponsors</h2>
+        <h2 class="grille font-fugaz-one uppercase text-3xl lg:text-5xl mt-12"><span class="text-Tonic">Nos</span> Sponsors</h2>
         <div class="min-h-10 border-t border-b border-Tonic mt-6">
             <!--Ajout des sponsors-->
         </div>
     </section>
-    <section>
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mt-12"><span class="text-Tonic">Nous</span> contacter</h2>
+    <section class="grille">
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12"><span class="text-Tonic">Nous</span> contacter</h2>
         <Formulaire/>
     </section>
 </template>
