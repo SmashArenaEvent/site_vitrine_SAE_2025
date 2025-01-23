@@ -4,13 +4,13 @@ import Header from '@/components/Header.vue';
 import Footer from './components/Footer.vue';
 </script>
 <template>
-  <Header class="bg-Noir text-Blanc" />
-  <main class="bg-Noir min-h-screen text-Blanc font-gothic-a1 text-xs pt-20 lg:pt-52">
+  <Header/>
+  <main class="bg-Noir min-h-screen text-Blanc font-gothic-a1 text-xs pt-20 lg:pt-52 grille">
     <RouterView v-slot="{ Component }">
       <Suspense>
         <component :is="Component" :key="$route.path" />
       </Suspense>
     </RouterView>
-    <Footer class="bg-slate-Noir text-Blanc"/>
   </main>
+  <Footer/>
 </template>

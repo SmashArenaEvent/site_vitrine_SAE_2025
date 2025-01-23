@@ -3,8 +3,8 @@
     import CardRegles from '@/components/CardRegles.vue';
 </script>
 <template>
-    <h1 class="font-fugaz-one uppercase text-4xl lg:text-6xl"><span class="text-Tonic">R</span>égles</h1>
-    <nav class="flex gap-5 flex-wrap">
+    <h1 class="font-fugaz-one uppercase text-4xl lg:text-6xl mt-8"><span class="text-Tonic">R</span>égles</h1>
+    <nav class="flex gap-5 flex-wrap mt-12 flex-col items-center">
         <a href="#rGenerales">
             <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
                 <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Les régles générales</p>

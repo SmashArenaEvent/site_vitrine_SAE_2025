@@ -5,7 +5,7 @@ import Formulaire from '@/components/Formulaire.vue'
 import CardRegles from '@/components/CardRegles.vue'
 </script>
 <template>
-  <section class="User-View grille">
+  <section class="User-View col-span-12 col12">
     <article class="col-span-12 lg:col-span-6 flex flex-col lg:items-start lg:justify-center">
       <h1
         class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left mt-5 lg:leading-[4.5rem]"
@@ -42,13 +42,13 @@ import CardRegles from '@/components/CardRegles.vue'
       <!--Imagesperso aléatoires-->
     </article>
   </section>
-  <section class="grille mt-5">
+  <section class="col-span-12 col12 mt-5">
     <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12">
       <span class="text-Tonic">Smash Arena Event</span> Première édition
     </h2>
     <!--Carousel-->
   </section>
-  <section class="col-span-12 grille mt-12">
+  <section class="col-span-12 col12 mt-12">
     <h2
       class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12 lg:mt-16 lg:mb-12"
     >
@@ -103,7 +103,7 @@ import CardRegles from '@/components/CardRegles.vue'
       </button>
     </RouterLink>
   </section>
-  <section class="grille mt-12 lg:mt-24">
+  <section class="col-span-12 col12 mt-12 lg:mt-24">
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center lg:mb-12">
       <span class="text-Tonic">Le coin</span> chill
     </h2>
@@ -136,7 +136,7 @@ import CardRegles from '@/components/CardRegles.vue'
       </div>
     </div>
   </section>
-  <section class="grille mt-12 lg:mt-24">
+  <section class="col-span-12 col12 mt-12 lg:mt-24">
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center lg:mb-12">
       <span class="text-Tonic">Le coin</span> buvette
     </h2>
@@ -154,7 +154,7 @@ import CardRegles from '@/components/CardRegles.vue'
       </p>
     </div>
   </section>
-  <section class="grille">
+  <section class="col-span-12 col12">
     <h2
       class="col-span-12 mt-12 lg:mt-24 text-center font-fugaz-one uppercase text-3xl lg:text-5xl"
     >
@@ -207,17 +207,17 @@ import CardRegles from '@/components/CardRegles.vue'
       </div>
     </nav>
   </section>
-  <section>
+  <section class="col-span-12 col12">
     <h2
-      class="mx-[20px] lg:mx-[50px] font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 text-center"
+      class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 text-center"
     >
       <span class="text-Tonic">Nos</span> Sponsors
     </h2>
-    <div class="min-h-10 border-t border-b border-Tonic mt-6 lg:mt-12">
+    <div class="col-span-12 min-h-10 border-t border-b border-Tonic mt-6 lg:mt-12">
       <!--Ajout des sponsors-->
     </div>
   </section>
-  <section class="grille">
+  <section class="col-span-12 col12">
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center mt-12 lg:mt-24 lg:mb-12">
       <span class="text-Tonic">Nous</span> contacter
     </h2>
