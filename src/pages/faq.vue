@@ -3,8 +3,8 @@
 import CardFAQ from '@/components/CardFAQ.vue';    
 </script>
 <template>
-    <h1 class="font-fugaz-one uppercase text-4xl lg:text-6xl"><span class="text-Tonic">F</span>oire <span class="text-Tonic">a</span>ux <span class="text-Tonic">q</span>uestions</h1>
-    <nav class="flex flex-wrap gap-5">
+    <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-7 lg:mt-24 lg:mb-12"><span class="text-Tonic">F</span>oire <span class="text-Tonic">a</span>ux <span class="text-Tonic">q</span>uestions</h1>
+    <nav class="lg:col-start-2 col-span-12 lg:col-span-10 flex flex-wrap justify-center lg:justify-between gap-5 mt-10 lg:mt-12 mb-12 lg:mb-20">
         <a href="#event">
             <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
                 <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">L'événement</p>
@@ -26,8 +26,8 @@ import CardFAQ from '@/components/CardFAQ.vue';
             </button>
         </a>
     </nav>
-    <article id="event">
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">L'</span>évenement</h2>
+    <article class="col-span-12 col12" id="event">
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl lg:mt-24 mb-6 lg:mb-12"><span class="text-Tonic">L'</span>évenement</h2>
         <CardFAQ Style="0" Title="Peut-on amener notre propre nourriture ?" Text="Non, il n’est pas possible d’amener votre propre nourriture à l’événement. En revanche, une restauration et une buvette sera mise en place pour vos besoins." />
         <CardFAQ Style="0" Title="Où puis-je trouver le programme de l’événement ?" Text="Vous pourrez retrouver le programme sur les réseaux sociaux de notre événement. N’hésitez pas à nous suivre !" />
         <CardFAQ Style="0" Title="Où se déroule l’événement et quels sont les horaires ?" Text="L’événement se déroule au bâtiment de l’ex-CDDP de Montbéliard situé au 4 Place Tharradin. Les horaires sont de 13H à 18H." />
@@ -36,8 +36,8 @@ import CardFAQ from '@/components/CardFAQ.vue';
         <CardFAQ Style="0" Title="Puis-je amener des sacs à dos ou des caméras ?" Text="Les caméras externes n’appartenant pas à la WebTV du campus seront interdites. Par contre, vous pourrez sans problème prendre votre sac pour amener votre manette et affaires personnelles. Dorénavant, sachez qu’il sera fouillé à l’entrée de l’événement." />
         <CardFAQ Style="0" Title="J’ai des problèmes techniques avec le site ou l’inscription, que dois-je faire ?" Text="Si vous rencontrez quelconque problème technique, contactez-nous par mail, sur les réseaux sociaux et si vous pouvez sur notre page contact." />
     </article>
-    <article id="tournoi">
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Le</span> tournois</h2>
+    <article class="col-span-12 col12" id="tournoi">
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 mb-6 lg:mb-12"><span class="text-Tonic">Le</span> tournois</h2>
         <CardFAQ Style="1" Title="Comment puis-je m’inscrire à l’événement en tant que joueur ?" Text="Pour vous inscrire en tant que joueur, rendez-vous sur le site du tournoi, cliquez sur la fiche, puis sur le bouton menant au formulaire d’inscription. Vos données seront conservées un an après votre inscription." />
         <CardFAQ Style="1" Title="Combien de joueurs participeront au tournoi ?" Text="En tout, 64 joueurs pourront participer au tournoi." />
         <CardFAQ Style="1" Title="Quel est le format du tournoi ?" Text="Le tournoi sera en format double élimination (winner-looser bracket) avec un gagnant et un perdant dans chaque match suite à un duel en 3 manches le premier à 2 victoires gagne." />
@@ -48,16 +48,16 @@ import CardFAQ from '@/components/CardFAQ.vue';
         <CardFAQ Style="1" Title="Quels sont les prix pour les gagnants du tournoi ?" Text="Pour le grand gagnant, il y aura un trophée à remporter, plusieurs lots seront également mis en place pour le second et le troisième. Vous en saurez plus le jour J !" />
         <CardFAQ Style="1" Title="À qui dois-je parler des problèmes techniques lors de l’événement ?" Text="Vous pouvez directement voir le bénévole mis à votre poste ou vous adressez à l’un des organisateurs." />
     </article>
-    <article id="accessible">
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">L'</span>accessibilité</h2>
+    <article class="col-span-12 col12" id="accessible">
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 mb-6 lg:mb-12"><span class="text-Tonic">L'</span>accessibilité</h2>
         <CardFAQ Style="0" Title="Y a-t-il des places disponibles  proches de l’événement  si l’on vient en voiture ?" Text="Oui, il y a un grand parking gratuit disponible à 200m de l’événement." />
         <CardFAQ Style="0" Title="Quels bus prendre pour accéder à l’événement ?" Text="Si vous voulez accéder à l’événement en bus, vous pouvez, grâce à Evolity, venir depuis la gare de Montbéliard (arrêt Acropole) avec les lignes 1 (direction Valentigney) et 2 (direction Audincourt), puis vous arrêtez à l'arrêt Campus”." />
         <CardFAQ Style="0" Title="Quelles lignes de train prendre ?" Text="Si vous venez de Besançon, vous pouvez prendre un TER en direction de Belfort et vous arrêtez à Montbéliard. Et inversement, si vous venez de Belfort, prenez un train en direction de Besançon Viotte et Lyon Perrache, puis sortez à Montbéliard." />
         <CardFAQ Style="0" Title="Peut-on venir à l’événement en cosplay ?" Text="Oui, si le cosplay ne porte pas atteinte à la pudeur et n'est pas trop volumineux, il est tout à fait possible de venir en cosplay." />
         <CardFAQ Style="0" Title="L’événement est-il accessible aux personnes ayant des handicaps ?" Text="La salle n'est pas adaptée aux fauteuils roulants mais n'a pas de marches. Contactez-nous pour que l’on vous prépare un suivi afin d’améliorer votre expérience." />
     </article>
-    <article id="benevole">
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Le</span> bénévolat</h2>
+    <article class="col-span-12 col12" id="benevole">
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 mb-6 lg:mb-12"><span class="text-Tonic">Le</span> bénévolat</h2>
         <CardFAQ Style="1" Title="Quelles sont les étapes à suivre pour postuler en tant que bénévole ?" Text="Pour vous inscrire comme bénévole, rendez-vous sur le site du tournoi, cliquez sur la fiche, puis sur le bouton “Je m’inscris” dans la section “Vous voulez aider ? Devenez bénévole” en bas de page. Indiquez le rôle souhaité en vous référant aux missions décrites. Vos données seront conservées un an après votre inscription." />
         <CardFAQ Style="1" Title="Y a-t-il des critères spécifiques pour devenir bénévole ?" Text="Si vous êtes certains de votre disponibilité et que vous avez un bon contact humain, ainsi que le souhait d’aider, vous êtes les bienvenus. Nous recherchons des personnes sur qui nous pouvons compter !" />
         <CardFAQ Style="1" Title="Comment les rôles  de bénévolat sont-ils attribués ?" Text="Ils seront choisis par vous, pour éviter un favoritisme sur un poste. Nous mettrons sur notre site un quota visant à limiter le nombre de bénévoles sur chaque poste." />
@@ -70,10 +70,10 @@ import CardFAQ from '@/components/CardFAQ.vue';
         <CardFAQ Style="1" Title="Y a-t-il des possibilités  de bénévolat en ligne ou  à distance ?" Text="Non, l’événement sera disponible uniquement sur place, il n’y aura donc pas de possibilité de bénévolat en distance." />
         <CardFAQ Style="1" Title="Je me suis inscrit sur discord, comment cela se déroule ?" Text="." />
     </article>
-    <p class="text-center">Vous avez encore des questions sans réponse ?<br/>Envoyez nous un message via nos réseaux sociaux ou depuis notre formulaire de contact !</p>
-    <RouterLink to="/contact">
-        <button class="bg-Tonic">
-            <p class="text-Noir font-fugaz-one uppercase text-xs">Nous contacter</p>
+    <p class="lg:col-start-4 col-span-12 lg:col-span-6 lg:text-xl text-center mt-24 mb-12">Vous avez encore des questions sans réponse ?<br/>Envoyez nous un message via nos réseaux sociaux ou depuis notre formulaire de contact !</p>
+    <RouterLink class="col-span-12 mx-auto mb-12" to="/contact">
+        <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg] ml-[13px]">
+            <p class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]">Nous contacte</p>
         </button>
     </RouterLink>
 </template>
