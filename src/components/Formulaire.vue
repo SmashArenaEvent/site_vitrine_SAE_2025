@@ -15,7 +15,7 @@
         <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10">
             <textarea class="w-full px-2.5 text-[10px] lg:text-xl bg-Gris border-l border-b border-Gris_clair" rows="5" name="message" v-model="form.message" placeholder="Message"/>
         </div>
-        <div class="mt-5 lg:mt-24 lg:col-start-2 col-span-12 lg:col-span-10">
+        <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10">
             <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg] ml-[13px]"><input class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]" type="submit" value="Envoyer"/></button>
             <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] ml-[30px]"><input class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]" type="reset" value="Annuler"/></button>
         </div>

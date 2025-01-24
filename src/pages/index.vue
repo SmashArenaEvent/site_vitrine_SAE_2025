@@ -8,7 +8,7 @@ import CardRegles from '@/components/CardRegles.vue'
   <section class="User-View col-span-12 col12">
     <article class="col-span-12 lg:col-span-6 flex flex-col lg:items-start lg:justify-center">
       <h1
-        class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left mt-5 lg:leading-[4.5rem]"
+        class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left lg:leading-[4.5rem]"
       >
         <span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena
         <span class="text-Tonic">e</span>vent<br /><span class="text-Tonic"
@@ -109,10 +109,10 @@ import CardRegles from '@/components/CardRegles.vue'
     </h2>
     <img class="col-span-12 lg:col-span-7 mt-7 lg:mt-0" src="/src/components/img/CoinChill.png" />
     <div
-      class="col-span-12 lg:col-span-5 lg:flex lg:flex-col lg:bg-Gris lg:mt-12 lg:py-24 lg:h-fit lg:-ml-24 lg:px-12"
+      class="col-span-12 col12 lg:col-span-5 lg:flex lg:flex-col lg:bg-Gris lg:mt-12 lg:py-12 lg:h-fit lg:-ml-24 lg:px-12"
     >
       <div
-        class="bg-Gris mt-1 lg:mt-0 px-5 lg:px-0 py-2.5 text-[10px] leading-4 lg:text-3xl lg:leading-[48px] col-start-3 lg:col-start-1 col-span-10 lg:col-span-5 lg:h-min"
+        class="bg-Gris mt-1 lg:mt-0 px-5 lg:px-0 py-2.5 text-[10px] leading-4 lg:text-xl lg:leading-8 col-start-3 lg:col-start-1 col-span-10 lg:col-span-5 lg:h-min"
       >
         <p>
           Le Coin Chill, c’est un espace détente, pour se reposer entre 2 match du tournois et les
@@ -141,13 +141,13 @@ import CardRegles from '@/components/CardRegles.vue'
       <span class="text-Tonic">Le coin</span> buvette
     </h2>
     <img
-      class="col-span-12 lg:col-span-7 lg:col-start-6 mt-7 lg:mt-0 order-2"
+      class="col-span-12 lg:col-span-7 lg:col-start-6 mt-7 lg:mt-0 lg:order-2"
       src="/src/components/img/CoinBuvette.png"
     />
     <div
-      class="bg-Gris mt-1 px-5 py-2.5 h-fit lg:mt-12 lg:py-24 lg:px-12 lg:-mr-24 lg:relative text-[10px] leading-4 lg:text-xl col-start-3 lg:col-start-1 col-span-10 lg:col-span-5 order-1"
+      class="bg-Gris mt-1 px-5 py-2.5 h-fit lg:mt-12 lg:py-12 lg:px-12 lg:-mr-24 lg:relative text-[10px] leading-4 lg:text-xl col-start-3 lg:col-start-1 col-span-10 lg:col-span-5 lg:order-1 lg:leading-8"
     >
-      <p class="lg:text-3xl lg:leading-[48px]">
+      <p>
         La Buvette, nécessaire pour se restaurer durant un après-midi à s’amuser ! Mais attention, à
         consommer dans l’espace buvette, interdiction de manger à l’espace du Tournoi ou au coin
         Chill.
@@ -213,7 +213,7 @@ import CardRegles from '@/components/CardRegles.vue'
     >
       <span class="text-Tonic">Nos</span> Sponsors
     </h2>
-    <div class="col-span-12 min-h-10 border-t border-b border-Tonic mt-6 lg:mt-12">
+    <div class="col-span-12 min-h-10 border-t border-b border-Tonic mt-6 lg:mt-12 -mx-5 lg:-mx-[50px]">
       <!--Ajout des sponsors-->
     </div>
   </section>

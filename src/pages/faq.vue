@@ -3,8 +3,8 @@
 import CardFAQ from '@/components/CardFAQ.vue';    
 </script>
 <template>
-    <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-7 lg:mt-24 lg:mb-12"><span class="text-Tonic">F</span>oire <span class="text-Tonic">a</span>ux <span class="text-Tonic">q</span>uestions</h1>
-    <nav class="lg:col-start-2 col-span-12 lg:col-span-10 flex flex-wrap justify-center lg:justify-between gap-5 mt-10 lg:mt-12 mb-12 lg:mb-20">
+    <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 lg:mb-12"><span class="text-Tonic">F</span>oire <span class="text-Tonic">a</span>ux <span class="text-Tonic">q</span>uestions</h1>
+    <nav class="lg:col-start-2 col-span-12 lg:col-span-10 flex flex-wrap justify-center lg:justify-between gap-5">
         <a href="#event">
             <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
                 <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">L'événement</p>

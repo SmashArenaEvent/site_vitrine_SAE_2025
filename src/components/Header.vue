@@ -15,8 +15,8 @@
     const activeMenu = ref(false)
 </script>
 <template>
-    <header class="grille h-20 lg:h-52 w-full justify-between font-fugaz-one text-xs fixed z-50 bg-Noir">
-        <RouterLink to="/" class="col-span-3 lg:col-span-2 my-auto">
+    <header class="grille h-20 lg:h-48 w-full justify-between font-fugaz-one text-xs fixed z-50 bg-Noir content-center">
+        <RouterLink to="/" class="col-span-3 lg:col-span-2">
             <Logo class="h-10 lg:h-20 relative z-50" alt="Logo Smash Arena Event"/>
         </RouterLink>
         <nav class="hidden lg:flex gap-5 lg:gap-10 lg:text-3xl justify-center lg:justify-between lg:col-span-7 items-center" :class="{'!flex flex-col lg:flex-row absolute lg:static left-0 bg-Noir w-screen lg:w-auto h-screen lg:h-auto z-40':activeMenu}">

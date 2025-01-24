@@ -3,8 +3,8 @@
     import CardRegles from '@/components/CardRegles.vue';
 </script>
 <template>
-    <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 lg:mt-24 lg:mb-12"><span class="text-Tonic">R</span>égles</h1>
-    <nav class="lg:col-start-2 col-span-12 lg:col-span-10 flex gap-5 flex-wrap mt-12 flex-col lg:flex-row justify-between items-center">
+    <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 lg:mb-12"><span class="text-Tonic">R</span>ègles</h1>
+    <nav class="lg:col-start-2 col-span-12 lg:col-span-10 flex gap-5 flex-wrap flex-col lg:flex-row justify-between items-center">
         <a href="#rGenerales">
             <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
                 <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Les régles générales</p>
@@ -39,7 +39,7 @@
         <CardRegles Style="1" Icone="5" Title="Pauses" Text="Les pauses ne sont autorisées que lorsque le jeu est en pause, et seulement en cas de problème technique ou de pause autorisée." />
         <CardRegles Style="1" Icone="6" Title="Contestation" Text="Si un joueur conteste un problème ou une règle, le match peut être mis en pause pour examen par les organisateurs du tournoi." />
     </article>
-    <article id="rAutres" class="col-span-12 mt-12 mb-6 col12">
+    <article id="rAutres" class="col-span-12 col12">
         <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl lg:mt-24 lg:mb-12"><span class="text-Tonic">Autres</span> Régles</h2>
         <CardRegles Style="0" Icone="1" Title="Comportement" Text="Tout comportement antisportif ou de triche sera sévèrement sanctionné, y compris le non-respect des règles ou le harcèlement envers d'autres joueurs." />
         <CardRegles Style="0" Icone="2" Title="Retard" Text="Les joueurs doivent être présents et prêts à jouer leur match à l'heure prévue. Un délai de 5 minutes peut être toléré, mais les retards excessifs peuvent entraîner la disqualification." />

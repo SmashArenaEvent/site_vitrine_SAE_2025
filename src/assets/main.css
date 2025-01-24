@@ -4,56 +4,56 @@
 
 @layer components  {
     .grille {
-      @apply grid lg:grid-cols-principal grid-cols-telprincipal justify-center gap-x-2.5 lg:gap-x-5 px-5 lg:px-12;
+      @apply grid lg:grid-cols-principal grid-cols-telprincipal justify-center gap-x-2.5 lg:gap-x-5 px-5 lg:px-12 auto-rows-min;
     }
   
     /*j'ai tenté ça pour être sur de pouvoir toujours garder la même grid de base*/
     .col1 {
-      @apply grid lg:grid-cols-1 grid-cols-tel1 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-1 grid-cols-tel1 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col2 {
-      @apply grid lg:grid-cols-2 grid-cols-tel2  justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-2 grid-cols-tel2  justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col3 {
-      @apply grid lg:grid-cols-3 grid-cols-tel3 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-3 grid-cols-tel3 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col4 {
-      @apply grid lg:grid-cols-4 grid-cols-tel4 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-4 grid-cols-tel4 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col5 {
-      @apply grid lg:grid-cols-5 grid-cols-tel5 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-5 grid-cols-tel5 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col6 {
-      @apply grid lg:grid-cols-6 grid-cols-tel6 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-6 grid-cols-tel6 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col7 {
-      @apply grid lg:grid-cols-7 grid-cols-tel7 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-7 grid-cols-tel7 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col8 {
-      @apply grid lg:grid-cols-8 grid-cols-tel8 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-8 grid-cols-tel8 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col9 {
-      @apply grid lg:grid-cols-9 grid-cols-tel9 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-9 grid-cols-tel9 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col10 {
-      @apply grid lg:grid-cols-10 grid-cols-tel10 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-10 grid-cols-tel10 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col11 {
-      @apply grid lg:grid-cols-11 grid-cols-tel11 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-11 grid-cols-tel11 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
   
     .col12 {
-      @apply grid lg:grid-cols-12 grid-cols-tel12 justify-center gap-x-2.5 lg:gap-x-5 px-0;
+      @apply grid lg:grid-cols-12 grid-cols-tel12 justify-center gap-x-2.5 lg:gap-x-5 px-0 auto-rows-min;
     }
 
     /*hateur espace visible de la page une fois header soustrait*/

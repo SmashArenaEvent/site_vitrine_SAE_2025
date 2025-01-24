@@ -11,7 +11,7 @@ import { useRoute } from 'vue-router';
 const route = useRoute();
 </script>
 <template>
-    <footer class="font-gothic-a1 text-xs grille pt-7 lg:pt-5 pb-5 lg:pb-4 bg-Noir text-Blanc">
+    <footer class="font-gothic-a1 text-xs grille pt-7 lg:pt-5 pb-5 lg:pb-4 bg-Noir text-Blanc -mt-64 lg:-mt-[244px]">
         <div class="w-full col-span-12 col12">
             <Logo class="h-10 lg:h-20 col-start-1 col-span-3 lg:col-span-2 lg:mt-8" alt="Logo Smash Arena Event"/>
             <nav class="flex flex-col lg:h-36 lg:justify-center col-span-2 h- mt-3 lg:mt-0 gap-2 lg:gap-3">
