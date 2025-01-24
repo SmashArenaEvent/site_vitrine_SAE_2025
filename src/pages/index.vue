@@ -5,7 +5,7 @@ import Formulaire from '@/components/Formulaire.vue'
 import CardRegles from '@/components/CardRegles.vue'
 </script>
 <template>
-  <section class="User-View col-span-12 col12">
+  <section class="User-View col-span-12 col12 min-h-fit">
     <article class="col-span-12 lg:col-span-6 flex flex-col lg:items-start lg:justify-center">
       <h1
         class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left lg:leading-[4.5rem]"
@@ -194,15 +194,11 @@ import CardRegles from '@/components/CardRegles.vue'
           <p class="col-start-2 col-span-10 lg:text-xl mt-1">
             et viens nous aider à gérer l’évènement !
           </p>
-          <RouterLink class="col-start-2 col-span-10 mt-6 lg:mt-20 ml-[13px]" to="#"
-            ><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
-              <p
-                class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
-              >
-                Je m’inscris
-              </p>
-            </button></RouterLink
-          >
+          <RouterLink class="col-start-2 col-span-10 mt-6 lg:mt-20 ml-[13px]" to="#">
+            <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
+              <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p>
+            </button>
+          </RouterLink>
         </div>
       </div>
     </nav>
