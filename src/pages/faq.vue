@@ -3,7 +3,7 @@
 import CardFAQ from '@/components/CardFAQ.vue';    
 </script>
 <template>
-    <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 lg:mb-12"><span class="text-Tonic">F</span>oire <span class="text-Tonic">a</span>ux <span class="text-Tonic">q</span>uestions</h1>
+    <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 mb-12"><span class="text-Tonic">F</span>oire <span class="text-Tonic">a</span>ux <span class="text-Tonic">q</span>uestions</h1>
     <nav class="lg:col-start-2 col-span-12 lg:col-span-10 flex flex-wrap justify-center lg:justify-between gap-5">
         <a href="#event">
             <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
@@ -27,7 +27,7 @@ import CardFAQ from '@/components/CardFAQ.vue';
         </a>
     </nav>
     <article class="col-span-12 col12" id="event">
-        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl lg:mt-24 mb-6 lg:mb-12"><span class="text-Tonic">L'</span>évenement</h2>
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12"><span class="text-Tonic">L'</span>évenement</h2>
         <CardFAQ Style="0" Title="Peut-on amener notre propre nourriture ?" Text="Non, il n’est pas possible d’amener votre propre nourriture à l’événement. En revanche, une restauration et une buvette sera mise en place pour vos besoins." />
         <CardFAQ Style="0" Title="Où puis-je trouver le programme de l’événement ?" Text="Vous pourrez retrouver le programme sur les réseaux sociaux de notre événement. N’hésitez pas à nous suivre !" />
         <CardFAQ Style="0" Title="Où se déroule l’événement et quels sont les horaires ?" Text="L’événement se déroule au bâtiment de l’ex-CDDP de Montbéliard situé au 4 Place Tharradin. Les horaires sont de 13H à 18H." />
@@ -37,7 +37,7 @@ import CardFAQ from '@/components/CardFAQ.vue';
         <CardFAQ Style="0" Title="J’ai des problèmes techniques avec le site ou l’inscription, que dois-je faire ?" Text="Si vous rencontrez quelconque problème technique, contactez-nous par mail, sur les réseaux sociaux et si vous pouvez sur notre page contact." />
     </article>
     <article class="col-span-12 col12" id="tournoi">
-        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 mb-6 lg:mb-12"><span class="text-Tonic">Le</span> tournois</h2>
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12"><span class="text-Tonic">Le</span> tournois</h2>
         <CardFAQ Style="1" Title="Comment puis-je m’inscrire à l’événement en tant que joueur ?" Text="Pour vous inscrire en tant que joueur, rendez-vous sur le site du tournoi, cliquez sur la fiche, puis sur le bouton menant au formulaire d’inscription. Vos données seront conservées un an après votre inscription." />
         <CardFAQ Style="1" Title="Combien de joueurs participeront au tournoi ?" Text="En tout, 64 joueurs pourront participer au tournoi." />
         <CardFAQ Style="1" Title="Quel est le format du tournoi ?" Text="Le tournoi sera en format double élimination (winner-looser bracket) avec un gagnant et un perdant dans chaque match suite à un duel en 3 manches le premier à 2 victoires gagne." />
@@ -49,7 +49,7 @@ import CardFAQ from '@/components/CardFAQ.vue';
         <CardFAQ Style="1" Title="À qui dois-je parler des problèmes techniques lors de l’événement ?" Text="Vous pouvez directement voir le bénévole mis à votre poste ou vous adressez à l’un des organisateurs." />
     </article>
     <article class="col-span-12 col12" id="accessible">
-        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 mb-6 lg:mb-12"><span class="text-Tonic">L'</span>accessibilité</h2>
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12"><span class="text-Tonic">L'</span>accessibilité</h2>
         <CardFAQ Style="0" Title="Y a-t-il des places disponibles  proches de l’événement  si l’on vient en voiture ?" Text="Oui, il y a un grand parking gratuit disponible à 200m de l’événement." />
         <CardFAQ Style="0" Title="Quels bus prendre pour accéder à l’événement ?" Text="Si vous voulez accéder à l’événement en bus, vous pouvez, grâce à Evolity, venir depuis la gare de Montbéliard (arrêt Acropole) avec les lignes 1 (direction Valentigney) et 2 (direction Audincourt), puis vous arrêtez à l'arrêt Campus”." />
         <CardFAQ Style="0" Title="Quelles lignes de train prendre ?" Text="Si vous venez de Besançon, vous pouvez prendre un TER en direction de Belfort et vous arrêtez à Montbéliard. Et inversement, si vous venez de Belfort, prenez un train en direction de Besançon Viotte et Lyon Perrache, puis sortez à Montbéliard." />
@@ -57,7 +57,7 @@ import CardFAQ from '@/components/CardFAQ.vue';
         <CardFAQ Style="0" Title="L’événement est-il accessible aux personnes ayant des handicaps ?" Text="La salle n'est pas adaptée aux fauteuils roulants mais n'a pas de marches. Contactez-nous pour que l’on vous prépare un suivi afin d’améliorer votre expérience." />
     </article>
     <article class="col-span-12 col12" id="benevole">
-        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 mb-6 lg:mb-12"><span class="text-Tonic">Le</span> bénévolat</h2>
+        <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12"><span class="text-Tonic">Le</span> bénévolat</h2>
         <CardFAQ Style="1" Title="Quelles sont les étapes à suivre pour postuler en tant que bénévole ?" Text="Pour vous inscrire comme bénévole, rendez-vous sur le site du tournoi, cliquez sur la fiche, puis sur le bouton “Je m’inscris” dans la section “Vous voulez aider ? Devenez bénévole” en bas de page. Indiquez le rôle souhaité en vous référant aux missions décrites. Vos données seront conservées un an après votre inscription." />
         <CardFAQ Style="1" Title="Y a-t-il des critères spécifiques pour devenir bénévole ?" Text="Si vous êtes certains de votre disponibilité et que vous avez un bon contact humain, ainsi que le souhait d’aider, vous êtes les bienvenus. Nous recherchons des personnes sur qui nous pouvons compter !" />
         <CardFAQ Style="1" Title="Comment les rôles  de bénévolat sont-ils attribués ?" Text="Ils seront choisis par vous, pour éviter un favoritisme sur un poste. Nous mettrons sur notre site un quota visant à limiter le nombre de bénévoles sur chaque poste." />
