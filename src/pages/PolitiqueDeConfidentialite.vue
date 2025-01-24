@@ -5,7 +5,7 @@
 <template>
     <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 lg:pb-12"><span class="text-Tonic">P</span>olitique <span class="text-Tonic">d</span>e <span class="text-Tonic">c</span>onfidentialité</h1>
     <section class="col-span-12">
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mb-6 lg:mb-12"><span class="text-Tonic">Données</span> Personneles et RGPD</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mb-6 lg:mb-12 mt-16 lg:mt-0"><span class="text-Tonic">Données</span> Personneles et RGPD</h2>
         <p class="text-xl leading-6 lg:leading-10">Les visiteurs du site peuvent s'inscrire en tant que joueur ou bénévole pour le tournoi. Les données personnelles collectées lors de l'inscription, telles que le nom, l'adresse e-mail, et d'autres informations pertinentes, seront utilisées dans le seul but de gérer la participation au tournoi et de contacter les participants.</p>
         <p class="text-xl leading-6 lg:leading-10">Un registre pour le traitement des données personnelles conforme au RGPD sera maintenu. Les utilisateurs ont le droit d'accéder, de rectifier, de supprimer ou de demander la portabilité de leurs données personnelles. Pour exercer ces droits, les utilisateurs peuvent envoyer un e-mail à l'adresse spécifiée sur la page contact : <a href="mailto:smasharenaevent@gmail.com"><span class="text-Tonic underline underline-offset-2">smasharenaevent@gmail.com.</span></a></p>
     </section>

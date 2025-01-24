@@ -5,7 +5,7 @@
 <template>
     <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 lg:pb-12"><span class="text-Tonic">M</span>entions <span class="text-Tonic">l</span>égales</h1>
     <section class="col-span-12">
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mb-6 lg:mb-12"><span class="text-Tonic">Éditeur</span> du site</h2>
+        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mb-6 lg:mb-12 mt-16 lg:mt-0"><span class="text-Tonic">Éditeur</span> du site</h2>
         <p class="lg:text-xl leading-6 lg:leading-10">Nom de l'association : <span class="text-Tonic">Smash Arena Event</span></p>
         <p class="lg:text-xl leading-6 lg:leading-10">Forme juridique : <span class="text-Tonic">Association à but non lucratif</span></p>
         <p class="lg:text-xl leading-6 lg:leading-10">Siège social : <a href="https://www.google.com/maps/place/28+Fbg+de+Besan%C3%A7on,+25200+Montb%C3%A9liard/@47.5091913,6.7905298,17z/data=!3m1!4b1!4m6!3m5!1s0x479216eed7a8c77f:0xe6a34cece8fd2ab!8m2!3d47.5091913!4d6.7905298!16s%2Fg%2F11csj39t0b?authuser=0&entry=ttu&g_ep=EgoyMDI1MDEwNy4wIKXMDSoASAFQAw%3D%3D"><span class="text-Tonic underline underline-offset-2">28 Faubourg de Besançon</span></a></p>
