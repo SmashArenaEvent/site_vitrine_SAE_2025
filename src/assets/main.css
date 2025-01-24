@@ -61,4 +61,9 @@
       .User-View { height: calc(100vh - 13rem);}}
     @media screen and (max-width: 1024px) {
       .User-View { height: calc(100vh - 5rem);}}
+
+    @media screen and (min-width: 1024px) {
+      .text-border { -webkit-text-stroke: 0.75px white }}
+    @media screen and (max-width: 1024px) {
+      .text-border { -webkit-text-stroke: 0.30px white }}
 }

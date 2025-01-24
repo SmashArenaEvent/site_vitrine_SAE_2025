@@ -35,23 +35,23 @@ import Formulaire from '@/components/Formulaire.vue';
     <article class="col-span-12">
         <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 mb-6 lg:mt-24 lg:mb-12"><span class="text-Tonic">Notre</span> équipe</h2>
         <section class="col12">
-            <h3 class="col-span-12 font-fugaz-one uppercase text-xl lg:text-4xl text-center mb-7"><span class="text-Tonic">Première</span> édition</h3>
-            <CardMembres Organisateur="VaSa" Prenom="Valentin" Nom="Saraiva" Trait="L'idéaliste" Role="Président & Développer Web"/>
-            <CardMembres Organisateur="AuRu" Prenom="Aurélie" Nom="Runser" Trait="La réaliste" Role="Développeuse Web"/>
-            <CardMembres Organisateur="ElPe" Prenom="élora" Nom="Perrin" Trait="L'enthousiaste" Role="Communicante"/>
-            <CardMembres Organisateur="ElFe" Prenom="Eliot" Nom="Feuvrier" Trait="Le sportif" Role="Graphiste"/>
-            <CardMembres Organisateur="BaRo" Prenom="Baptiste" Nom="Rognon" Trait="Le croyant" Role="Graphiste"/>
+            <h3 class="col-span-12 font-fugaz-one uppercase text-xl lg:text-4xl text-center mt-6 lg:mt-0 mb-6 lg:mb-12"><span class="text-Tonic">Première</span> édition</h3>
+            <CardMembres Organisateur="VaSa" Prenom="Valentin" Nom="Saraiva" Trait="L'idéaliste" Role="Président & Développer Web" csm="2" csd="3"/>
+            <CardMembres Organisateur="AuRu" Prenom="Aurélie" Nom="Runser" Trait="La réaliste" Role="Développeuse Web" csm="8" csd="6"/>
+            <CardMembres Organisateur="ElPe" Prenom="élora" Nom="Perrin" Trait="L'enthousiaste" Role="Communicante" csm="2" csd="9"/>
+            <CardMembres Organisateur="ElFe" Prenom="Eliot" Nom="Feuvrier" Trait="Le sportif" Role="Graphiste" csm="8" csd="4"/>
+            <CardMembres Organisateur="BaRo" Prenom="Baptiste" Nom="Rognon" Trait="Le croyant" Role="Graphiste" csm="5" csd="8"/>
         </section>
         <section class="col12">
-            <h3 class="col-span-12 font-fugaz-one uppercase text-xl lg:text-4xl text-center mt-12 mb-7"><span class="text-Tonic">Seconde</span> édition</h3>          
-            <CardMembres Organisateur="VaSa" Prenom="Valentin" Nom="Saraiva" Trait="L'idéaliste" Role="Président"/>
-            <CardMembres Organisateur="RoGr" Prenom="Romain" Nom="Grosjean" Trait="Le perfectionniste" Role="Graphiste"/>
-            <CardMembres Organisateur="LuBa" Prenom="Lucas" Nom="Bardey" Trait="Le curieux" Role="Développer Web"/>
-            <CardMembres Organisateur="MaPo" Prenom="Marco" Nom="Poilbois" Trait="Le pragmatique" Role="Graphiste"/>
+            <h3 class="col-span-12 font-fugaz-one uppercase text-xl lg:text-4xl text-center mt-12 lg:mt-0 mb-6 lg:mb-12"><span class="text-Tonic">Seconde</span> édition</h3>          
+            <CardMembres Organisateur="VaSa" Prenom="Valentin" Nom="Saraiva" Trait="L'idéaliste" Role="Président" csm="2" csd="4"/>
+            <CardMembres Organisateur="RoGr" Prenom="Romain" Nom="Grosjean" Trait="Le perfectionniste" Role="Graphiste" csm="8" csd="8"/>
+            <CardMembres Organisateur="LuBa" Prenom="Lucas" Nom="Bardey" Trait="Le curieux" Role="Développer Web" csm="2" csd="4"/>
+            <CardMembres Organisateur="MaPo" Prenom="Marco" Nom="Poilbois" Trait="Le pragmatique" Role="Graphiste" csm="8" csd="8"/>
         </section>
     </article>
     <section class="col-span-12">
-        <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Nous</span> contacter</h2>
+        <h2 class="font-fugaz-one text-center uppercase text-3xl lg:text-5xl"><span class="text-Tonic">Nous</span> contacter</h2>
         <Formulaire/>
     </section>
 </template>
