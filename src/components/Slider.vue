@@ -25,9 +25,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="lg:col-start-3 col-span-12 lg:col-span-8 relative ">
-    <div class="bg-Tonic_Sombre contrast-150 hover:contrast-100 duration-200">
-      <div class="slideshow-container grayscale hover:grayscale-0 opacity-40 hover:opacity-100 contrast-150 hover:contrast-100 duration-200">
+  <div class="lg:col-start-3 col-span-12 lg:col-span-8 relative group">
+    <div class="bg-Tonic_Sombre contrast-150 group-hover:contrast-100 duration-200">
+      <div class="slideshow-container grayscale group-hover:grayscale-0 opacity-40 group-hover:opacity-100 contrast-150 group-hover:contrast-100 duration-200">
         <div
           v-for="(image, index) in images"
           :key="index"
