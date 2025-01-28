@@ -83,11 +83,11 @@ onMounted(() => {
   </section>
   <section class="col-span-12 col12 mt-5">
     <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12 mb-7 lg:mb-12">
-      <span class="text-Tonic">Smash Arena Event</span> Première édition
+      <span class="text-Tonic">Smash Arena Event</span> La première édition
     </h2>
     <Slider/>
     <div class="col-start-3 lg:col-start-6 col-span-10 lg:col-span-5 bg-Gris text-Blanc mt-1 lg:mt-2.5 px-5 py-2.5 lg:py-5">
-      <p>C'était la Première édition du Smash Arena Event, le 1er tournoi entre membre de l'IUT de Franche-Comté ! Et elle avais lieu le 10 février 2024 de 14h à 19h au EX-CCDP du campus de Montbéliard.</p>
+      <p class="text-base">C'était la Première édition du Smash Arena Event, le 1er tournoi entre membre de l'IUT de Franche-Comté ! Et elle avais lieu le <span class="text-Tonic">10 février 2024</span> de <span class="text-Tonic">14h à 19h</span> au <a class="text-Tonic underline underline-offset-2" href="https://maps.app.goo.gl/7Bsxg2hbjXhf6bUY6">EX-CCDP du campus de Montbéliard.</a></p>
     </div>
   </section>
   <section class="col-span-12 col12 mt-12">
