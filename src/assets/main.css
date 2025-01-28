@@ -66,4 +66,9 @@
       .text-border { -webkit-text-stroke: 0.75px white }}
     @media screen and (max-width: 1024px) {
       .text-border { -webkit-text-stroke: 0.30px white }}
+
+    @media screen and (min-width: 1024px) {
+      .slideshow-container { height: calc((((100vw - 12.875rem)/12)*8 + 2.5rem)*0.57)}}
+    @media screen and (max-width: 1024px) {
+      .slideshow-container { height: calc((100vw - 40px)*(0.57));}}
 }

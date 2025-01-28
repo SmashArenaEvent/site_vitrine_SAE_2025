@@ -1,8 +1,49 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import { ref, onMounted } from 'vue'
 import Formulaire from '@/components/Formulaire.vue'
 import CardRegles from '@/components/CardRegles.vue'
+import Slider from '@/components/Slider.vue'
+
+const props = defineProps({
+  elements: Array,
+});
+
+const imageHeroAffiche = ref("");
+
+const imageHero = [
+  "/ImageHero/cloud.png",
+  "/ImageHero/duo.png",
+  "/ImageHero/falco.png",
+  "/ImageHero/felineferno.png",
+  "/ImageHero/ike.png",
+  "/ImageHero/kirby.png",
+  "/ImageHero/kong.png",
+  "/ImageHero/link.png",
+  "/ImageHero/lucas.png",
+  "/ImageHero/marie.png",
+  "/ImageHero/mario.png",
+  "/ImageHero/mewtwo.png",
+  "/ImageHero/peach.png",
+  "/ImageHero/pikachu.png",
+  "/ImageHero/pit.png",
+  "/ImageHero/pyra.png",
+  "/ImageHero/ridley.png",
+  "/ImageHero/rob.png",
+  "/ImageHero/wario.png",
+  "/ImageHero/zelda.png",
+];
+
+const HeroImgAleatoire = () => {
+  let randomNum = Math.floor(Math.random() * imageHero.length);
+  imageHeroAffiche.value = imageHero[randomNum];
+};
+
+onMounted(() => {
+  // Site Vitrine
+  HeroImgAleatoire();
+});
 </script>
 <template>
   <section class="User-View col-span-12 col12 min-h-fit">
@@ -37,20 +78,21 @@ import CardRegles from '@/components/CardRegles.vue'
     >
       <img
         class="col-span-12 mt-7 lg:mt-0"
-        src="../components/img/ImagesDecorativePersonnage/KirbyXDadidou.png"
-      />
-      <!--Imagesperso aléatoires-->
+        :src="imageHeroAffiche"/>
     </article>
   </section>
   <section class="col-span-12 col12 mt-5">
-    <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12">
+    <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12 mb-7 lg:mb-12">
       <span class="text-Tonic">Smash Arena Event</span> Première édition
     </h2>
-    <!--Carousel-->
+    <Slider/>
+    <div class="col-start-3 lg:col-start-6 col-span-10 lg:col-span-5 bg-Gris text-Blanc mt-1 lg:mt-2.5 px-5 py-2.5 lg:py-5">
+      <p>C'était la Première édition du Smash Arena Event, le 1er tournoi entre membre de l'IUT de Franche-Comté ! Et elle avais lieu le 10 février 2024 de 14h à 19h au EX-CCDP du campus de Montbéliard.</p>
+    </div>
   </section>
   <section class="col-span-12 col12 mt-12">
     <h2
-      class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12 lg:mt-16 lg:mb-12"
+      class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12 lg:mt-16 lg:mb-4"
     >
       <span class="text-Tonic">Les règles</span> principales
     </h2>
@@ -209,7 +251,7 @@ import CardRegles from '@/components/CardRegles.vue'
     >
       <span class="text-Tonic">Nos</span> Sponsors
     </h2>
-    <div class="col-span-12 min-h-10 border-t border-b border-Tonic mt-6 lg:mt-12 -mx-5 lg:-mx-[50px]">
+    <div class="col-span-12 min-h-10 border-t border-b border-Tonic mt-6 lg:mt-12 -mx-5 lg:-mx-[48px]">
       <!--Ajout des sponsors-->
     </div>
   </section>
