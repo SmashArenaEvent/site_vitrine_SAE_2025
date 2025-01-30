@@ -14,7 +14,7 @@ const route = useRoute();
     <footer class="font-gothic-a1 text-xs grille pt-7 lg:pt-5 pb-5 lg:pb-4 bg-Noir text-Blanc -mt-64 lg:-mt-[244px]">
         <div class="w-full col-span-12 col12">
             <Logo class="h-10 lg:h-20 col-start-1 col-span-3 lg:col-span-2 lg:mt-8" alt="Logo Smash Arena Event"/>
-            <nav class="flex flex-col lg:h-36 lg:justify-center col-span-2 h- mt-3 lg:mt-0 gap-2 lg:gap-3">
+            <nav class="flex flex-col lg:text-base lg:h-36 lg:justify-center col-span-2 h- mt-3 lg:mt-0 gap-2 lg:gap-3">
                 <RouterLink to="/aPropos">À propos</RouterLink>
                 <RouterLink to="/contact">Contact</RouterLink>
                 <RouterLink to="/regles">Règles</RouterLink>
@@ -31,10 +31,10 @@ const route = useRoute();
                 </div>
             </nav>
         </div>
-        <nav class="flex w-full justify-center gap-6 lg:gap-12 text-Gris_clair col-span-12 mt-12 lg:mt-0">
+        <nav class="flex w-full justify-center gap-6 lg:gap-12 text-Gris_clair col-span-12 mt-12 lg:mt-0 lg:text-base">
             <RouterLink to="/mentionsLegales"><p>Mentions légales</p></RouterLink>
             <RouterLink to="/politiqueDeConfidentialite"><p>Politique de Confidentialité</p></RouterLink>
         </nav>
-        <p class="text-center text-Tonic col-span-12 mt-6 lg:mt-8">@Smash Arena Event 2025</p>
+        <p class="text-center text-Tonic col-span-12 mt-6 lg:mt-8 lg:text-base">@Smash Arena Event 2025</p>
     </footer>
 </template>
