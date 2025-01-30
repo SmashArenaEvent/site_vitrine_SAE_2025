@@ -216,11 +216,11 @@ onMounted(() => {
       </div>
       <div class="w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.png')]">
         <div class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent col12 content-center transition-all duration-300">
-          <h3 class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7 lg:h-16">
+          <h3 class="text-right col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7 lg:h-16">
             Comme Bénévole
           </h3>
-          <p class="col-start-2 col-span-10 lg:text-xl mt-1">et viens nous aider à gérer l’évènement !</p>
-          <RouterLink class="col-start-2 col-span-10 mt-6 lg:mt-20 ml-[13px]" to="#">
+          <p class="text-right col-start-2 col-span-10 lg:text-xl mt-1">et viens nous aider à gérer l’évènement !</p>
+          <RouterLink class="ml-auto col-start-2 col-span-10 mt-6 lg:mt-20 mr-[13px]" to="#">
             <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
               <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p>
             </button>
