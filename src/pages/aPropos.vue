@@ -33,7 +33,7 @@ import Formulaire from '@/components/Formulaire.vue'
       </section>
       <img
         class="mb-10 lg:mb-0 lg:col-start-8 col-span-4"
-        src="/public/img/TeamPremiereEdition.png"
+        src="/src/components/img/TeamPremiereEdition.png"
       />
     </section>
     <section class="lg:col-span-12 lg:col12 lg:items-center lg:mb-24">
@@ -53,7 +53,7 @@ import Formulaire from '@/components/Formulaire.vue'
       </section>
       <img
         class="mb-10 lg:mb-0 lg:col-start-2 lg:col-span-4 lg:order-0"
-        src="/public/img/CardParty.png"
+        src="/src/components/img/CardParty.png"
       />
     </section>
     <section class="lg:col-start-4 lg:col-span-6 lg:order-2">

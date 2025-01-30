@@ -1,15 +1,15 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import MobileAnimationArrow from '@/components/icons/MobileAnimationArrow.vue'
-import DesktopAnimationArrow from '@/components/icons/DesktopAnimationArrow.vue'
+import MobileAnimationArrow from '@/components/img/MobileAnimationArrow.vue'
+import DesktopAnimationArrow from './img/DesktopAnimationArrow.vue'
 
 const images = ref<string[]>([
-  '/public/img/AnimationTeamPremierEdition.png', // Remplace par tes chemins d'images
-  '/public/img/AnimationPartie.png',
-  '/public/img/AnimationCartes.png',
-  '/public/img/AnimationDuel.png',
-  '/public/img/AnimationJeuxDeSociete.png'
+  '@/components/img/AnimationTeamPremierEdition.png', // Remplace par tes chemins d'images
+  '@/components/img/AnimationPartie.png',
+  '@/components/img/AnimationCartes.png',
+  '@/components/img/AnimationDuel.png',
+  '@/components/img/AnimationJeuxDeSociete.png'
 ])
 
 const currentIndex = ref<number>(0)

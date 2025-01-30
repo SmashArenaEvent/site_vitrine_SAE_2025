@@ -25,7 +25,7 @@
     </section>
     <img
       class="lg:col-start-7 lg:col-span-6"
-      src="/public/img/DonkeyKong404.png"
+      src="/src/components/img/DonkeyKong404.png"
       alt="Image de donkey kong"
     />
     <RouterLink to="/" class="lock lg:hidden mt-8">
