@@ -2,9 +2,9 @@ import PocketBase from 'pocketbase'
 import { type TypedPocketBase, type UsersResponse } from './pocketbase-types.js'
 import { ref } from 'vue'
 
-export const pb = new PocketBase(import.meta.env.VITE_URL_POCKETBASE) as TypedPocketBase;
+export const pb = new PocketBase(import.meta.env.VITE_URL_POCKETBASE) as TypedPocketBase
 
-pb.collection("equipes").getFullList();
+pb.collection('equipes').getFullList()
 
 export function logout() {
   pb.authStore.clear()
@@ -24,5 +24,4 @@ export async function loginWithGoogle() {
 export const user = ref<UsersResponse | null>(null)
 pb.authStore.onChange((token, model) => {
   user.value = model as UsersResponse
-}, true);
-
+}, true)

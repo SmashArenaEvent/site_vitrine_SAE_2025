@@ -7,12 +7,11 @@ import { routes } from 'vue-router/auto-routes'
 
 const app = createApp(App)
 
-app.use(createRouter({
+app.use(
+  createRouter({
     history: createWebHistory(),
-    routes,
-}))
+    routes
+  })
+)
 
 app.mount('#app')
-
-
-
