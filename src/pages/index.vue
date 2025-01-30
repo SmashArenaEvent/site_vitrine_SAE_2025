@@ -204,38 +204,22 @@ onMounted(() => {
     </h2>
     <nav class="col-span-12 flex flex-col lg:flex-row mt-6 lg:mt-12">
       <div class="w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperJoueur.png')]">
-        <div
-          class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent col12 content-center duration-200"
-        >
-          <h3
-            class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7 lg:h-16"
-          >
-            Comme joueur
-          </h3>
+        <div class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent col12 content-center transition-all duration-300">
+          <h3 class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7 lg:h-16">Comme joueur</h3>
           <p class="col-start-2 col-span-10 lg:text-xl mt-1">et participe au tournoi !</p>
-          <RouterLink class="col-start-2 col-span-10 mt-6 lg:mt-20 ml-[13px]" to="#"
-            ><button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
-              <p
-                class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
-              >
-                Je m’inscris
-              </p>
-            </button></RouterLink
-          >
+          <RouterLink class="col-start-2 col-span-10 mt-6 lg:mt-20 ml-[13px]" to="#">
+            <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
+              <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p>
+            </button>
+          </RouterLink>
         </div>
       </div>
       <div class="w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.png')]">
-        <div
-          class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent col12 content-center duration-200"
-        >
-          <h3
-            class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7 lg:h-16"
-          >
+        <div class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent col12 content-center transition-all duration-300">
+          <h3 class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7 lg:h-16">
             Comme Bénévole
           </h3>
-          <p class="col-start-2 col-span-10 lg:text-xl mt-1">
-            et viens nous aider à gérer l’évènement !
-          </p>
+          <p class="col-start-2 col-span-10 lg:text-xl mt-1">et viens nous aider à gérer l’évènement !</p>
           <RouterLink class="col-start-2 col-span-10 mt-6 lg:mt-20 ml-[13px]" to="#">
             <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
               <p class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]">Je m’inscris</p>
