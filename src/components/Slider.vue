@@ -5,11 +5,11 @@ import MobileAnimationArrow from '@/components/img/MobileAnimationArrow.vue'
 import DesktopAnimationArrow from './img/DesktopAnimationArrow.vue'
 
 const images = ref<string[]>([
-  '/src/components/img/AnimationTeamPremierEdition.png', // Remplace par tes chemins d'images
-  '/src/components/img/AnimationPartie.png',
-  '/src/components/img/AnimationCartes.png',
-  '/src/components/img/AnimationDuel.png',
-  '/src/components/img/AnimationJeuxDeSociete.png'
+  '@/components/img/AnimationTeamPremierEdition.png', // Remplace par tes chemins d'images
+  '@/components/img/AnimationPartie.png',
+  '@/components/img/AnimationCartes.png',
+  '@/components/img/AnimationDuel.png',
+  '@/components/img/AnimationJeuxDeSociete.png'
 ])
 
 const currentIndex = ref<number>(0)
