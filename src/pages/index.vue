@@ -63,7 +63,7 @@ onMounted(() => {
       </p>
       <div class="col-span-12 flex justify-center mt-5 lg:mt-9">
         <a href="#">
-          <button class="bg-Tonic h-12 lg:h-24 -skew-x-[25deg] lg:ml-[13px]">
+          <button class="bg-Tonic h-12 lg:h-24 -skew-x-[25deg] lg:ml-[13px] hover:opacity-60 duration-200">
             <p
               class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]"
             >
@@ -87,7 +87,7 @@ onMounted(() => {
     </h2>
     <Slider/>
     <div class="col-start-3 lg:col-start-6 col-span-10 lg:col-span-5 bg-Gris text-Blanc mt-1 lg:mt-2.5 px-5 py-2.5 lg:py-5">
-      <p class="text-base">C'était la Première édition du Smash Arena Event, le 1er tournoi entre membre de l'IUT de Franche-Comté ! Et elle avais lieu le <span class="text-Tonic">10 février 2024</span> de <span class="text-Tonic">14h à 19h</span> au <a class="text-Tonic underline underline-offset-2" href="https://maps.app.goo.gl/7Bsxg2hbjXhf6bUY6">EX-CCDP du campus de Montbéliard.</a></p>
+      <p class="text-base">C'était la Première édition du Smash Arena Event, le 1er tournoi entre membre de l'IUT de Franche-Comté ! Et elle avais lieu le <span class="text-Tonic">10 février 2024</span> de <span class="text-Tonic">14h à 19h</span> au <a class="text-Tonic underline underline-offset-2 hover:opacity-60 duration-200" href="https://maps.app.goo.gl/7Bsxg2hbjXhf6bUY6">EX-CCDP du campus de Montbéliard.</a></p>
     </div>
   </section>
   <section class="col-span-12 col12 mt-12">
@@ -136,7 +136,7 @@ onMounted(() => {
       Text="Les joueurs doivent être présents et prêts à jouer leur match à l'heure prévue. Un délai de 5 minutes peut être toléré, mais les retards excessifs peuvent entraîner la disqualification."
     />
     <RouterLink class="col-span-12 mt-12 lg:mt-24 flex justify-center" to="/regles">
-      <button class="bg-Blanc h-12 lg:h-24 -skew-x-[25deg]">
+      <button class="bg-Blanc h-12 lg:h-24 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]"
         >
@@ -205,7 +205,7 @@ onMounted(() => {
     <nav class="col-span-12 flex flex-col lg:flex-row mt-6 lg:mt-12">
       <div class="w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperJoueur.png')]">
         <div
-          class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent col12 content-center"
+          class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent col12 content-center duration-200"
         >
           <h3
             class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7 lg:h-16"
@@ -226,7 +226,7 @@ onMounted(() => {
       </div>
       <div class="w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.png')]">
         <div
-          class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent col12 content-center"
+          class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent col12 content-center duration-200"
         >
           <h3
             class="col-start-2 col-span-10 font-fugaz-one uppercase text-xl lg:text-5xl text-Tonic h-7 lg:h-16"
