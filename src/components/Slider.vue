@@ -1,27 +1,26 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import { pb, SliderImage } from '@/backend' 
+import ImgPb from './ImgPb.vue'
 import MobileAnimationArrow from './icons/MobileAnimationArrow.vue'
 import DesktopAnimationArrow from './icons/DesktopAnimationArrow.vue'
+console.log('test')
 
-const images = ref<string[]>([
-  '/src/components/img/AnimationTeamPremierEdition.png', // Remplace par tes chemins d'images
-  '/src/components/img/AnimationPartie.png',
-  '/src/components/img/AnimationCartes.png',
-  '/src/components/img/AnimationDuel.png',
-  '/src/components/img/AnimationJeuxDeSociete.png'
-])
+const Images = await pb.collection('ImagesSlider').getFullList();
 
-const currentIndex = ref<number>(0)
+console.log('test: ',Images)
+
+const currentIndex = ref<number>(0);
 
 const nextSlide = () => {
-  currentIndex.value = (currentIndex.value + 1) % images.value.length
-}
+  currentIndex.value = (currentIndex.value + 1) % Images.length;
+};
 
-// Change d'image toutes les 3 secondes
 onMounted(() => {
-  setInterval(nextSlide, 5000)
+  setInterval(nextSlide, 5000);
 })
+
 </script>
 
 <template>
@@ -31,13 +30,18 @@ onMounted(() => {
     >
       <div class="slideshow-container">
         <div
-          v-for="(image, index) in images"
+          v-for="(image, index) in Images"
           :key="index"
           class="slide"
           :class="{ active: index === currentIndex }"
         >
-          <img :src="image" class="object-fill" alt="Images de la première édition" />
-        </div>
+        <ImgPb
+            v-if="image.Image"
+            :record="image"
+            :filename="image.Image"
+            class="object-fill"
+          />
+          </div>
         <div
           class="absolute h-full w-full top-0 opacity-10 bg-Blanc group-hover:hidden transition-all duration-500"
         ></div>

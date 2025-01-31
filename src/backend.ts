@@ -7,7 +7,7 @@ import { ref, onMounted } from 'vue'
 
 export const pb = new PocketBase(import.meta.env.VITE_URL_POCKETBASE) as TypedPocketBase
 
-pb.collection('equipes').getFullList()
+
 
 export function logout() {
   pb.authStore.clear()
@@ -41,8 +41,6 @@ export async function randomImage() {
   return records;
 }
 
-console.log('test1');
-
 const idHeroList = [
   '010000000000000',
   '020000000000000',
@@ -65,16 +63,18 @@ const idHeroList = [
   '200000000000000'
 ];
 
+//Slider
+
+export async function SliderImage() {
+  const records = await pb.collection('ImagesSlider').getFullList();
+  return records;
+}
 
 
-// const HeroImgAleatoire = () => {
-//   const randomNum = Math.floor(Math.random() * idHeroList.length)
-//   idSelection.value = idHeroList[randomNum]
-// }
 
+
+
+// Change d'image toutes les 3 secondes
 // onMounted(() => {
-//   HeroImgAleatoire()
-// });
-
-// console.log(idSelection)
-// console.log('test2')
+//   setInterval(nextSlide, 5000)
+// })
