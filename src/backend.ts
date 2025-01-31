@@ -1,7 +1,6 @@
 import PocketBase from 'pocketbase'
 
-const url = 'https://lucas-bardey.pockethost.io/'
-const client = new PocketBase(url)
+
 
 import { type TypedPocketBase, type UsersResponse} from './pocketbase-types.js'
 import { ref, onMounted } from 'vue'
