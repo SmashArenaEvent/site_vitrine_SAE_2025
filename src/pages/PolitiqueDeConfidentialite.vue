@@ -22,7 +22,7 @@
       de leurs données personnelles. Pour exercer ces droits, les utilisateurs peuvent envoyer un
       e-mail à l'adresse spécifiée sur la page contact :
       <a href="mailto:smasharenaevent@gmail.com"
-        ><span class="text-Tonic underline underline-offset-2">smasharenaevent@gmail.com.</span></a
+        ><span class="text-Tonic underline underline-offset-2 hover:opacity-60 duration-200">smasharenaevent@gmail.com.</span></a
       >
     </p>
   </section>
@@ -91,7 +91,7 @@
     <p class="lg:text-xl leading-6 lg:leading-10 mt-8 lg:mt-12">
       Facebook :
       <a href="https://www.facebook.com/profile.php?id=61553864250828"
-        ><span class="text-Tonic underline underline-offset-2"
+        ><span class="text-Tonic underline underline-offset-2 hover:opacity-60 duration-200"
           >https://www.facebook.com/profile.php?id=61553864250828.</span
         ></a
       >
@@ -99,7 +99,7 @@
     <p class="lg:text-xl leading-6 lg:leading-10">
       Twitter :
       <a href=" https://x.com/SmashArenaEvent"
-        ><span class="text-Tonic underline underline-offset-2"
+        ><span class="text-Tonic underline underline-offset-2 hover:opacity-60 duration-200"
           >https://x.com/SmashArenaEvent.</span
         ></a
       >
@@ -107,7 +107,7 @@
     <p class="lg:text-xl leading-6 lg:leading-10">
       Instagram :
       <a href="https://www.instagram.com/smash_arena_event/"
-        ><span class="text-Tonic underline underline-offset-2"
+        ><span class="text-Tonic underline underline-offset-2 hover:opacity-60 duration-200"
           >https://www.instagram.com/smash_arena_event/.</span
         ></a
       >
@@ -124,7 +124,7 @@
       confidentialité et les conditions d'utilisation de Challonge peuvent être consultées sur leur
       site web :
       <a href="https://challonge.com/privacy_policy"
-        ><span class="text-Tonic underline underline-offset-2"
+        ><span class="text-Tonic underline underline-offset-2 hover:opacity-60 duration-200"
           >https://challonge.com/privacy_policy.</span
         ></a
       >
@@ -140,7 +140,7 @@
       Jotform est un service tiers utilisé pour générer des données à partir des formulaires des
       bénévoles. La politique de confidentialité et les conditions d'utilisation de Jotform peuvent
       être consultées sur leur site web :<br /><a href="https://www.jotform.com/privacy"
-        ><span class="text-Tonic underline underline-offset-2"
+        ><span class="text-Tonic underline underline-offset-2 hover:opacity-60 duration-200"
           >https://www.jotform.com/privacy.</span
         ></a
       >
