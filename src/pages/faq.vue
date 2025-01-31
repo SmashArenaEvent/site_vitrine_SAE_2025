@@ -227,7 +227,7 @@ import CardFAQ from '@/components/CardFAQ.vue'
     Vous avez encore des questions sans réponse ?<br />Envoyez nous un message via nos réseaux
     sociaux ou depuis notre formulaire de contact !
   </p>
-  <RouterLink class="col-span-12 mx-auto mb-12" to="/contact">
+  <RouterLink class="col-span-12 mx-auto mb-12" onclick="window.scrollTo(0, 0);" to="/contact">
     <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg] ml-[13px] hover:opacity-60 duration-200">
       <p class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]">
         Nous contacter

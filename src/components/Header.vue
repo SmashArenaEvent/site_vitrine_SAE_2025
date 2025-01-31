@@ -18,7 +18,7 @@ const activeMenu = ref(false)
   <header
     class="grille h-20 lg:h-48 w-full justify-between font-fugaz-one text-xs fixed z-50 bg-Noir content-center"
   >
-    <RouterLink to="/" class="col-span-3 lg:col-span-2">
+    <RouterLink to="/" class="col-span-3 lg:col-span-2" @click="activeMenu = false" onclick="window.scrollTo(0, 0);">
       <Logo
         class="h-10 lg:h-20 relative z-50 hover:opacity-60 duration-200"
         alt="Logo Smash Arena Event"
@@ -33,7 +33,7 @@ const activeMenu = ref(false)
     >
       <RouterLink to="/regles" class="relative">
         <button
-          @click="activeMenu = false"
+          @click="activeMenu = false" onclick="window.scrollTo(0, 0);"
           class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"
         >
           <p
@@ -45,7 +45,7 @@ const activeMenu = ref(false)
       </RouterLink>
       <RouterLink to="/faq">
         <button
-          @click="activeMenu = false"
+          @click="activeMenu = false" onclick="window.scrollTo(0, 0);"
           class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"
         >
           <p
@@ -55,7 +55,7 @@ const activeMenu = ref(false)
           </p>
         </button>
       </RouterLink>
-      <RouterLink @click="activeMenu = false" to="/aPropos">
+      <RouterLink @click="activeMenu = false" onclick="window.scrollTo(0, 0);" to="/aPropos">
         <button class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
           <p
             class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-2xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"
@@ -64,7 +64,7 @@ const activeMenu = ref(false)
           </p>
         </button>
       </RouterLink>
-      <RouterLink @click="activeMenu = false" to="/contact">
+      <RouterLink @click="activeMenu = false" onclick="window.scrollTo(0, 0);" to="/contact">
         <button class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
           <p
             class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-2xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"

@@ -28,7 +28,7 @@
       src="/src/components/img/DonkeyKong404.png"
       alt="Image de donkey kong"
     />
-    <RouterLink to="/" class="lock lg:hidden mt-8">
+    <RouterLink to="/" class="lock lg:hidden mt-8" onclick="window.scrollTo(0, 0);">
       <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
         <p
           class="font-fugaz-one uppercase text-Noir text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"

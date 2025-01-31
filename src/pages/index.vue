@@ -26,7 +26,7 @@ const ImageHero = await randomImage()
         jeu <span class="font-bold">Super Smash Bros Ultimate</span> et bien plus !
       </p>
       <div class="col-span-12 flex justify-center mt-5 lg:mt-9">
-        <a href="#">
+        <a href="#Participation">
           <button
             class="bg-Tonic h-12 lg:h-24 -skew-x-[25deg] lg:ml-[13px] hover:opacity-60 duration-200"
           >
@@ -117,7 +117,7 @@ const ImageHero = await randomImage()
       Title="Retard"
       Text="Les joueurs doivent être présents et prêts à jouer leur match à l'heure prévue. Un délai de 5 minutes peut être toléré, mais les retards excessifs peuvent entraîner la disqualification."
     />
-    <RouterLink class="col-span-12 mt-12 lg:mt-24 flex justify-center" to="/regles">
+    <RouterLink class="col-span-12 mt-12 lg:mt-24 flex justify-center" onclick="window.scrollTo(0, 0);" to="/regles">
       <button class="bg-Blanc h-12 lg:h-24 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]"
@@ -178,9 +178,10 @@ const ImageHero = await randomImage()
       </p>
     </div>
   </section>
+  <div id="Participation" class="relative -mt-12 lg:-mt-24"></div>
   <section class="col-span-12 col12">
     <h2
-      class="col-span-12 mt-12 lg:mt-24 text-center font-fugaz-one uppercase text-3xl lg:text-5xl"
+         class="col-span-12 mt-12 lg:mt-24 text-center font-fugaz-one uppercase text-3xl lg:text-5xl"
     >
       <span class="text-Tonic">Tu veux participer ? </span>Inscris-toi !
     </h2>
