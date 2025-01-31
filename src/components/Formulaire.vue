@@ -7,7 +7,7 @@
     <div class="lg:flex lg:col-start-2 col-span-12 lg:col-span-10 lg:col10">
       <div class="lg:col-span-5 lg:w-full">
         <input
-          class="w-full px-2.5 text-[10px] lg:text-xl lg:h-10 bg-Gris border-b border-Gris_clair"
+          class="w-full px-2.5 text-[10px] lg:text-xl h-8 lg:h-10 bg-Gris border-b border-Gris_clair"
           type="text"
           name="firstName"
           v-model="form.firstName"
@@ -16,7 +16,7 @@
       </div>
       <div class="mt-5 lg:mt-0 lg:col-span-6 lg:w-full">
         <input
-          class="w-full px-2.5 text-[10px] lg:text-xl lg:h-10 bg-Gris border-b border-Gris_clair"
+          class="w-full px-2.5 text-[10px] lg:text-xl h-8 lg:h-10 bg-Gris border-b border-Gris_clair"
           type="text"
           name="name"
           v-model="form.name"
@@ -26,7 +26,7 @@
     </div>
     <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10 lg:w-full">
       <input
-        class="w-full px-2.5 text-[10px] lg:text-xl lg:h-10 bg-Gris border-b border-Gris_clair"
+        class="w-full px-2.5 text-[10px] lg:text-xl h-8 lg:h-10 bg-Gris border-b border-Gris_clair"
         type="email"
         name="email"
         v-model="form.email"
@@ -35,7 +35,7 @@
     </div>
     <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10">
       <textarea
-        class="w-full px-2.5 text-[10px] lg:text-xl bg-Gris border-l border-b border-Gris_clair"
+        class="w-full px-2.5 pt-2 lg:pt-0 text-[10px] lg:text-xl bg-Gris border-l border-b border-Gris_clair"
         rows="5"
         name="message"
         v-model="form.message"
