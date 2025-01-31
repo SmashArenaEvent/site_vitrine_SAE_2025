@@ -246,7 +246,7 @@ const ImageHero = await randomImage()
       </div>
     </nav>
   </section>
-  <section class="col-span-12 col12">
+  <!-- <section class="col-span-12 col12">
     <h2
       class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 text-center"
     >
@@ -255,9 +255,9 @@ const ImageHero = await randomImage()
     <div
       class="col-span-12 min-h-10 border-t border-b border-Tonic mt-6 lg:mt-12 -mx-5 lg:-mx-[48px]"
     >
-      <!--Ajout des sponsors-->
+      Ajout des sponsors
     </div>
-  </section>
+  </section> -->
   <section class="col-span-12 col12">
     <h2
       class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center mt-12 lg:mt-24 lg:mb-12"
