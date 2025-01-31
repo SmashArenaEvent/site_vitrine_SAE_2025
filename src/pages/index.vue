@@ -13,26 +13,26 @@ const props = defineProps({
 const imageHeroAffiche = ref('')
 
 const imageHero = [
-  '/src/components/img/ImageHero/cloud.png',
-  '/src/components/img/ImageHero/duo.png',
-  '/src/components/img/ImageHero/falco.png',
-  '/src/components/img/ImageHero/felineferno.png',
-  '/src/components/img/ImageHero/ike.png',
-  '/src/components/img/ImageHero/kirby.png',
-  '/src/components/img/ImageHero/kong.png',
-  '/src/components/img/ImageHero/link.png',
-  '/src/components/img/ImageHero/lucas.png',
-  '/src/components/img/ImageHero/marie.png',
-  '/src/components/img/ImageHero/mario.png',
-  '/src/components/img/ImageHero/mewtwo.png',
-  '/src/components/img/ImageHero/peach.png',
-  '/src/components/img/ImageHero/pikachu.png',
-  '/src/components/img/ImageHero/pit.png',
-  '/src/components/img/ImageHero/pyra.png',
-  '/src/components/img/ImageHero/ridley.png',
-  '/src/components/img/ImageHero/rob.png',
-  '/src/components/img/ImageHero/wario.png',
-  '/src/components/img/ImageHero/zelda.png'
+  '@/components/img/ImageHero/cloud.png',
+  '@/components/img/ImageHero/duo.png',
+  '@/components/img/ImageHero/falco.png',
+  '@/components/img/ImageHero/felineferno.png',
+  '@/components/img/ImageHero/ike.png',
+  '@/components/img/ImageHero/kirby.png',
+  '@/components/img/ImageHero/kong.png',
+  '@/components/img/ImageHero/link.png',
+  '@/components/img/ImageHero/lucas.png',
+  '@/components/img/ImageHero/marie.png',
+  '@/components/img/ImageHero/mario.png',
+  '@/components/img/ImageHero/mewtwo.png',
+  '@/components/img/ImageHero/peach.png',
+  '@/components/img/ImageHero/pikachu.png',
+  '@/components/img/ImageHero/pit.png',
+  '@/components/img/ImageHero/pyra.png',
+  '@/components/img/ImageHero/ridley.png',
+  '@/components/img/ImageHero/rob.png',
+  '@/components/img/ImageHero/wario.png',
+  '@/components/img/ImageHero/zelda.png'
 ]
 const HeroImgAleatoire = () => {
   let randomNum = Math.floor(Math.random() * imageHero.length)
@@ -275,7 +275,7 @@ onMounted(() => {
       </div>
     </nav>
   </section>
-  <!-- <section class="col-span-12 col12">
+  <section class="col-span-12 col12">
     <h2
       class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 text-center"
     >
@@ -284,8 +284,9 @@ onMounted(() => {
     <div
       class="col-span-12 min-h-10 border-t border-b border-Tonic mt-6 lg:mt-12 -mx-5 lg:-mx-[48px]"
     >
+      <!--Ajout des sponsors-->
     </div>
-  </section> -->
+  </section>
   <section class="col-span-12 col12">
     <h2
       class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center mt-12 lg:mt-24 lg:mb-12"
