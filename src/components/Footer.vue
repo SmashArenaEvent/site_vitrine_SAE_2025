@@ -16,43 +16,43 @@ const route = useRoute()
   >
     <div class="w-full col-span-12 col12">
       <Logo
-        class="h-10 lg:h-20 col-start-1 col-span-3 lg:col-span-2 lg:mt-8"
+        class="h-10 lg:h-20 col-start-1 col-span-3 lg:col-span-2 lg:mt-8 hover:opacity-60 duration-200"
         alt="Logo Smash Arena Event"
       />
       <nav
         class="flex flex-col lg:text-base lg:h-36 lg:justify-center col-span-2 h- mt-3 lg:mt-0 gap-2 lg:gap-3"
       >
-        <RouterLink to="/aPropos">À propos</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
-        <RouterLink to="/regles">Règles</RouterLink>
-        <RouterLink to="/faq">FAQ</RouterLink>
+        <RouterLink to="/aPropos" class="hover:opacity-60 duration-200">À propos</RouterLink>
+        <RouterLink to="/contact" class="hover:opacity-60 duration-200">Contact</RouterLink>
+        <RouterLink to="/regles" class="hover:opacity-60 duration-200">Règles</RouterLink>
+        <RouterLink to="/faq" class="hover:opacity-60 duration-200">FAQ</RouterLink>
       </nav>
       <nav
         class="flex flex-col lg:flex-row grid-cols-2 gap-8 col-start-9 col-span-4 lg:h-36 items-center ml-auto"
       >
         <div class="flex gap-8">
-          <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://www.instagram.com/smash_arena_event/"
+          <a class="w-9 lg:w-10 h-9 lg:h-10 hover:opacity-60 duration-200" href="https://www.instagram.com/smash_arena_event/"
             ><Insta alt="Instagram"
           /></a>
-          <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://twitter.com/SmashArenaEvent"
+          <a class="w-9 lg:w-10 h-9 lg:h-10 hover:opacity-60 duration-200" href="https://twitter.com/SmashArenaEvent"
             ><X alt="X"
           /></a>
         </div>
         <div class="flex gap-8">
-          <a class="w-9 lg:w-10 h-9 lg:h-10" href="https://discord.gg/6zFJf9WXy2"
+          <a class="w-9 lg:w-10 h-9 lg:h-10 hover:opacity-60 duration-200" href="https://discord.gg/6zFJf9WXy2"
             ><Discord alt="Discord"
           /></a>
-          <a class="w-9 lg:w-10 h-9 lg:h-10" href="#"><Youtube alt="Youtube" /></a>
+          <a class="w-9 lg:w-10 h-9 lg:h-10 hover:opacity-60 duration-200" href="#"><Youtube alt="Youtube" /></a>
         </div>
       </nav>
     </div>
     <nav
       class="flex w-full justify-center gap-6 lg:gap-12 text-Gris_clair col-span-12 mt-12 lg:mt-0 lg:text-base"
     >
-      <RouterLink to="/mentionsLegales"><p>Mentions légales</p></RouterLink>
-      <RouterLink to="/politiqueDeConfidentialite"><p>Politique de Confidentialité</p></RouterLink>
+      <RouterLink to="/mentionsLegales" class="hover:opacity-60 duration-200"><p>Mentions légales</p></RouterLink>
+      <RouterLink to="/politiqueDeConfidentialite" class="hover:opacity-60 duration-200"><p>Politique de Confidentialité</p></RouterLink>
     </nav>
-    <p class="text-center text-Tonic col-span-12 mt-6 lg:mt-8 lg:text-base">
+    <p class="text-center text-Tonic col-span-12 mt-6 lg:mt-8 lg:text-base hover:opacity-60 duration-200">
       @Smash Arena Event 2025
     </p>
   </footer>

@@ -11,7 +11,7 @@ import CardFAQ from '@/components/CardFAQ.vue'
     class="lg:col-start-2 col-span-12 lg:col-span-10 flex flex-wrap justify-center lg:justify-between gap-5"
   >
     <a href="#event">
-      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
+      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
         >
@@ -20,7 +20,7 @@ import CardFAQ from '@/components/CardFAQ.vue'
       </button>
     </a>
     <a href="#tournoi">
-      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
+      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
         >
@@ -29,7 +29,7 @@ import CardFAQ from '@/components/CardFAQ.vue'
       </button>
     </a>
     <a href="#accessible">
-      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
+      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
         >
@@ -38,7 +38,7 @@ import CardFAQ from '@/components/CardFAQ.vue'
       </button>
     </a>
     <a href="#benevole">
-      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
+      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
         >
@@ -228,9 +228,9 @@ import CardFAQ from '@/components/CardFAQ.vue'
     sociaux ou depuis notre formulaire de contact !
   </p>
   <RouterLink class="col-span-12 mx-auto mb-12" to="/contact">
-    <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg] ml-[13px]">
+    <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg] ml-[13px] hover:opacity-60 duration-200">
       <p class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]">
-        Nous contacte
+        Nous contacter
       </p>
     </button>
   </RouterLink>

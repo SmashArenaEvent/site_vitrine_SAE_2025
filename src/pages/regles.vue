@@ -10,7 +10,7 @@ import CardRegles from '@/components/CardRegles.vue'
     class="lg:col-start-2 col-span-12 lg:col-span-10 flex gap-5 flex-wrap flex-col lg:flex-row justify-between items-center"
   >
     <a href="#rGenerales">
-      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
+      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
         >
@@ -19,7 +19,7 @@ import CardRegles from '@/components/CardRegles.vue'
       </button>
     </a>
     <a href="#rTournois">
-      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
+      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
         >
@@ -28,7 +28,7 @@ import CardRegles from '@/components/CardRegles.vue'
       </button>
     </a>
     <a href="#rAutres">
-      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg]">
+      <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
         >
