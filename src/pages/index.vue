@@ -60,7 +60,7 @@ const ImageHero = await randomImage()
     <div
       class="col-start-3 lg:col-start-6 col-span-10 lg:col-span-5 bg-Gris text-Blanc mt-1 lg:mt-2.5 px-5 py-2.5 lg:py-5"
     >
-      <p class="text-base">
+      <p class="lg:text-xl leading-4 lg:leading-8">
         C'était la Première édition du Smash Arena Event, le 1er tournoi entre membre de l'IUT de
         Franche-Comté ! Et elle avais lieu le <span class="text-Tonic">10 février 2024</span> de
         <span class="text-Tonic">14h à 19h</span> au
