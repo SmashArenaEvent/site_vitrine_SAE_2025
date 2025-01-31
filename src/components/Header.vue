@@ -37,7 +37,7 @@ const activeMenu = ref(false)
           class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"
         >
           <p
-            class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-3xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0"
+            class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-2xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0"
           >
             Règles
           </p>
@@ -49,7 +49,7 @@ const activeMenu = ref(false)
           class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"
         >
           <p
-            class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-3xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0"
+            class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-2xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0"
           >
             FAQ
           </p>
@@ -58,7 +58,7 @@ const activeMenu = ref(false)
       <RouterLink @click="activeMenu = false" to="/aPropos">
         <button class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
           <p
-            class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-3xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"
+            class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-2xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"
           >
             à propos
           </p>
@@ -67,7 +67,7 @@ const activeMenu = ref(false)
       <RouterLink @click="activeMenu = false" to="/contact">
         <button class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0">
           <p
-            class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-3xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"
+            class="text-Noir lg:text-Blanc font-fugaz-one uppercase text-xl lg:text-2xl px-6 lg:px-0 skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"
           >
             Contact
           </p>
