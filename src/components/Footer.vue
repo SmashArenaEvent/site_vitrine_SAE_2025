@@ -12,7 +12,7 @@ const route = useRoute()
 </script>
 <template>
   <footer
-    class="font-gothic-a1 text-xs grille pt-7 lg:pt-5 pb-5 lg:pb-4 bg-Noir text-Blanc -mt-64 lg:-mt-[244px]"
+    class="font-gothic-a1 text-xs grille pt-7 lg:pt-5 pb-5 lg:pb-4 bg-Noir text-Blanc -mt-64 lg:-mt-[260px]"
   >
     <div class="w-full col-span-12 col12">
       <Logo
