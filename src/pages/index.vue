@@ -5,44 +5,9 @@ import { ref, onMounted } from 'vue'
 import Formulaire from '@/components/Formulaire.vue'
 import CardRegles from '@/components/CardRegles.vue'
 import Slider from '@/components/Slider.vue'
-
-const props = defineProps({
-  elements: Array
-})
-
-const imageHeroAffiche = ref('')
-
-const imageHero = [
-  '@/components/img/ImageHero/cloud.png',
-  '@/components/img/ImageHero/duo.png',
-  '@/components/img/ImageHero/falco.png',
-  '@/components/img/ImageHero/felineferno.png',
-  '@/components/img/ImageHero/ike.png',
-  '@/components/img/ImageHero/kirby.png',
-  '@/components/img/ImageHero/kong.png',
-  '@/components/img/ImageHero/link.png',
-  '@/components/img/ImageHero/lucas.png',
-  '@/components/img/ImageHero/marie.png',
-  '@/components/img/ImageHero/mario.png',
-  '@/components/img/ImageHero/mewtwo.png',
-  '@/components/img/ImageHero/peach.png',
-  '@/components/img/ImageHero/pikachu.png',
-  '@/components/img/ImageHero/pit.png',
-  '@/components/img/ImageHero/pyra.png',
-  '@/components/img/ImageHero/ridley.png',
-  '@/components/img/ImageHero/rob.png',
-  '@/components/img/ImageHero/wario.png',
-  '@/components/img/ImageHero/zelda.png'
-]
-const HeroImgAleatoire = () => {
-  let randomNum = Math.floor(Math.random() * imageHero.length)
-  imageHeroAffiche.value = imageHero[randomNum]
-}
-
-onMounted(() => {
-  // Site Vitrine
-  HeroImgAleatoire()
-})
+import ImgPb from '@/components/ImgPb.vue'
+import { randomImage } from '@/backend' 
+const ImageHero = await randomImage()
 </script>
 <template>
   <section class="User-View col-span-12 col12 min-h-fit">
@@ -77,7 +42,12 @@ onMounted(() => {
     <article
       class="col-span-12 lg:col-start-8 lg:col-span-5 h-min justify-center lg:User-View flex flex-col"
     >
-      <img class="col-span-12 mt-7 lg:mt-0" :src="imageHeroAffiche" />
+    <ImgPb
+      v-if="ImageHero.Image"
+      :record="ImageHero"
+      :filename="ImageHero.Image"
+      class="col-span-12 mt-7 lg:mt-0"
+    />
     </article>
   </section>
   <section class="col-span-12 col12 mt-5">
