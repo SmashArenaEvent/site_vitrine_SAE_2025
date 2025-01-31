@@ -229,7 +229,7 @@ const ImageHero = await randomImage()
             <p class="text-right col-start-2 col-span-10 lg:text-xl mt-1">
               et viens nous aider à gérer l’évènement !
             </p>
-            <RouterLink class="ml-auto col-start-2 col-span-10 mt-6 lg:mt-20 mr-[13px]" to="#">
+            <a class="ml-auto col-start-2 col-span-10 mt-6 lg:mt-20 mr-[13px]" href="https://form.jotform.com/SmashArenaEvent/Inscription-Benevolat">
               <div class="bg-Noir w-fit -skew-x-[25deg]">
                 <button class="bg-Tonic h-12 lg:h-20 hover:opacity-60">
                   <p
@@ -239,7 +239,7 @@ const ImageHero = await randomImage()
                   </p>
                 </button>
               </div>
-            </RouterLink>
+            </a>
           </div>
         </div>
       </div>
