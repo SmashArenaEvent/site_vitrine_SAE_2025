@@ -16,91 +16,91 @@
       <!--Icones de personnages-->
       <img
         v-if="Organisateur == 'VaSa'"
-        src="/src/components/img/IconePersonnage/Pikachu.png"
+        src="/src/components/img/IconePersonnage/Pikachu.webp"
         alt="Icone pikachu"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
       />
       <img
         v-if="Organisateur == 'AuRu'"
-        src="/src/components/img/IconePersonnage/Wolf.png"
+        src="/src/components/img/IconePersonnage/Wolf.webp"
         alt="Icone Wolf"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
       />
       <img
         v-if="Organisateur == 'ElPe'"
-        src="/src/components/img/IconePersonnage/Luigi.png"
+        src="/src/components/img/IconePersonnage/Luigi.webp"
         alt="Icone Luigi"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
       />
       <img
         v-if="Organisateur == 'ElFe'"
-        src="/src/components/img/IconePersonnage/Lucario.png"
+        src="/src/components/img/IconePersonnage/Lucario.webp"
         alt="Icone Lucario"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
       />
       <img
         v-if="Organisateur == 'BaRo'"
-        src="/src/components/img/IconePersonnage/BowserJR.png"
+        src="/src/components/img/IconePersonnage/BowserJR.webp"
         alt="Icone Bowser JR"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
       />
       <img
         v-if="Organisateur == 'RoGr'"
-        src="/src/components/img/IconePersonnage/Dadidou.png"
+        src="/src/components/img/IconePersonnage/Dadidou.webp"
         alt="Icone Dadidou"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
       />
       <img
         v-if="Organisateur == 'LuBa'"
-        src="/src/components/img/IconePersonnage/BanjoKazooie.png"
+        src="/src/components/img/IconePersonnage/BanjoKazooie.webp"
         alt="Icone Banjo Kazooie"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
       />
       <img
         v-if="Organisateur == 'MaPo'"
-        src="/src/components/img/IconePersonnage/DarkSamus.png"
+        src="/src/components/img/IconePersonnage/DarkSamus.webp"
         alt="Icone Dark Samus"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
       />
       <!--Image du participent-->
       <img
         v-if="Organisateur == 'VaSa'"
-        src="/src/components/img/photoOrganisateurs/ValentinSaraiva.png"
+        src="/src/components/img/photoOrganisateurs/ValentinSaraiva.webp"
         alt="Portrait Valentin Saraiva"
       />
       <img
         v-if="Organisateur == 'AuRu'"
-        src="/src/components/img/photoOrganisateurs/AurelieRunser.png"
+        src="/src/components/img/photoOrganisateurs/AurelieRunser.webp"
         alt="Portrait Aurelie Runser"
       />
       <img
         v-if="Organisateur == 'ElPe'"
-        src="/src/components/img/photoOrganisateurs/EloraPerrin.png"
+        src="/src/components/img/photoOrganisateurs/EloraPerrin.webp"
         alt="Portrait Elora Perrin"
       />
       <img
         v-if="Organisateur == 'ElFe'"
-        src="/src/components/img/photoOrganisateurs/EliotFeuvrier.png"
+        src="/src/components/img/photoOrganisateurs/EliotFeuvrier.webp"
         alt="Portrait Eliot Feuvrier"
       />
       <img
         v-if="Organisateur == 'BaRo'"
-        src="/src/components/img/photoOrganisateurs/BaptisteRognon.png"
+        src="/src/components/img/photoOrganisateurs/BaptisteRognon.webp"
         alt="Portrait Baptiste Rognon"
       />
       <img
         v-if="Organisateur == 'RoGr'"
-        src="/src/components/img/photoOrganisateurs/RomainGrosjean.png"
+        src="/src/components/img/photoOrganisateurs/RomainGrosjean.webp"
         alt="Portrait Romain Gorsjean"
       />
       <img
         v-if="Organisateur == 'LuBa'"
-        src="/src/components/img/photoOrganisateurs/LucasBardey.png"
+        src="/src/components/img/photoOrganisateurs/LucasBardey.webp"
         alt="Portrait Lucas Bardey"
       />
       <img
         v-if="Organisateur == 'MaPo'"
-        src="/src/components/img/photoOrganisateurs/MarcoPoilbois.png"
+        src="/src/components/img/photoOrganisateurs/MarcoPoilbois.webp"
         alt="Portrait Marco Poilbois"
       />
     </div>

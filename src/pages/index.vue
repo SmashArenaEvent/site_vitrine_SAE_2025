@@ -131,7 +131,7 @@ const ImageHero = await randomImage()
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center lg:mb-12">
       <span class="text-Tonic">Le coin</span> chill
     </h2>
-    <img class="col-span-12 lg:col-span-7 mt-7 lg:mt-0" src="/src/components/img/CoinChill.png" />
+    <img class="col-span-12 lg:col-span-7 mt-7 lg:mt-0" src="/src/components/img/CoinChill.webp" />
     <div
       class="col-span-12 col12 lg:col-span-5 lg:flex lg:flex-col lg:bg-Gris lg:mt-12 lg:py-12 lg:h-fit lg:-ml-24 lg:px-12"
     >
@@ -146,15 +146,15 @@ const ImageHero = await randomImage()
       </div>
       <div class="col-span-12 lg:col-span-5 col12 lg:flex mt-5 lg:mt-8 lg:w-full lg:gap-20">
         <div class="col-start-3 col-span-2 flex flex-col items-center">
-          <img class="lg:w-20" src="/src/components/img/MarioKart.png" />
+          <img class="lg:w-20" src="/src/components/img/MarioKart.webp" />
           <p class="text-[10px] relative -mx-5 lg:text-xl lg:mt-2.5">Mario kart 8</p>
         </div>
         <div class="col-start-6 col-span-2 flex flex-col items-center">
-          <img class="lg:w-20" src="/src/components/img/YoGiOh.png" />
+          <img class="lg:w-20" src="/src/components/img/YoGiOh.webp" />
           <p class="text-[10px] relative -mx-5 lg:text-xl lg:mt-2.5">Yu-Gi-Oh!</p>
         </div>
         <div class="col-start-9 col-span-2 flex flex-col items-center">
-          <img class="lg:w-20" src="/src/components/img/Splatoon.png" />
+          <img class="lg:w-20" src="/src/components/img/Splatoon.webp" />
           <p class="text-[10px] relative -mx-5 lg:text-xl lg:mt-2.5">Splatoon</p>
         </div>
       </div>
@@ -166,7 +166,7 @@ const ImageHero = await randomImage()
     </h2>
     <img
       class="col-span-12 lg:col-span-7 lg:col-start-6 mt-7 lg:mt-0 lg:order-2"
-      src="/src/components/img/CoinBuvette.png"
+      src="/src/components/img/CoinBuvette.webp"
     />
     <div
       class="bg-Gris mt-1 px-5 py-2.5 h-fit lg:mt-12 lg:py-12 lg:px-12 lg:-mr-24 lg:relative text-[10px] leading-4 lg:text-xl col-start-3 lg:col-start-1 col-span-10 lg:col-span-5 lg:order-1 lg:leading-8"
@@ -187,7 +187,7 @@ const ImageHero = await randomImage()
     </h2>
     <nav class="col-span-12 flex flex-col lg:flex-row overflow-hidden mt-6 lg:mt-12">
       <div
-        class="hover:z-10 relative w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperJoueur.png')] overflow-hidden hover:scale-110 transition-all duration-1000"
+        class="hover:z-10 relative w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperJoueur.webp')] overflow-hidden hover:scale-110 transition-all duration-1000"
       >
         <div
           class="h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent transition-all duration-1000 overflow-hidden"
@@ -216,7 +216,7 @@ const ImageHero = await randomImage()
         </div>
       </div>
       <div
-        class="hover:z-10 relative w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.png')] overflow-hidden hover:scale-110 transition-all duration-1000"
+        class="hover:z-10 relative w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperBenevole.webp')] overflow-hidden hover:scale-110 transition-all duration-1000"
       >
         <div
           class="lg:z-10 h-52 lg:h-[608px] w-full bg-Noir_Vert hover:bg-transparent transition-all duration-1000 overflow-hidden"
