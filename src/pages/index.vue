@@ -201,7 +201,7 @@ const ImageHero = await randomImage()
               Comme joueur
             </h3>
             <p class="col-start-2 col-span-10 lg:text-xl mt-1">et participe au tournoi !</p>
-            <RouterLink class="col-start-2 col-span-10 mt-6 lg:mt-20 ml-[13px]" to="#">
+            <RouterLink class="col-start-2 col-span-10 mt-6 lg:mt-20 ml-[13px]" onclick="window.scrollTo(0, 0);" to="/nouvel-adversaire">
               <div class="bg-Noir w-fit -skew-x-[25deg]">
                 <button class="bg-Tonic h-12 lg:h-20 hover:opacity-60">
                   <p
