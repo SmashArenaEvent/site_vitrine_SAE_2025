@@ -13,7 +13,7 @@
       <p class="text-center mt-5 my-12 lg:text-left lg:text-xl">
         Même Donkey Kong n’a su retrouver la page.<br />Celle-ci doit être actuellement introuvable.
       </p>
-      <RouterLink to="/" class="hidden lg:block ml-[13px]">
+      <RouterLink to="/" class="hidden lg:block ml-[13px] hover:opacity-60">
         <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
           <p
             class="font-fugaz-one uppercase text-Noir text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
@@ -28,7 +28,7 @@
       src="/src/components/img/DonkeyKong404.png"
       alt="Image de donkey kong"
     />
-    <RouterLink to="/" class="lock lg:hidden mt-8" onclick="window.scrollTo(0, 0);">
+    <RouterLink to="/" class="lock lg:hidden mt-8 hover:opacity-60" onclick="window.scrollTo(0, 0);">
       <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
         <p
           class="font-fugaz-one uppercase text-Noir text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"

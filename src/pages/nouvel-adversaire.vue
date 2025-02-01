@@ -45,7 +45,7 @@ import Discord from '../components/icons/BoutonDiscord.vue'
       src="/src/components/img/Pikachu.avif"
       alt="Image de donkey kong"
     />
-    <RouterLink to="/" class="lock lg:hidden mt-8" onclick="window.scrollTo(0, 0);">
+    <RouterLink to="/" class="lock lg:hidden mt-8 hover:opacity-60" onclick="window.scrollTo(0, 0);">
       <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
         <p
           class="font-fugaz-one uppercase text-Noir text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"
