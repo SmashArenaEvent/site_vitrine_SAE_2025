@@ -40,6 +40,7 @@ onMounted(() => {
             :record="image"
             :filename="image.Image"
             class="object-fill"
+            loading="lazy"
           />
           </div>
         <div

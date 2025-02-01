@@ -19,89 +19,105 @@
         src="/src/components/img/IconePersonnage/Pikachu.webp"
         alt="Icone pikachu"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'AuRu'"
         src="/src/components/img/IconePersonnage/Wolf.webp"
         alt="Icone Wolf"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'ElPe'"
         src="/src/components/img/IconePersonnage/Luigi.webp"
         alt="Icone Luigi"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'ElFe'"
         src="/src/components/img/IconePersonnage/Lucario.webp"
         alt="Icone Lucario"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'BaRo'"
         src="/src/components/img/IconePersonnage/BowserJR.webp"
         alt="Icone Bowser JR"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'RoGr'"
         src="/src/components/img/IconePersonnage/Dadidou.webp"
         alt="Icone Dadidou"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'LuBa'"
         src="/src/components/img/IconePersonnage/BanjoKazooie.webp"
         alt="Icone Banjo Kazooie"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'MaPo'"
         src="/src/components/img/IconePersonnage/DarkSamus.webp"
         alt="Icone Dark Samus"
         class="absolute w-10 -ml-6 -mt-6 lg:w-16 lg:-ml-9 lg:-mt-9"
+        loading="lazy"
       />
       <!--Image du participent-->
       <img
         v-if="Organisateur == 'VaSa'"
         src="/src/components/img/photoOrganisateurs/ValentinSaraiva.webp"
         alt="Portrait Valentin Saraiva"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'AuRu'"
         src="/src/components/img/photoOrganisateurs/AurelieRunser.webp"
         alt="Portrait Aurelie Runser"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'ElPe'"
         src="/src/components/img/photoOrganisateurs/EloraPerrin.webp"
         alt="Portrait Elora Perrin"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'ElFe'"
         src="/src/components/img/photoOrganisateurs/EliotFeuvrier.webp"
         alt="Portrait Eliot Feuvrier"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'BaRo'"
         src="/src/components/img/photoOrganisateurs/BaptisteRognon.webp"
         alt="Portrait Baptiste Rognon"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'RoGr'"
         src="/src/components/img/photoOrganisateurs/RomainGrosjean.webp"
         alt="Portrait Romain Gorsjean"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'LuBa'"
         src="/src/components/img/photoOrganisateurs/LucasBardey.webp"
         alt="Portrait Lucas Bardey"
+        loading="lazy"
       />
       <img
         v-if="Organisateur == 'MaPo'"
         src="/src/components/img/photoOrganisateurs/MarcoPoilbois.webp"
         alt="Portrait Marco Poilbois"
+        loading="lazy"
       />
     </div>
     <p class="font-fugaz-one uppercase text-center text-lg leading-5 lg:text-3xl mt-2 lg:mt-5">
