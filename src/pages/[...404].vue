@@ -27,6 +27,7 @@
       class="lg:col-start-7 lg:col-span-6"
       src="/src/components/img/DonkeyKong404.webp"
       alt="Image de donkey kong"
+      loading="lazy"
     />
     <RouterLink to="/" class="lock lg:hidden mt-8 hover:opacity-60" onclick="window.scrollTo(0, 0);">
       <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
