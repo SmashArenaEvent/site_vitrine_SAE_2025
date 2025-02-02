@@ -3,12 +3,14 @@
 import Insta from '../components/icons/BoutonInsta.vue'
 import X from '../components/icons/BoutonX.vue'
 import Discord from '../components/icons/BoutonDiscord.vue'
+import Facebook from '../components/icons/BoutonFacebook.vue'
+import motifs from '@/components/icons/motifs.vue';
 </script>
 <template>
   <article
-    class="flex flex-col items-center col-span-12 User-View min-h-fit justify-center lg:col12 py-auto lg:content-center pb-[10vh]"
-  >
-    <section class="lg:col-start-1 col-span-5 lg:my-auto">
+    class="flex flex-col items-center col-span-12 User-View min-h-fit justify-center lg:col12 py-auto lg:content-center pb-[10vh] relative">
+    <motifs class="hidden lg:flex"/>
+    <section class="lg:col-start-1 col-span-5 lg:my-auto relative z-10">
       <h1
         class="font-fugaz-one uppercase text-3xl lg:text-5xl text-center leading-[56px] lg:leading-normal lg:text-left"
       >
@@ -29,6 +31,9 @@ import Discord from '../components/icons/BoutonDiscord.vue'
           <a class="w-12 lg:w-14 h-12 lg:h-14 hover:opacity-60 duration-200" href="https://discord.gg/6zFJf9WXy2">
             <Discord alt="Discord"/>
           </a>
+          <a class="w-12 lg:w-14 h-12 lg:h-14 hover:opacity-60 duration-200" href="https://discord.gg/6zFJf9WXy2">
+            <Facebook alt="Discord"/>
+          </a>
       </div>
       <RouterLink to="/" class="hidden lg:block ml-[13px] hover:opacity-60">
         <button class="bg-Blanc h-12 -skew-x-[25deg]">
@@ -41,12 +46,12 @@ import Discord from '../components/icons/BoutonDiscord.vue'
       </RouterLink>
     </section>
     <img
-      class="lg:col-start-7 lg:col-span-6"
+      class="lg:col-start-7 lg:col-span-6 relative z-10"
       src="/src/components/img/Pikachu.avif"
       alt="Image de donkey kong"
       loading="lazy"
     />
-    <RouterLink to="/" class="lock lg:hidden mt-8 hover:opacity-60" onclick="window.scrollTo(0, 0);">
+    <RouterLink to="/" class="lock lg:hidden mt-8 hover:opacity-60 relative z-10" onclick="window.scrollTo(0, 0);">
       <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg]">
         <p
           class="font-fugaz-one uppercase text-Noir text-xs lg:text-xl px-6 lg:px-9 skew-x-[25deg]"

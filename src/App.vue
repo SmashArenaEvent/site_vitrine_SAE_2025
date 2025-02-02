@@ -6,7 +6,7 @@ import Footer from './components/Footer.vue'
 <template>
   <Header />
   <main
-    class="bg-Noir min-h-screen text-Blanc font-gothic-a1 text-xs pt-20 lg:pt-52 grille pb-64 lg:pb-[260px]"
+    class="bg-Noir min-h-screen text-Blanc font-gothic-a1 text-xs pt-20 lg:pt-52 grille pb-64 lg:pb-[260px] overflow-hidden"
   >
     <RouterView v-slot="{ Component }">
       <Suspense>

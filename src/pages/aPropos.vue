@@ -2,13 +2,15 @@
 <script setup lang="ts">
 import CardMembres from '@/components/CardMembres.vue'
 import Formulaire from '@/components/Formulaire.vue'
+import motifs from '@/components/icons/motifs.vue';
 </script>
 <template>
-  <article class="col-span-12 lg:col12">
-    <h1 class="lg:col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 lg:pb-12">
+  <article class="col-span-12 lg:col12 relative">
+    <motifs class="-top-5 hidden lg:flex"/>
+    <h1 class="lg:col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 lg:pb-12 relative z-10">
       <span class="text-Tonic">à</span> propos
     </h1>
-    <section class="lg:col-span-12 lg:col12 lg:items-center lg:mb-24">
+    <section class="lg:col-span-12 lg:col12 lg:items-center lg:mb-24 relative z-10">
       <section class="lg:col-span-6">
         <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mb-6 lg:mb-12 mt-12 lg:mt-0">
           <span class="text-Tonic">Notre</span> histoire
@@ -36,7 +38,7 @@ import Formulaire from '@/components/Formulaire.vue'
         src="/src/components/img/TeamPremiereEdition.webp" loading="lazy"
       />
     </section>
-    <section class="lg:col-span-12 lg:col12 lg:items-center lg:mb-24">
+    <section class="lg:col-span-12 lg:col12 lg:items-center lg:mb-24 relative z-10">
       <section class="lg:col-start-7 lg:col-span-6 lg:order-1">
         <h3 class="text-Tonic font-bold lg:text-xl mb-4 lg:mb-8">Une expérience immersive</h3>
         <p class="lg:text-xl mb-4 lg:mb-8">
@@ -56,7 +58,7 @@ import Formulaire from '@/components/Formulaire.vue'
         src="/src/components/img/CardParty.webp" loading="lazy"
       />
     </section>
-    <section class="lg:col-start-4 lg:col-span-6 lg:order-2">
+    <section class="lg:col-start-4 lg:col-span-6 lg:order-2 relative z-10">
       <h3 class="text-Tonic font-bold lg:text-xl mb-4 lg:mb-8">Un succès prometteur</h3>
       <p class="lg:text-xl mb-4 lg:mb-8">
         Cette première édition a permis de poser des bases solides, tant en termes d’organisation
@@ -68,11 +70,12 @@ import Formulaire from '@/components/Formulaire.vue'
       </p>
     </section>
   </article>
-  <article class="col-span-12">
-    <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 mb-6 lg:mt-24 lg:mb-12">
+  <article class="col-span-12 relative">
+    <motifs class="top-24 hidden lg:flex"/>
+    <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 mb-6 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">Notre</span> équipe
     </h2>
-    <section class="col12">
+    <section class="col12 relative z-10">
       <h3
         class="col-span-12 font-fugaz-one uppercase text-xl lg:text-4xl text-center mt-6 lg:mt-0 mb-6 lg:mb-12"
       >
@@ -124,9 +127,10 @@ import Formulaire from '@/components/Formulaire.vue'
         csd="8"
       />
     </section>
-    <section class="col12">
+    <section class="col12 relative ">
+      <motifs class="hidden lg:flex"/>
       <h3
-        class="col-span-12 font-fugaz-one uppercase text-xl lg:text-4xl text-center mt-12 lg:mt-0 mb-6 lg:mb-12"
+        class="col-span-12 font-fugaz-one uppercase text-xl lg:text-4xl text-center mt-12 lg:mt-0 mb-6 lg:mb-12 relative z-10"
       >
         <span class="text-Tonic">Seconde</span> édition
       </h3>
@@ -168,8 +172,9 @@ import Formulaire from '@/components/Formulaire.vue'
       />
     </section>
   </article>
-  <section class="col-span-12">
-    <h2 class="font-fugaz-one text-center uppercase text-3xl lg:text-5xl">
+  <section class="col-span-12 relative">
+    <motifs class="hidden lg:flex"/>
+    <h2 class="font-fugaz-one text-center uppercase text-3xl lg:text-5xl lg:mb-24">
       <span class="text-Tonic">Nous</span> contacter
     </h2>
     <Formulaire />

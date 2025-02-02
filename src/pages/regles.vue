@@ -1,13 +1,14 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import CardRegles from '@/components/CardRegles.vue'
+import motifs from '@/components/icons/motifs.vue';
 </script>
 <template>
   <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 mb-12">
     <span class="text-Tonic">R</span>ègles
   </h1>
   <nav
-    class="lg:col-start-2 col-span-12 lg:col-span-10 flex gap-5 flex-wrap flex-col lg:flex-row justify-between items-center"
+    class="lg:col-start-2 col-span-12 lg:col-span-10 flex gap-5 flex-wrap flex-col lg:flex-row justify-between items-center relative z-10"
   >
     <a href="#rGenerales">
       <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] hover:opacity-60 duration-200">
@@ -37,8 +38,9 @@ import CardRegles from '@/components/CardRegles.vue'
       </button>
     </a>
   </nav>
-  <article id="rGenerales" class="col-span-12 col12">
-    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12">
+  <article id="rGenerales" class="col-span-12 col12 relative">
+    <motifs class="top-10 hidden lg:flex"/>
+    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">Les règles</span> générales
     </h2>
     <CardRegles
@@ -78,8 +80,9 @@ import CardRegles from '@/components/CardRegles.vue'
       Text="Les espaces sont réservés uniquement à leur utilité. Si une personne ne respecte pas cette règle, elle sera rappelée à l’ordre. Éviter de manger en jouant pour respect du matériel, des bénévoles et des organisateurs."
     />
   </article>
-  <article id="rTournois" class="col-span-12 col12">
-    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12">
+  <article id="rTournois" class="col-span-12 col12 relative">
+    <motifs class="top-10 hidden lg:flex"/>
+    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">Les règles</span> autour du tournois
     </h2>
     <CardRegles
@@ -119,8 +122,9 @@ import CardRegles from '@/components/CardRegles.vue'
       Text="Si un joueur conteste un problème ou une règle, le match peut être mis en pause pour examen par les organisateurs du tournoi."
     />
   </article>
-  <article id="rAutres" class="col-span-12 col12 mb-4">
-    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl lg:mt-24 mt-12 lg:mb-12">
+  <article id="rAutres" class="col-span-12 col12 mb-4 relative">
+    <motifs class="top-10 hidden lg:flex"/>
+    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl lg:mt-24 mt-12 lg:mb-12 relative z-10">
       <span class="text-Tonic">Autres</span> Régles
     </h2>
     <CardRegles

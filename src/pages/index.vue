@@ -8,10 +8,12 @@ import Slider from '@/components/Slider.vue'
 import ImgPb from '@/components/ImgPb.vue'
 import { randomImage } from '@/backend' 
 const ImageHero = await randomImage()
+import motifs from '@/components/icons/motifs.vue'
 </script>
 <template>
-  <section class="User-View col-span-12 col12 min-h-fit">
-    <article class="col-span-12 lg:col-span-6 flex flex-col lg:items-start lg:justify-center">
+  <section class="User-View col-span-12 col12 min-h-fit relative">
+    <motifs class="hidden lg:flex"/>
+    <article class="col-span-12 lg:col-span-6 flex flex-col lg:items-start lg:justify-center relative z-10">
       <h1
         class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left lg:leading-[4.5rem]"
       >
@@ -40,8 +42,7 @@ const ImageHero = await randomImage()
       </div>
     </article>
     <article
-      class="col-span-12 lg:col-start-8 lg:col-span-5 h-min justify-center lg:User-View flex flex-col"
-    >
+      class="col-span-12 lg:col-start-8 lg:col-span-5 h-min justify-center lg:User-View flex flex-col relative z-10">
     <ImgPb
       v-if="ImageHero.Image"
       :record="ImageHero"
@@ -128,13 +129,14 @@ const ImageHero = await randomImage()
       </button>
     </RouterLink>
   </section>
-  <section class="col-span-12 col12 mt-12 lg:mt-24">
-    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center lg:mb-12">
+  <section class="col-span-12 col12 mt-12 lg:mt-24 relative">
+    <motifs class="-top-[100px] hidden lg:flex"/>
+    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center lg:mb-12 relative z-10">
       <span class="text-Tonic">Le coin</span> chill
     </h2>
-    <img class="col-span-12 lg:col-span-7 mt-7 lg:mt-0" src="/src/components/img/CoinChill.webp" loading="lazy"/>
+    <img class="col-span-12 lg:col-span-7 mt-7 lg:mt-0 relative z-10" src="/src/components/img/CoinChill.webp" loading="lazy"/>
     <div
-      class="col-span-12 col12 lg:col-span-5 lg:flex lg:flex-col lg:bg-Gris lg:mt-12 lg:py-12 lg:h-fit lg:-ml-24 lg:px-12"
+      class="col-span-12 col12 lg:col-span-5 lg:flex lg:flex-col lg:bg-Gris lg:mt-12 lg:py-12 lg:h-fit lg:-ml-24 lg:px-12 relative z-10"
     >
       <div
         class="bg-Gris mt-1 lg:mt-0 px-5 lg:px-0 py-2.5 text-[10px] leading-4 lg:text-xl lg:leading-8 col-start-3 lg:col-start-1 col-span-10 lg:col-span-5 lg:h-min"
@@ -161,16 +163,17 @@ const ImageHero = await randomImage()
       </div>
     </div>
   </section>
-  <section class="col-span-12 col12 mt-12 lg:mt-24">
-    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center lg:mb-12">
+  <section class="col-span-12 col12 mt-12 lg:mt-24 relative">
+    <motifs class="-top-[100px] hidden lg:flex"/>
+    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center lg:mb-12 relative z-10">
       <span class="text-Tonic">Le coin</span> buvette
     </h2>
     <img
-      class="col-span-12 lg:col-span-7 lg:col-start-6 mt-7 lg:mt-0 lg:order-2"
+      class="col-span-12 lg:col-span-7 lg:col-start-6 mt-7 lg:mt-0 lg:order-2 relative z-10"
       src="/src/components/img/CoinBuvette.webp" loading="lazy"
     />
     <div
-      class="bg-Gris mt-1 px-5 py-2.5 h-fit lg:mt-12 lg:py-12 lg:px-12 lg:-mr-24 lg:relative text-[10px] leading-4 lg:text-xl col-start-3 lg:col-start-1 col-span-10 lg:col-span-5 lg:order-1 lg:leading-8"
+      class="bg-Gris mt-1 px-5 py-2.5 h-fit lg:mt-12 lg:py-12 lg:px-12 lg:-mr-24 lg:relative text-[10px] leading-4 lg:text-xl col-start-3 lg:col-start-1 col-span-10 lg:col-span-5 lg:order-1 lg:leading-8 relative z-20"
     >
       <p>
         La Buvette, nécessaire pour se restaurer durant un après-midi à s’amuser ! Mais attention, à
@@ -259,10 +262,10 @@ const ImageHero = await randomImage()
       Ajout des sponsors
     </div>
   </section> -->
-  <section class="col-span-12 col12">
+  <section class="col-span-12 col12 relative">
+    <motifs class="top-32 hidden lg:flex"/>
     <h2
-      class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center mt-12 lg:mt-24 lg:mb-12"
-    >
+      class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center mt-12 lg:mt-24 lg:mb-24 relative z-10">
       <span class="text-Tonic">Nous</span> contacter
     </h2>
     <Formulaire />

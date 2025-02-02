@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <form
-    class="col-span-12 col12 text-Gris_clair lg:text-xl mt-6 mb-12"
+    class="col-span-12 col12 text-Gris_clair lg:text-xl mt-6 mb-12 relative"
     @submit.prevent="submitForm"
   >
     <div class="lg:flex lg:col-start-2 col-span-12 lg:col-span-10 lg:col10">

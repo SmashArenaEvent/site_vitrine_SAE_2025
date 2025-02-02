@@ -1,10 +1,14 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Motifs from '@/components/icons/motifs.vue';
+
+</script>
 <template>
   <article
-    class="flex flex-col items-center col-span-12 User-View min-h-fit justify-center lg:col12 py-auto lg:content-center pb-[10vh]"
+    class="flex flex-col items-center col-span-12 User-View min-h-fit justify-center lg:col12 py-auto lg:content-center pb-[10vh] relative"
   >
-    <section class="lg:col-start-2 col-span-4 lg:my-auto">
+    <Motifs class="hidden lg:flex"/>
+    <section class="lg:col-start-2 col-span-4 lg:my-auto relative z-10">
       <h1
         class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center leading-[56px] lg:leading-normal lg:text-left"
       >
@@ -24,7 +28,7 @@
       </RouterLink>
     </section>
     <img
-      class="lg:col-start-7 lg:col-span-6"
+      class="lg:col-start-7 lg:col-span-6 relative z-10"
       src="/src/components/img/DonkeyKong404.webp"
       alt="Image de donkey kong"
       loading="lazy"

@@ -1,14 +1,15 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import CardFAQ from '@/components/CardFAQ.vue'
+import motifs from '@/components/icons/motifs.vue';
 </script>
 <template>
-  <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 mb-12">
+  <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 mb-12 relative z-10">
     <span class="text-Tonic">F</span>oire <span class="text-Tonic">a</span>ux
     <span class="text-Tonic">q</span>uestions
   </h1>
   <nav
-    class="lg:col-start-2 col-span-12 lg:col-span-10 flex flex-wrap justify-center lg:justify-between gap-5"
+    class="lg:col-start-2 col-span-12 lg:col-span-10 flex flex-wrap justify-center lg:justify-between gap-5 relative z-10"
   >
     <a href="#event">
       <button class="bg-Blanc h-12 lg:h-20 -skew-x-[25deg] hover:opacity-60 duration-200">
@@ -47,8 +48,9 @@ import CardFAQ from '@/components/CardFAQ.vue'
       </button>
     </a>
   </nav>
-  <article class="col-span-12 col12" id="event">
-    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12">
+  <article class="col-span-12 col12 relative" id="event">
+    <motifs class="top-10 hidden lg:flex"/>
+    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">L'</span>évenement
     </h2>
     <CardFAQ
@@ -87,10 +89,11 @@ import CardFAQ from '@/components/CardFAQ.vue'
       Text="Si vous rencontrez quelconque problème technique, contactez-nous par mail, sur les réseaux sociaux et si vous pouvez sur notre page contact."
     />
   </article>
-  <article class="col-span-12 col12" id="tournoi">
-    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12">
+  <article class="col-span-12 col12 relative" id="tournoi">
+    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">Le</span> tournois
     </h2>
+    <motifs class="top-10 hidden lg:flex"/>
     <CardFAQ
       Style="1"
       Title="Comment puis-je m’inscrire à l’événement en tant que joueur ?"
@@ -137,8 +140,9 @@ import CardFAQ from '@/components/CardFAQ.vue'
       Text="Vous pouvez directement voir le bénévole mis à votre poste ou vous adressez à l’un des organisateurs."
     />
   </article>
-  <article class="col-span-12 col12" id="accessible">
-    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12">
+  <article class="col-span-12 col12 relative" id="accessible">
+    <motifs class="top-10 hidden lg:flex"/>
+    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">L'</span>accessibilité
     </h2>
     <CardFAQ
@@ -167,8 +171,9 @@ import CardFAQ from '@/components/CardFAQ.vue'
       Text="La salle n'est pas adaptée aux fauteuils roulants mais n'a pas de marches. Contactez-nous pour que l’on vous prépare un suivi afin d’améliorer votre expérience."
     />
   </article>
-  <article class="col-span-12 col12" id="benevole">
-    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12">
+  <article class="col-span-12 col12 relative" id="benevole">
+    <motifs class="top-10 hidden lg:flex"/>
+    <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">Le</span> bénévolat
     </h2>
     <CardFAQ
@@ -223,15 +228,18 @@ import CardFAQ from '@/components/CardFAQ.vue'
     />
     <CardFAQ Style="1" Title="Je me suis inscrit sur discord, comment cela se déroule ?" Text="." />
   </article>
-  <p class="lg:col-start-4 col-span-12 lg:col-span-6 lg:text-xl text-center mt-24 mb-12">
-    Vous avez encore des questions sans réponse ?<br />Envoyez nous un message via nos réseaux
-    sociaux ou depuis notre formulaire de contact !
-  </p>
-  <RouterLink class="col-span-12 mx-auto mb-12" onclick="window.scrollTo(0, 0);" to="/contact">
-    <button class="bg-Tonic h-12 lg:h-20 -skew-x-[25deg] ml-[13px] hover:opacity-60 duration-200">
-      <p class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]">
-        Nous contacter
-      </p>
-    </button>
-  </RouterLink>
+  <section class="col-span-12 col12 relative">
+    <motifs class="top-[-100px] hidden lg:flex"/>
+    <p class="lg:col-start-4 col-span-12 lg:col-span-6 lg:text-xl text-center mt-24 mb-12">
+      Vous avez encore des questions sans réponse ?<br />Envoyez nous un message via nos réseaux
+      sociaux ou depuis notre formulaire de contact !
+    </p>
+    <RouterLink class="col-span-12 mx-auto mb-12 -skew-x-[25deg] bg-Noir" onclick="window.scrollTo(0, 0);" to="/contact">
+      <button class="bg-Tonic h-12 lg:h-20 ml-[13px] hover:opacity-60 duration-200">
+        <p class="font-fugaz-one uppercase lg:text-xl text-Noir px-6 lg:px-9 skew-x-[25deg]">
+          Nous contacter
+        </p>
+      </button>
+    </RouterLink>
+  </section>
 </template>

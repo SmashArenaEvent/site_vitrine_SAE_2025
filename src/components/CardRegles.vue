@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rounded-2xl text-Blanc col-span-12 lg:col-span-4 col12 lg:block lg:px-12 py-5 lg:py-6 mt-6 lg:mt-8"
+    class="rounded-2xl text-Blanc col-span-12 lg:col-span-4 col12 lg:block lg:px-12 py-5 lg:py-6 mt-6 lg:mt-8 relative z-10"
     :class="{ 'border border-Tonic_Sombre': Style == '0', 'bg-Tonic_Sombre': Style == '1' }"
   >
     <div class="flex items-center col-start-2 col-span-10 gap-4">

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="col-span-4 lg:col-span-2 mb-7 lg:mb-24"
+    class="col-span-4 lg:col-span-2 mb-7 lg:mb-24 relative z-10"
     :class="{
       'col-start-2': csm == '2',
       'col-start-5': csm == '5',
