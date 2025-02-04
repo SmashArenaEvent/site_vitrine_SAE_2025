@@ -11,6 +11,7 @@ const ImageHero = await randomImage()
 import motifs from '@/components/icons/motifs.vue'
 </script>
 <template>
+  <div></div>
   <section class="User-View col-span-12 col12 min-h-fit relative">
     <motifs class="hidden lg:flex"/>
     <article class="col-span-12 lg:col-span-6 flex flex-col lg:items-start lg:justify-center relative z-10">
@@ -28,9 +29,9 @@ import motifs from '@/components/icons/motifs.vue'
         jeu <span class="font-bold">Super Smash Bros Ultimate</span> et bien plus !
       </p>
       <div class="col-span-12 flex justify-center mt-5 lg:mt-9">
-        <a href="#Participation">
+        <a href="#Participation" class="-skew-x-[25deg] bg-Noir">
           <button
-            class="bg-Tonic h-12 lg:h-24 -skew-x-[25deg] lg:ml-[13px] hover:opacity-60 duration-200"
+            class="bg-Tonic h-12 lg:h-24 lg:ml-[13px] hover:opacity-60 duration-200"
           >
             <p
               class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]"
@@ -58,7 +59,7 @@ import motifs from '@/components/icons/motifs.vue'
     >
       <span class="text-Tonic">Smash Arena Event</span> La première édition
     </h2>
-    <Slider />
+    <Slider/>
     <div
       class="col-start-3 lg:col-start-6 col-span-10 lg:col-span-5 bg-Gris text-Blanc mt-1 lg:mt-2.5 px-5 py-2.5 lg:py-5"
     >
@@ -119,7 +120,7 @@ import motifs from '@/components/icons/motifs.vue'
       Title="Retard"
       Text="Les joueurs doivent être présents et prêts à jouer leur match à l'heure prévue. Un délai de 5 minutes peut être toléré, mais les retards excessifs peuvent entraîner la disqualification."
     />
-    <RouterLink class="col-span-12 mt-12 lg:mt-24 flex justify-center" onclick="window.scrollTo(0, 0);" to="/regles">
+    <RouterLink class="col-span-12 mt-12 lg:mt-24 flex justify-center relative z-10" onclick="window.scrollTo(0, 0);" to="/regles">
       <button class="bg-Blanc h-12 lg:h-24 -skew-x-[25deg] hover:opacity-60 duration-200">
         <p
           class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]"
@@ -189,7 +190,7 @@ import motifs from '@/components/icons/motifs.vue'
     >
       <span class="text-Tonic">Tu veux participer ? </span>Inscris-toi !
     </h2>
-    <nav class="col-span-12 flex flex-col lg:flex-row overflow-hidden mt-6 lg:mt-12">
+    <nav class="col-span-12 flex flex-col lg:flex-row overflow-hidden mt-6 lg:mt-12 relative z-10">
       <div
         class="hover:z-10 relative w-full bg-center bg-cover bg-[url('/src/components/img/WallPaperJoueur.webp')] overflow-hidden hover:scale-110 transition-all duration-1000" loading="lazy"
       >
