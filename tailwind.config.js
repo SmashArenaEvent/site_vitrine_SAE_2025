@@ -16,6 +16,13 @@ export default {
       "fugaz-one": "Fugaz One",
       "gothic-a1": "Gothic A1"
      },
+     "screens": {
+      "sp": "450px",
+      'sm': '640px',
+      'md': '768px',
+      "lg": "1024px",
+      'xl': '1280px',
+     },
     extend: {
       gridTemplateColumns: {
         // Simple 16 column grid

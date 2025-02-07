@@ -2,8 +2,10 @@
 <script setup lang="ts">
 import CardRegles from '@/components/CardRegles.vue'
 import motifs from '@/components/icons/motifs.vue';
+import MotifsMobile from '@/components/icons/motifsMobile.vue';
 </script>
 <template>
+  <MotifsMobile/>
   <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 mb-12">
     <span class="text-Tonic">R</span>ègles
   </h1>
@@ -81,6 +83,7 @@ import motifs from '@/components/icons/motifs.vue';
     />
   </article>
   <article id="rTournois" class="col-span-12 col12 relative">
+    <MotifsMobile class="-mt-48"/>
     <motifs class="top-10 hidden lg:flex"/>
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">Les règles</span> autour du tournois
@@ -123,6 +126,7 @@ import motifs from '@/components/icons/motifs.vue';
     />
   </article>
   <article id="rAutres" class="col-span-12 col12 mb-4 relative">
+    <MotifsMobile class="-mt-48"/>
     <motifs class="top-10 hidden lg:flex"/>
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl lg:mt-24 mt-12 lg:mb-12 relative z-10">
       <span class="text-Tonic">Autres</span> Régles

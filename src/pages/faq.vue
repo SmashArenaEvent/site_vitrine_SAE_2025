@@ -2,8 +2,10 @@
 <script setup lang="ts">
 import CardFAQ from '@/components/CardFAQ.vue'
 import motifs from '@/components/icons/motifs.vue';
+import MotifsMobile from '@/components/icons/motifsMobile.vue';
 </script>
 <template>
+  <MotifsMobile/>
   <h1 class="col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 mb-12 relative z-10">
     <span class="text-Tonic">F</span>oire <span class="text-Tonic">a</span>ux
     <span class="text-Tonic">q</span>uestions
@@ -90,6 +92,7 @@ import motifs from '@/components/icons/motifs.vue';
     />
   </article>
   <article class="col-span-12 col12 relative" id="tournoi">
+    <MotifsMobile class="-mt-48"/>
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">Le</span> tournois
     </h2>
@@ -141,6 +144,7 @@ import motifs from '@/components/icons/motifs.vue';
     />
   </article>
   <article class="col-span-12 col12 relative" id="accessible">
+    <MotifsMobile class="-mt-48"/>
     <motifs class="top-10 hidden lg:flex"/>
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">L'</span>accessibilité
@@ -172,6 +176,7 @@ import motifs from '@/components/icons/motifs.vue';
     />
   </article>
   <article class="col-span-12 col12 relative" id="benevole">
+    <MotifsMobile class="-mt-48"/>
     <motifs class="top-10 hidden lg:flex"/>
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">Le</span> bénévolat
@@ -226,7 +231,7 @@ import motifs from '@/components/icons/motifs.vue';
       Title="Y a-t-il des possibilités  de bénévolat en ligne ou  à distance ?"
       Text="Non, l’événement sera disponible uniquement sur place, il n’y aura donc pas de possibilité de bénévolat en distance."
     />
-    <CardFAQ Style="1" Title="Je me suis inscrit sur discord, comment cela se déroule ?" Text="." />
+    <CardFAQ Style="1" Title="Je me suis inscrit sur discord, comment cela se déroule ?" Text="Une fois que vous avez rejoint le serveur Discord, vous devrez choisir votre rôle entre bénévole, participant et visiteur. Si vous voulez changer de rôle, allez dans le salon (''🎭-rôles''). Vous aurez la possibilité de changé jusqu'au 21 mars (sauf pour les bénévoles qui aurons jusqu'au 15 mars)" />
   </article>
   <section class="col-span-12 col12 relative">
     <motifs class="top-[-100px] hidden lg:flex"/>

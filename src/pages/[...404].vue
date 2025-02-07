@@ -1,12 +1,14 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import Motifs from '@/components/icons/motifs.vue';
+import MotifsMobile from '@/components/icons/motifsMobile.vue';
 
 </script>
 <template>
   <article
     class="flex flex-col items-center col-span-12 User-View min-h-fit justify-center lg:col12 py-auto lg:content-center pb-[10vh] relative"
   >
+    <MotifsMobile class="top-0 -ml-10"/>
     <Motifs class="hidden lg:flex"/>
     <section class="lg:col-start-2 col-span-4 lg:my-auto relative z-10">
       <h1

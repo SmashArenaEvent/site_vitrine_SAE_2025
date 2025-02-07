@@ -11,6 +11,7 @@ import LogoYoutube from './icons/LogoYoutube.vue'
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import { useRoute } from 'vue-router'
+import MotifsMobile from './icons/motifsMobile.vue'
 const route = useRoute()
 const activeMenu = ref(false)
 </script>
@@ -25,13 +26,19 @@ const activeMenu = ref(false)
       />
     </RouterLink>
     <nav
-      class="hidden lg:flex gap-6 lg:gap-10 lg:text-3xl justify-center lg:justify-between lg:col-span-7 items-center"
+      class="hidden lg:flex gap-6 lg:gap-10 lg:text-3xl justify-center lg:justify-between lg:col-span-7 items-center "
       :class="{
         '!flex flex-col lg:flex-row absolute lg:static left-0 bg-Noir w-screen lg:w-auto h-screen lg:h-auto z-40':
           activeMenu
       }"
     >
-      <RouterLink to="/regles" class="relative">
+      <div class="absolute w-full h-screen">
+        <div class="relative w-full h-screen lg:hidden flex flex-col justify-between">
+          <MotifsMobile class="ml-0 top-2.5"/>
+          <MotifsMobile class="ml-0 absolute sp:hidden" style="margin-top: calc(100vh - (98vw));"/>
+        </div>
+      </div>
+      <RouterLink to="/regles" class="relative z-10">
         <button
           @click="activeMenu = false" onclick="window.scrollTo(0, 0);"
           class="bg-Tonic lg:bg-transparent h-12 lg:h-auto -skew-x-[25deg] lg:skew-x-0 hover:opacity-60 duration-200"

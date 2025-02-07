@@ -3,10 +3,12 @@
 import CardMembres from '@/components/CardMembres.vue'
 import Formulaire from '@/components/Formulaire.vue'
 import motifs from '@/components/icons/motifs.vue';
+import motifsMobile from '@/components/icons/motifsMobile.vue';
 </script>
 <template>
   <article class="col-span-12 lg:col12 relative">
     <motifs class="-top-5 hidden lg:flex"/>
+    <motifsMobile/>
     <h1 class="lg:col-span-12 font-fugaz-one uppercase text-4xl lg:text-6xl mt-8 lg:pb-12 relative z-10">
       <span class="text-Tonic">à</span> propos
     </h1>
@@ -71,6 +73,7 @@ import motifs from '@/components/icons/motifs.vue';
     </section>
   </article>
   <article class="col-span-12 relative">
+    <motifsMobile class="top-10"/>
     <motifs class="top-24 hidden lg:flex"/>
     <h2 class="font-fugaz-one uppercase text-3xl lg:text-5xl mt-12 mb-6 lg:mt-24 lg:mb-12 relative z-10">
       <span class="text-Tonic">Notre</span> équipe
@@ -129,6 +132,7 @@ import motifs from '@/components/icons/motifs.vue';
     </section>
     <section class="col12 relative ">
       <motifs class="hidden lg:flex"/>
+      <motifsMobile class="mt-10"/>
       <h3
         class="col-span-12 font-fugaz-one uppercase text-xl lg:text-4xl text-center mt-12 lg:mt-0 mb-6 lg:mb-12 relative z-10"
       >
@@ -173,6 +177,7 @@ import motifs from '@/components/icons/motifs.vue';
     </section>
   </article>
   <section class="col-span-12 relative">
+    <motifsMobile/>
     <motifs class="hidden lg:flex"/>
     <h2 class="font-fugaz-one text-center uppercase text-3xl lg:text-5xl lg:mb-24">
       <span class="text-Tonic">Nous</span> contacter

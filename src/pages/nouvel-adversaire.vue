@@ -5,10 +5,12 @@ import X from '../components/icons/BoutonX.vue'
 import Discord from '../components/icons/BoutonDiscord.vue'
 import Facebook from '../components/icons/BoutonFacebook.vue'
 import motifs from '@/components/icons/motifs.vue';
+import MotifsMobile from '@/components/icons/motifsMobile.vue';
 </script>
 <template>
   <article
     class="flex flex-col items-center col-span-12 User-View min-h-fit justify-center lg:col12 py-auto lg:content-center pb-[10vh] relative">
+    <MotifsMobile class="top-0 -ml-10"/>
     <motifs class="hidden lg:flex"/>
     <section class="lg:col-start-1 col-span-5 lg:my-auto relative z-10">
       <h1
