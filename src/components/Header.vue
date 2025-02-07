@@ -81,7 +81,7 @@ const activeMenu = ref(false)
         </button>
       </RouterLink>
     </nav>
-    <nav class="hidden gap-5 lg:flex justify-end lg:col-span-3 items-center">
+    <nav class="hidden gap-5 lg:flex justify-end lg:col-span-3 items-center relative">
       <a href="https://www.instagram.com/smash_arena_event/" class="hover:opacity-60 duration-200">
         <LogoInstagram />
       </a>
