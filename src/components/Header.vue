@@ -32,7 +32,7 @@ const activeMenu = ref(false)
           activeMenu
       }"
     >
-      <div class="absolute w-full h-screen">
+      <div class="absolute w-full lg:w-auto h-screen lg:h-auto">
         <div class="relative w-full h-screen lg:hidden flex flex-col justify-between">
           <MotifsMobile class="ml-0 top-2.5"/>
           <MotifsMobile class="ml-0 absolute sp:hidden" style="margin-top: calc(100vh - (98vw));"/>
