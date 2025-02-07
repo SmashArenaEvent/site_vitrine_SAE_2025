@@ -12,6 +12,7 @@
           name="firstName"
           v-model="form.firstName"
           placeholder="Prénom"
+          required="true"
         />
       </div>
       <div class="mt-5 lg:mt-0 lg:col-span-6 lg:w-full">
@@ -21,6 +22,7 @@
           name="name"
           v-model="form.name"
           placeholder="Nom"
+          required="true"
         />
       </div>
     </div>
@@ -31,6 +33,7 @@
         name="email"
         v-model="form.email"
         placeholder="Email"
+        required="true"
       />
     </div>
     <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10">
@@ -40,6 +43,7 @@
         name="message"
         v-model="form.message"
         placeholder="Message"
+        required="true"
       />
     </div>
     <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10">
