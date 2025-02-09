@@ -37,7 +37,7 @@ import motifsMobile from '@/components/icons/motifsMobile.vue';
       </section>
       <img
         class="mb-10 lg:mb-0 lg:col-start-8 col-span-4"
-        src="/src/components/img/TeamPremiereEdition.webp" loading="lazy"
+        src="/src/components/img/TeamPremiereEdition.webp" alt="équipe de la première édition" loading="lazy"
       />
     </section>
     <section class="lg:col-span-12 lg:col12 lg:items-center lg:mb-24 relative z-10">
@@ -57,7 +57,7 @@ import motifsMobile from '@/components/icons/motifsMobile.vue';
       </section>
       <img
         class="mb-10 lg:mb-0 lg:col-start-2 lg:col-span-4 lg:order-0"
-        src="/src/components/img/CardParty.webp" loading="lazy"
+        src="/src/components/img/CardParty.webp" alt="game de Yu Gi Ho" loading="lazy"
       />
     </section>
     <section class="lg:col-start-4 lg:col-span-6 lg:order-2 relative z-10">
