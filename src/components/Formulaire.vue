@@ -6,44 +6,52 @@
   >
     <div class="lg:flex lg:col-start-2 col-span-12 lg:col-span-10 lg:col10">
       <div class="lg:col-span-5 lg:w-full">
+        <label class="sr-only" for="firstName">Prénom</label>
         <input
           class="w-full px-2.5 text-[10px] lg:text-xl h-8 lg:h-10 bg-Gris border-b border-Gris_clair"
           type="text"
           name="firstName"
+          id="firstName"
           v-model="form.firstName"
           placeholder="Prénom"
-          required="true"
+          required
         />
       </div>
       <div class="mt-5 lg:mt-0 lg:col-span-6 lg:w-full">
+        <label class="sr-only" for="name">Nom</label>
         <input
           class="w-full px-2.5 text-[10px] lg:text-xl h-8 lg:h-10 bg-Gris border-b border-Gris_clair"
           type="text"
           name="name"
+          id="name"
           v-model="form.name"
           placeholder="Nom"
-          required="true"
+          required
         />
       </div>
     </div>
     <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10 lg:w-full">
+      <label class="sr-only" for="email">Email</label>
       <input
         class="w-full px-2.5 text-[10px] lg:text-xl h-8 lg:h-10 bg-Gris border-b border-Gris_clair"
         type="email"
         name="email"
+        id="email"
         v-model="form.email"
         placeholder="Email"
-        required="true"
+        required
       />
     </div>
     <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10">
+      <label class="sr-only" for="message">Message</label>
       <textarea
         class="w-full px-2.5 pt-2 lg:pt-0 text-[10px] lg:text-xl bg-Gris border-l border-b border-Gris_clair"
         rows="5"
         name="message"
+        id="message"
         v-model="form.message"
         placeholder="Message"
-        required="true"
+        required
       />
     </div>
     <div class="mt-5 lg:mt-12 lg:col-start-2 col-span-12 lg:col-span-10">

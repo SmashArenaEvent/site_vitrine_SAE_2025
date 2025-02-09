@@ -45,7 +45,7 @@
     </article>
   </section>
   <section class="col-span-12 col12 mt-5">
-    <motifsMobile class="-mt-4"/>
+    <motifsMobile class="-mt-4 flex sp:hidden"/>
     <h2
     class="font-fugaz-one uppercase text-3xl lg:text-5xl lg:text-center col-span-12 mb-7 lg:mb-12"
     >
@@ -122,7 +122,7 @@
     <h2 class="col-span-12 font-fugaz-one uppercase text-3xl lg:text-5xl text-center lg:mb-12 relative z-10">
       <span class="text-Tonic">Le coin</span> chill
     </h2>
-    <img class="col-span-12 lg:col-span-7 mt-7 lg:mt-0 relative z-10" src="/src/components/img/CoinChill.webp" loading="lazy"/>
+    <img class="col-span-12 lg:col-span-7 mt-7 lg:mt-0 relative z-10" src="/src/components/img/CoinChill.webp" alt="Carte Yu Gi Oh" loading="lazy"/>
     <div
     class="col-span-12 col12 lg:col-span-5 lg:flex lg:flex-col lg:bg-Gris lg:mt-12 lg:py-12 lg:h-fit lg:-ml-24 lg:px-12 relative z-10"
     >
@@ -137,15 +137,15 @@
       </div>
       <div class="col-span-12 lg:col-span-5 col12 lg:flex mt-5 lg:mt-8 lg:w-full lg:gap-20">
         <div class="col-start-3 col-span-2 flex flex-col items-center">
-          <img class="lg:w-20" src="/src/components/img/MarioKart.webp" loading="lazy"/>
+          <img class="lg:w-20" src="/src/components/img/MarioKart.webp" alt="Logo" loading="lazy"/>
           <p class="text-[10px] relative -mx-5 lg:text-xl lg:mt-2.5">Mario kart 8</p>
         </div>
         <div class="col-start-6 col-span-2 flex flex-col items-center">
-          <img class="lg:w-20" src="/src/components/img/YoGiOh.webp" loading="lazy"/>
+          <img class="lg:w-20" src="/src/components/img/YoGiOh.webp" alt="Logo" loading="lazy"/>
           <p class="text-[10px] relative -mx-5 lg:text-xl lg:mt-2.5">Yu-Gi-Oh!</p>
         </div>
         <div class="col-start-9 col-span-2 flex flex-col items-center">
-          <img class="lg:w-20" src="/src/components/img/Splatoon.webp" loading="lazy"/>
+          <img class="lg:w-20" src="/src/components/img/Splatoon.webp" alt="Logo" loading="lazy"/>
           <p class="text-[10px] relative -mx-5 lg:text-xl lg:mt-2.5">Splatoon</p>
         </div>
       </div>
@@ -158,7 +158,7 @@
     </h2>
     <img
     class="col-span-12 lg:col-span-7 lg:col-start-6 mt-7 lg:mt-0 lg:order-2 relative z-10"
-    src="/src/components/img/CoinBuvette.webp" loading="lazy"
+    src="/src/components/img/CoinBuvette.webp" alt="crépes" loading="lazy"
     />
     <div
     class="bg-Gris mt-1 px-5 py-2.5 h-fit lg:mt-12 lg:py-12 lg:px-12 lg:-mr-24 lg:relative text-[10px] leading-4 lg:text-xl col-start-3 lg:col-start-1 col-span-10 lg:col-span-5 lg:order-1 lg:leading-8 relative z-20"

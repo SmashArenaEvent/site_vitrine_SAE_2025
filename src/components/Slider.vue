@@ -39,7 +39,7 @@ onMounted(() => {
             v-if="image.Image"
             :record="image"
             :filename="image.Image"
-            :alt="image.Name"
+            :aria-label="image.Name"
             class="object-fill"
             loading="lazy"
           />
