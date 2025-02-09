@@ -37,10 +37,12 @@ export type AuthSystemFields<T = never> = {
 
 export type ImageHeroRecord = {
 	Image?: string
+	Name?: string
 }
 
 export type ImagesSliderRecord = {
 	Image?: string
+	Name?: string
 }
 
 export type UsersRecord = {

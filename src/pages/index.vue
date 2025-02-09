@@ -38,7 +38,7 @@
     v-if="ImageHero.Image"
     :record="ImageHero"
     :filename="ImageHero.Image"
-    alt="Image de personnage jouable"
+    :alt="ImageHero.Name"
     class="col-span-12 mt-7 lg:mt-0"
     loading="lazy"
     />

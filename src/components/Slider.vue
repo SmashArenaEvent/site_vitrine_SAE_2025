@@ -39,6 +39,7 @@ onMounted(() => {
             v-if="image.Image"
             :record="image"
             :filename="image.Image"
+            :alt="image.Name"
             class="object-fill"
             loading="lazy"
           />
@@ -48,8 +49,8 @@ onMounted(() => {
         ></div>
       </div>
     </div>
-    <MobileAnimationArrow class="h-full w-auto absolute top-0 right-0 block z-10 lg:hidden" />
-    <DesktopAnimationArrow class="h-full w-auto absolute top-0 right-0 lg:block z-10 hidden" />
+    <MobileAnimationArrow aria-hidden="true" class="h-full w-auto absolute top-0 right-0 block z-10 lg:hidden" />
+    <DesktopAnimationArrow aria-hidden="true" class="h-full w-auto absolute top-0 right-0 lg:block z-10 hidden" />
   </div>
 </template>
 
