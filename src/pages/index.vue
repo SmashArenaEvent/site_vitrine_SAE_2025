@@ -52,7 +52,7 @@
     </h2>
     <Slider/>
     <div
-    class="col-start-3 lg:col-start-6 col-span-10 lg:col-span-5 bg-Gris text-Blanc mt-1 lg:mt-2.5 px-5 py-2.5 lg:py-5"
+    class="col-start-3 lg:col-start-6 col-span-10 lg:col-span-5 bg-Gris text-Blanc mt-1 lg:mt-2.5 px-5 py-2.5 lg:py-5 relative z-10"
     >
       <p class="lg:text-xl leading-4 lg:leading-8">
         C'était la Première édition du Smash Arena Event, le 1er tournoi entre membre de l'IUT de
