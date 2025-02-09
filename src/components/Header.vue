@@ -17,22 +17,23 @@ const activeMenu = ref(false)
 </script>
 <template>
   <header
-    class="grille h-20 lg:h-48 w-full justify-between font-fugaz-one text-xs fixed z-50 bg-Noir content-center"
+    aria-label="Entête" class="grille h-20 lg:h-48 w-full justify-between font-fugaz-one text-xs fixed z-50 bg-Noir content-center"
   >
-    <RouterLink to="/" class="col-span-3 lg:col-span-2" @click="activeMenu = false" onclick="window.scrollTo(0, 0);">
+    <RouterLink to="/" aria-label="Aller à la page d'accueil" class="col-span-3 lg:col-span-2 w-fit" @click="activeMenu = false" onclick="window.scrollTo(0, 0);">
       <Logo
         class="h-10 lg:h-20 relative z-50 hover:opacity-60 duration-200"
-        alt="Logo Smash Arena Event"
+        aria-label="Logo Smash Arena Event"
       />
     </RouterLink>
     <nav
+      :aria-expanded="activeMenu"
       class="hidden lg:flex gap-6 lg:gap-10 lg:text-3xl justify-center lg:justify-between lg:col-span-7 items-center "
       :class="{
         '!flex flex-col lg:flex-row absolute lg:static left-0 bg-Noir w-screen lg:w-auto h-screen lg:h-auto z-40':
           activeMenu
       }"
     >
-      <div class="absolute w-full lg:w-auto h-screen lg:h-auto">
+      <div class="absolute w-full lg:w-auto h-screen lg:h-auto aria-hidden">
         <div class="relative w-full h-screen lg:hidden flex flex-col justify-between">
           <MotifsMobile class="ml-0 top-2.5"/>
           <MotifsMobile class="ml-0 absolute sp:hidden" style="margin-top: calc(100vh - (98vw));"/>
@@ -81,28 +82,32 @@ const activeMenu = ref(false)
         </button>
       </RouterLink>
     </nav>
-    <nav class="hidden gap-5 lg:flex justify-end lg:col-span-3 items-center relative">
-      <a href="https://www.instagram.com/smash_arena_event/" class="hover:opacity-60 duration-200">
+    <nav class="hidden gap-5 lg:flex justify-end lg:col-span-3 items-center relative w-fit ml-auto">
+      <a href="https://www.instagram.com/smash_arena_event/" aria-label="L'instagram de l'association" class="hover:opacity-60 duration-200">
         <LogoInstagram />
       </a>
-      <a href="https://twitter.com/SmashArenaEvent" class="hover:opacity-60 duration-200">
+      <a href="https://twitter.com/SmashArenaEvent" aria-label="Le twitter de l'association" class="hover:opacity-60 duration-200">
         <LogoX />
       </a>
-      <a href="https://discord.gg/6zFJf9WXy2" class="hover:opacity-60 duration-200">
+      <a href="https://discord.gg/6zFJf9WXy2" aria-label="Le discord de l'association" class="hover:opacity-60 duration-200">
         <LogoDiscord />
       </a>
-      <a href="#" class="hover:opacity-60 duration-200">
+      <a href="#" aria-label="La chaine youtube de l'association" class="hover:opacity-60 duration-200">
         <LogoYoutube />
       </a>
     </nav>
-    <button class="col-span-6 col-start-7 lg:hidden">
+    <button aria-label="Ouverture de la navigation du header" aria-controls="activeMenu" class="col-span-6 col-start-7 lg:hidden ml-auto w-fit right-0">
       <Menu
+        tabindex=0
+        onkeydown=""
         alt="Ouvrir le menu du header"
         class="block lg:hidden ml-auto hover:opacity-60 duration-200"
         @click="activeMenu = !activeMenu"
         :class="{ '!hidden': activeMenu }"
       />
       <Croix
+        tabindex=0
+        onkeydown=""
         alt="Fermer le menu du header"
         class="hidden ml-auto z-50 w-[30px] hover:opacity-60 duration-200"
         @click="activeMenu = !activeMenu"
