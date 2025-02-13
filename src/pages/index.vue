@@ -6,22 +6,24 @@
     <motifsMobile/>
     <article class="col-span-12 lg:col-span-6 flex flex-col lg:items-start lg:justify-center relative z-10">
       <h1
-      class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left lg:leading-[4.5rem]"
+      class="font-fugaz-one uppercase text-4xl lg:text-6xl text-center lg:text-left lg:leading-[4.5rem] mt-7 lg:mt-0"
       >
         <span class="text-Tonic">S</span>mash <span class="text-Tonic">a</span>rena
         <span class="text-Tonic">e</span>vent<br /><span class="text-Tonic"
         >2<span class="text-xl lg:text-3xl">ème édition</span></span
         >
       </h1>
-      <p class="col-start-3 col-span-8 text-center lg:text-left lg:text-xl mt-7 lg:mt-9">
+      <div class="col12">
+      <p class="col-start-2 col-span-10 leading-5 lg:leading-auto text-center lg:text-left lg:text-xl mt-7 lg:mt-9">
         Bienvenue au Smash Arena Event ! Nous sommes une association étudiante organisant des
         <span class="font-bold">tournois gratuits</span> entre membre du Nord Franche-Comté sur le
         jeu <span class="font-bold">Super Smash Bros Ultimate</span> et bien plus !
       </p>
-      <div class="col-span-12 flex justify-center mt-5 lg:mt-9">
-        <a href="#Participation" class="-skew-x-[25deg] bg-Noir">
+      </div>
+      <div class="col-span-12 flex justify-center mt-8 lg:mt-9">
+        <a href="#Participation" class="lg:ml-[13px] -skew-x-[25deg] bg-Noir">
           <button
-          class="bg-Tonic h-12 lg:h-24 lg:ml-[13px] hover:opacity-60 duration-200"
+          class="bg-Tonic h-12 lg:h-24 hover:opacity-60 duration-200"
           >
             <p
             class="text-Noir font-fugaz-one uppercase text-xs lg:text-3xl px-6 lg:px-12 skew-x-[25deg]"

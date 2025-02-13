@@ -17,11 +17,11 @@ const activeMenu = ref(false)
 </script>
 <template>
   <header
-    aria-label="Entête" class="grille h-20 lg:h-48 w-full justify-between font-fugaz-one text-xs fixed z-50 bg-Noir content-center"
+    aria-label="Entête" class="grille h-20 lg:h-36 w-full justify-between font-fugaz-one text-xs fixed z-50 bg-Noir content-center shadow-lg"
   >
     <RouterLink to="/" aria-label="Aller à la page d'accueil" class="col-span-3 lg:col-span-2 w-fit" @click="activeMenu = false" onclick="window.scrollTo(0, 0);">
       <Logo
-        class="h-10 lg:h-20 relative z-50 hover:opacity-60 duration-200"
+        class="h-10 lg:h-16 relative z-50 hover:opacity-60 duration-200"
         aria-label="Logo Smash Arena Event"
       />
     </RouterLink>
@@ -84,16 +84,16 @@ const activeMenu = ref(false)
     </nav>
     <nav class="hidden gap-5 lg:flex justify-end lg:col-span-3 items-center relative w-fit ml-auto">
       <a href="https://www.instagram.com/smash_arena_event/" aria-label="L'instagram de l'association" class="hover:opacity-60 duration-200">
-        <LogoInstagram />
+        <LogoInstagram class="w-fit h-8"/>
       </a>
       <a href="https://twitter.com/SmashArenaEvent" aria-label="Le twitter de l'association" class="hover:opacity-60 duration-200">
-        <LogoX />
+        <LogoX class="w-fit h-8"/>
       </a>
       <a href="https://discord.gg/6zFJf9WXy2" aria-label="Le discord de l'association" class="hover:opacity-60 duration-200">
-        <LogoDiscord />
+        <LogoDiscord class="w-fit h-8"/>
       </a>
       <a href="#" aria-label="La chaine youtube de l'association" class="hover:opacity-60 duration-200">
-        <LogoYoutube />
+        <LogoYoutube class="w-fit h-8"/>
       </a>
     </nav>
     <button aria-label="Ouverture de la navigation du header" aria-controls="activeMenu" class="col-span-6 col-start-7 lg:hidden ml-auto w-fit right-0">

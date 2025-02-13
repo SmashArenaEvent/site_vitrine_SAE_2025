@@ -59,7 +59,7 @@
   /*hateur espace visible de la page une fois header soustrait*/
   @media screen and (min-width: 1024px) {
     .User-View {
-      height: calc(100vh - 13rem);
+      height: calc(100vh - 10rem);
     }
   }
   @media screen and (max-width: 1024px) {
