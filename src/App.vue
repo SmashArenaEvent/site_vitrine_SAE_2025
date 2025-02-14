@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router/auto'
 import Header from '@/components/Header.vue'
 import Footer from './components/Footer.vue'
+import CookiesChoice from './components/CookiesChoice.vue';
 </script>
 <template>
   <Header />
@@ -14,5 +15,6 @@ import Footer from './components/Footer.vue'
       </Suspense>
     </RouterView>
   </main>
+  <!-- <CookiesChoice/> -->
   <Footer />
 </template>
