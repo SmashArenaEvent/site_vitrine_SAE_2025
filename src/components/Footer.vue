@@ -56,6 +56,7 @@ const route = useRoute()
     >
       <RouterLink to="/mentionsLegales" onclick="window.scrollTo(0, 0);" class="hover:opacity-60 duration-200"><p>Mentions légales</p></RouterLink>
       <RouterLink to="/politiqueDeConfidentialite" onclick="window.scrollTo(0, 0);" class="hover:opacity-60 duration-200"><p>Politique de Confidentialité</p></RouterLink>
+      <RouterLink to="/CookiesPersonalisation" onclick="window.scrollTo(0, 0);" class="hover:opacity-60 duration-200"><p>Paramètre des cookies</p></RouterLink>
     </nav>
     <p class="text-center text-Tonic col-span-12 mt-6 lg:mt-8 lg:text-base">
       @Smash Arena Event 2025

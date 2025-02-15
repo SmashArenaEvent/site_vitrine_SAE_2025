@@ -5,11 +5,8 @@ import { pb, SliderImage } from '@/backend'
 import ImgPb from './ImgPb.vue'
 import MobileAnimationArrow from './icons/MobileAnimationArrow.vue'
 import DesktopAnimationArrow from './icons/DesktopAnimationArrow.vue'
-console.log('test')
 
 const Images = await pb.collection('ImagesSlider').getFullList();
-
-console.log('test: ',Images)
 
 const currentIndex = ref<number>(0);
 

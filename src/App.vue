@@ -15,6 +15,6 @@ import CookiesChoice from './components/CookiesChoice.vue';
       </Suspense>
     </RouterView>
   </main>
-  <!-- <CookiesChoice/> -->
+  <CookiesChoice/>
   <Footer />
 </template>

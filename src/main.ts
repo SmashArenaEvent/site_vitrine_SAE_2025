@@ -30,6 +30,13 @@ const router = createRouter({
       }
     },
     {
+      path: '/CookiesPersonalisation',
+      component: () => import('@/pages/CookiesPersonalisation.vue'),
+      meta: {
+        title: 'SAE 2025 - Personalisation des cookies'
+      }
+    },
+    {
       path: '/faq',
       component: () => import('@/pages/faq.vue'),
       meta: {
