@@ -9,18 +9,18 @@
     </form>
     <div class="col-span-12 flex mt-4 gap-5">
       <button type="button" @click="savePreferences" class="bg-Tonic h-8 -skew-x-[25deg] hover:opacity-60 duration-200">
-          <p class="text-Noir font-fugaz-one uppercase lg:text-xs text-[0.8rem] px-3 skew-x-[25deg]">
+          <p class="text-Noir font-fugaz-one uppercase lg:text-xs text-[0.7rem] px-3 skew-x-[25deg]">
           Enregistrer
           </p>
       </button>
       <button type="button" @click="deleteCookies" class="bg-Blanc h-8 -skew-x-[25deg] hover:opacity-60 duration-200">
-          <p class="text-Noir font-fugaz-one uppercase lg:text-xs text-[0.8rem] px-3 skew-x-[25deg]">
+          <p class="text-Noir font-fugaz-one uppercase lg:text-xs text-[0.7rem] px-3 skew-x-[25deg]">
             Supprimer mes cookies
           </p>
       </button>
       <RouterLink to="#" @click.prevent="$router.go(-1)">
         <button type="button" class="bg-Blanc h-8 -skew-x-[25deg] hover:opacity-60 duration-200">
-            <p class="text-Noir font-fugaz-one uppercase lg:text-xs text-[0.8rem] px-3 skew-x-[25deg]">
+            <p class="text-Noir font-fugaz-one uppercase lg:text-xs text-[0.7rem] px-3 skew-x-[25deg]">
               Retour
             </p>
         </button>

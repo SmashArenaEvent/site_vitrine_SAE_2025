@@ -52,7 +52,7 @@ const route = useRoute()
       </nav>
     </div>
     <nav
-      class="flex w-full justify-center gap-6 lg:gap-12 text-Gris_clair col-span-12 mt-12 lg:mt-0 lg:text-base"
+      class="flex w-full justify-center gap-4 lg:gap-12 text-Gris_clair col-span-12 mt-12 lg:mt-0 text-[0.6rem] lg:text-base"
     >
       <RouterLink to="/mentionsLegales" onclick="window.scrollTo(0, 0);" class="hover:opacity-60 duration-200"><p>Mentions légales</p></RouterLink>
       <RouterLink to="/politiqueDeConfidentialite" onclick="window.scrollTo(0, 0);" class="hover:opacity-60 duration-200"><p>Politique de Confidentialité</p></RouterLink>
