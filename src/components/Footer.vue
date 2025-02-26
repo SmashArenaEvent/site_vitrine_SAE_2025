@@ -23,7 +23,7 @@ const route = useRoute()
         />
       </RouterLink>
       <nav
-        class="flex flex-col lg:text-base lg:h-36 lg:justify-center col-span-2 h- mt-3 lg:mt-0 gap-2 lg:gap-3"
+        class="flex flex-col lg:text-base lg:h-36 lg:justify-center col-span-3 h- mt-3 lg:mt-0 gap-2 lg:gap-3"
       >
         <RouterLink to="/aPropos" class="hover:opacity-60 duration-200" onclick="window.scrollTo(0, 0);">À propos</RouterLink>
         <RouterLink to="/contact" class="hover:opacity-60 duration-200" onclick="window.scrollTo(0, 0);">Contact</RouterLink>
